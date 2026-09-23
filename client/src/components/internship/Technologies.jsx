@@ -11,9 +11,9 @@ import {
   SiFirebase,
   SiGit,
   SiGithub,
-  SiDocker,
-  SiAmazonwebservices
+  SiDocker
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 export default function Technologies() {
   const techStack = [
@@ -28,7 +28,7 @@ export default function Technologies() {
     { icon: SiGit, name: "Git", category: "Version Control", color: "text-[#f05032]" },
     { icon: SiGithub, name: "GitHub", category: "Collaborations", color: "text-slate-200" },
     { icon: SiDocker, name: "Docker", category: "Containers", color: "text-[#2496ed] opacity-60" },
-    { icon: SiAmazonwebservices, name: "AWS Cloud", category: "Infrastructure", color: "text-[#ff9900] opacity-60" }
+    { icon: FaAws, name: "AWS Cloud", category: "Infrastructure", color: "text-[#ff9900] opacity-60" }
   ];
 
   return (

@@ -97,7 +97,7 @@ const Courses = () => {
           name="description"
           content="Explore our IT Certifications and get in touch with us for Certifications like CompTIA, AWS, PMI, Microsoft, Cisco and many more us. | Grow with us"
         />
-       <link rel="canonical" href="https://www.traincapetech.in/Courses-details" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/Courses-details" />
       </Helmet>
 
 
@@ -126,7 +126,7 @@ const Courses = () => {
         {/* Logos Section */}
         <div className="bg-gray-200 p-5 m-5">
           <h1 className="text-center font-bold uppercase text-4xl p-4">
-          Get Certified by World's Leading IT Companies' Certifications
+            Get Certified by World's Leading IT Companies' Certifications
           </h1>
           <Slider {...settings} className="w-full">
             {[
@@ -156,7 +156,7 @@ const Courses = () => {
           </Slider>
         </div>
 
-       
+
 
         {/* Learner Outcomes Section */}
         <div className="flex flex-col md:flex-row bg-gray-50 my-36 p-2 md:pl-4">
@@ -167,7 +167,7 @@ const Courses = () => {
           />
           <div className="flex flex-col text-center text-2xl mx-8  mt-4 md:mt-0">
             <h2 className="mt-7 text-3xl md:text-4xl font-bold text-cyan-500">
-              Learner outcomes on Traincape Technology
+              Learner outcomes on Armx-Indecodex
             </h2>
             <h3 className="text-base md:text-lg mt-4">
               87% of people certifying for professional development report
@@ -242,17 +242,17 @@ const Courses = () => {
             <h1 className="sm:text-xl md:text-3xl font-bold text-gray-800 mb-4 px-4">
               Take the next step toward your personal and professional{" "}
               <br className="hidden md:block" />
-              goals with Traincape Technology.
+              goals with Armx-Indecodex.
             </h1>
             <h2 className="text-sm sm:text-base md:text-lg text-gray-600 mb-8 px-4">
               Join now to receive personalized recommendations from the full
-              Traincape Technology catalog.
+              Armx-Indecodex catalog.
             </h2>
           </div>
           <img
             src={gif}
             className="rounded-md sm:w-1/2 md:w-10/12 lg:w-8/12 opacity-70 shadow-lg shadow-blue-300 object-cover sm:h-[15rem] md:h-[20rem]"
-            alt="Traincape Technology"
+            alt="Armx-Indecodex"
           />
         </div>
       </div>

@@ -78,9 +78,9 @@ const ContinuityResilienceRecovery = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title="PECB Continuity, Resilience & Recovery Certifications - Traincape Technology"
+        title="PECB Continuity, Resilience & Recovery Certifications - Armx-Indecodex"
         description="Explore PECB certifications in business continuity (ISO 22301), crisis management, disaster recovery, and operational resilience."
-        canonical="https://www.traincapetech.in/pecb/continuity"
+        canonical="https://www.Armx-Indecodextech.in/pecb/continuity"
       />
       <motion.section
         initial="hidden"

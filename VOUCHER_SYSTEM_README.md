@@ -1,7 +1,7 @@
 # 🎫 Voucher Selling System
 
 ## Overview
-A comprehensive voucher selling system integrated into the Traincape Technology website, allowing admins to manage and sell certification vouchers for various courses.
+A comprehensive voucher selling system integrated into the Armx-Indecodex website, allowing admins to manage and sell certification vouchers for various courses.
 
 ## Features
 
@@ -111,7 +111,7 @@ const emailConfig = {
 ## File Structure
 
 ```
-Traincape_/
+Armx-Indecodex_/
 ├── client/src/
 │   ├── components/
 │   │   ├── VoucherButton.jsx

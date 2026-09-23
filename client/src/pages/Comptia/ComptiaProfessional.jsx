@@ -13,7 +13,7 @@ const ComptiaProfessional = () => {
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } 
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
   };
 
   const certifications = [
@@ -78,9 +78,9 @@ const ComptiaProfessional = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-green-50">
       <SEOHead
-        title="CompTIA Professional Level Certifications | CySA+, PenTest+, Cloud+ - Traincape Technology"
+        title="CompTIA Professional Level Certifications | CySA+, PenTest+, Cloud+ - Armx-Indecodex"
         description="Advance your IT career with CompTIA Professional certifications: CySA+, PenTest+, Cloud+, CNVP, Network Security, Secure Cloud, and Security Analytics."
-        canonical="https://www.traincapetech.in/comptia/professional"
+        canonical="https://www.Armx-Indecodextech.in/comptia/professional"
       />
       {/* Hero Section */}
       <motion.section

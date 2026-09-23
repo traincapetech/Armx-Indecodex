@@ -53,13 +53,13 @@ const ISO37001AntiBriberyManagementSystem = () => {
         {/* Canonical URL */}
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/governance/iso-37001-training"
+          href="https://www.Armx-Indecodextech.in/pecb/governance/iso-37001-training"
         />
 
         {/* Keywords (Optional but useful for niche SEO) */}
         <meta
           name="keywords"
-          content="ISO 37001, Anti-Bribery Management System, PECB Certification, ISO Training, Compliance, Governance Training, Traincape Tech"
+          content="ISO 37001, Anti-Bribery Management System, PECB Certification, ISO Training, Compliance, Governance Training, Armx-Indecodex Tech"
         />
 
         {/* Open Graph (for social media previews) */}
@@ -73,13 +73,13 @@ const ISO37001AntiBriberyManagementSystem = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/governance/iso-37001-training"
+          content="https://Armx-Indecodextech.in/pecb/governance/iso-37001-training"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Traincape Technology" />
+        <meta property="og:site_name" content="Armx-Indecodex" />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/iso37001-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/iso37001-banner.webp"
         />
 
         {/* Twitter Card */}
@@ -94,7 +94,7 @@ const ISO37001AntiBriberyManagementSystem = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/iso37001-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/iso37001-banner.webp"
         />
         <script type="application/ld+json">
           {`
@@ -105,9 +105,9 @@ const ISO37001AntiBriberyManagementSystem = () => {
   "description": "Get certified in ISO 37001 with our PECB ISO Training. Learn to prevent bribery and enhance compliance. Get guidance from expert trainers in the industry. Enroll now!",
   "provider": {
     "@type": "Organization",
-    "name": "Traincape Technology",
-    "url": "https://traincapetech.in",
-    "logo": "https://traincapetech.in/assets/logo.webp"
+    "name": "Armx-Indecodex",
+    "url": "https://Armx-Indecodextech.in",
+    "logo": "https://Armx-Indecodextech.in/assets/logo.webp"
   },
   "courseCode": "ISO 37001:2016",
   "hasCourseInstance": {
@@ -123,7 +123,7 @@ const ISO37001AntiBriberyManagementSystem = () => {
     "endDate": "2025-12-01",
     "location": {
       "@type": "Place",
-      "name": "Traincape Technology",
+      "name": "Armx-Indecodex",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "New Delhi, India",
@@ -137,7 +137,7 @@ const ISO37001AntiBriberyManagementSystem = () => {
       "price": "400",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "url": "https://traincapetech.in/pecb/governance/iso-37001-training"
+      "url": "https://Armx-Indecodextech.in/pecb/governance/iso-37001-training"
     }
   },
   "educationalCredentialAwarded": "PECB Certified ISO 37001 Lead Implementer/Lead Auditor",
@@ -146,7 +146,7 @@ const ISO37001AntiBriberyManagementSystem = () => {
     "audienceType": "Professionals seeking Anti-Bribery Management certification"
   },
   "learningResourceType": "Professional Certification Course",
-  "keywords": ["ISO 37001", "Anti-Bribery Management", "PECB Certification", "Compliance", "Governance Training", "Traincape Technology"]
+  "keywords": ["ISO 37001", "Anti-Bribery Management", "PECB Certification", "Compliance", "Governance Training", "Armx-Indecodex"]
 }
 `}
         </script>
@@ -215,7 +215,7 @@ const ISO37001AntiBriberyManagementSystem = () => {
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37001AntiBribery", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -356,12 +356,12 @@ const ISO37001AntiBriberyManagementSystem = () => {
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37001AntiBribery", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37001AntiBribery", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

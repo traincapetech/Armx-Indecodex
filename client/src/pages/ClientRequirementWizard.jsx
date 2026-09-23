@@ -88,7 +88,7 @@ const INITIAL_STATE = {
   phone: "",
   country: "",
   city: "",
-  
+
   // Step 2: Business Details
   companyName: "",
   businessDescription: "",
@@ -127,7 +127,7 @@ export default function ClientRequirementWizard() {
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState(() => {
-    const saved = localStorage.getItem("traincape_requirement_wizard_draft");
+    const saved = localStorage.getItem("Armx-Indecodex_requirement_wizard_draft");
     return saved ? JSON.parse(saved) : INITIAL_STATE;
   });
   const [files, setFiles] = useState([]);
@@ -136,7 +136,7 @@ export default function ClientRequirementWizard() {
 
   // Auto-save draft on form change
   useEffect(() => {
-    localStorage.setItem("traincape_requirement_wizard_draft", JSON.stringify(formData));
+    localStorage.setItem("Armx-Indecodex_requirement_wizard_draft", JSON.stringify(formData));
   }, [formData]);
 
   const handleChange = (e) => {
@@ -160,7 +160,7 @@ export default function ClientRequirementWizard() {
       setFormData(INITIAL_STATE);
       setFiles([]);
       setCurrentStep(1);
-      localStorage.removeItem("traincape_requirement_wizard_draft");
+      localStorage.removeItem("Armx-Indecodex_requirement_wizard_draft");
       toast.success("Draft cleared successfully!");
     }
   };
@@ -241,7 +241,7 @@ export default function ClientRequirementWizard() {
   // Document Upload handling
   const handleFileChange = (e) => {
     const selectedFiles = Array.from(e.target.files);
-    
+
     // Check total limit
     if (files.length + selectedFiles.length > 5) {
       toast.error("You can upload a maximum of 5 attachments.");
@@ -273,7 +273,7 @@ export default function ClientRequirementWizard() {
   // Submit trigger
   const handleSubmit = async () => {
     setLoading(true);
-    
+
     // Map dropdown to budget amount/currency
     let budgetAmount = 0;
     const selectedBudget = formData.budgetRange;
@@ -337,7 +337,7 @@ export default function ClientRequirementWizard() {
       const response = await submitRequirement(payload, files);
       if (response.success) {
         setSuccessData(response.data);
-        localStorage.removeItem("traincape_requirement_wizard_draft");
+        localStorage.removeItem("Armx-Indecodex_requirement_wizard_draft");
         setFormData(INITIAL_STATE);
         setFiles([]);
         toast.success("Project inquiry submitted successfully!", { icon: "🎉" });
@@ -367,11 +367,11 @@ export default function ClientRequirementWizard() {
           <div className="w-20 h-20 bg-teal-500/10 border border-teal-500/30 rounded-full flex items-center justify-center mx-auto mb-8 shadow-inner shadow-teal-500/20">
             <CheckCircle2 className="w-10 h-10 text-teal-400" />
           </div>
-          
+
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 bg-gradient-to-r from-teal-300 via-emerald-300 to-cyan-300 bg-clip-text text-transparent">
             Project Ingested Successfully!
           </h2>
-          
+
           <p className="text-slate-300 text-lg mb-8">
             Thank you, <strong className="text-white">{successData.customerDetails?.name}</strong>. Your project requirement has been sent directly to our Sales & Engineering teams.
           </p>
@@ -439,7 +439,7 @@ export default function ClientRequirementWizard() {
           <div className="flex justify-between min-w-[700px] px-2 relative">
             {/* Connecting bar */}
             <div className="absolute top-4 left-0 right-0 h-0.5 bg-slate-800 -z-10" />
-            <div 
+            <div
               className="absolute top-4 left-0 h-0.5 bg-gradient-to-r from-teal-500 to-indigo-500 transition-all duration-500 -z-10"
               style={{ width: `${((currentStep - 1) / (STEPS.length - 1)) * 100}%` }}
             />
@@ -461,20 +461,18 @@ export default function ClientRequirementWizard() {
                   className="flex flex-col items-center group cursor-pointer focus:outline-none disabled:cursor-not-allowed"
                 >
                   <div
-                    className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs border transition duration-300 ${
-                      isCompleted
+                    className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs border transition duration-300 ${isCompleted
                         ? "bg-teal-500 border-teal-400 text-slate-950"
                         : isActive
-                        ? "bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30"
-                        : "bg-slate-950 border-slate-800 text-slate-500 group-hover:border-slate-700"
-                    }`}
+                          ? "bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30"
+                          : "bg-slate-950 border-slate-800 text-slate-500 group-hover:border-slate-700"
+                      }`}
                   >
                     {isCompleted ? <Check className="w-4 h-4 stroke-[3px]" /> : step.id}
                   </div>
                   <span
-                    className={`text-[10px] mt-2.5 font-bold uppercase tracking-wider transition ${
-                      isActive ? "text-indigo-400" : isCompleted ? "text-teal-400" : "text-slate-500"
-                    }`}
+                    className={`text-[10px] mt-2.5 font-bold uppercase tracking-wider transition ${isActive ? "text-indigo-400" : isCompleted ? "text-teal-400" : "text-slate-500"
+                      }`}
                   >
                     {step.name}
                   </span>
@@ -487,7 +485,7 @@ export default function ClientRequirementWizard() {
         {/* Wizard Card Body */}
         <div className="bg-slate-900/40 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 sm:p-10 shadow-2xl relative">
           <div className="absolute top-0 inset-x-0 h-0.5 bg-gradient-to-r from-transparent via-slate-700 to-transparent" />
-          
+
           {/* Header detail */}
           <div className="mb-8 border-b border-slate-800/60 pb-6">
             <span className="text-teal-400 font-mono text-xs uppercase tracking-wider">
@@ -617,7 +615,7 @@ export default function ClientRequirementWizard() {
                           name="companyName"
                           value={formData.companyName}
                           onChange={handleChange}
-                          placeholder="Traincape Tech Pvt Ltd"
+                          placeholder="Armx-Indecodex Tech Pvt Ltd"
                           className="w-full pl-12 pr-4 py-3.5 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-600 focus:outline-none focus:border-teal-500 transition duration-200"
                         />
                       </div>
@@ -693,11 +691,10 @@ export default function ClientRequirementWizard() {
                             onClick={() =>
                               setFormData((prev) => ({ ...prev, serviceInterestedIn: srv.name }))
                             }
-                            className={`p-5 rounded-2xl text-left border transition-all duration-300 ${
-                              isSelected
+                            className={`p-5 rounded-2xl text-left border transition-all duration-300 ${isSelected
                                 ? "bg-indigo-950/40 border-indigo-500/70 shadow-lg shadow-indigo-500/10 text-white"
                                 : "bg-slate-950 border-slate-800/80 hover:border-slate-700 text-slate-300 hover:text-white"
-                            }`}
+                              }`}
                           >
                             <div className="flex items-center gap-3">
                               <span className="text-3xl">{srv.icon}</span>
@@ -742,17 +739,15 @@ export default function ClientRequirementWizard() {
                               key={purpose}
                               type="button"
                               onClick={() => handleCheckboxChange("mainPurpose", purpose)}
-                              className={`p-3 rounded-xl border flex items-center justify-between text-sm transition ${
-                                isChecked
+                              className={`p-3 rounded-xl border flex items-center justify-between text-sm transition ${isChecked
                                   ? "bg-teal-950/20 border-teal-500 text-teal-300"
                                   : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                              }`}
+                                }`}
                             >
                               <span>{purpose}</span>
                               <div
-                                className={`w-4 h-4 rounded border flex items-center justify-center ${
-                                  isChecked ? "bg-teal-500 border-teal-400 text-slate-950" : "border-slate-700"
-                                }`}
+                                className={`w-4 h-4 rounded border flex items-center justify-center ${isChecked ? "bg-teal-500 border-teal-400 text-slate-950" : "border-slate-700"
+                                  }`}
                               >
                                 {isChecked && <Check className="w-3 h-3 stroke-[3px]" />}
                               </div>
@@ -779,11 +774,10 @@ export default function ClientRequirementWizard() {
                                 existingWebsiteUrl: opt === "No" ? "" : prev.existingWebsiteUrl
                               }))
                             }
-                            className={`px-6 py-3 rounded-xl border font-semibold text-sm transition ${
-                              formData.websiteExists === opt
+                            className={`px-6 py-3 rounded-xl border font-semibold text-sm transition ${formData.websiteExists === opt
                                 ? "bg-indigo-950/40 border-indigo-500 text-indigo-300"
                                 : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                            }`}
+                              }`}
                           >
                             {opt}
                           </button>
@@ -824,11 +818,10 @@ export default function ClientRequirementWizard() {
                               key={opt}
                               type="button"
                               onClick={() => setFormData((prev) => ({ ...prev, domainOwned: opt }))}
-                              className={`px-4 py-2.5 rounded-xl border text-xs font-semibold transition ${
-                                formData.domainOwned === opt
+                              className={`px-4 py-2.5 rounded-xl border text-xs font-semibold transition ${formData.domainOwned === opt
                                   ? "bg-teal-950/20 border-teal-500 text-teal-300"
                                   : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                              }`}
+                                }`}
                             >
                               {opt}
                             </button>
@@ -846,11 +839,10 @@ export default function ClientRequirementWizard() {
                               key={opt}
                               type="button"
                               onClick={() => setFormData((prev) => ({ ...prev, hostingOwned: opt }))}
-                              className={`px-4 py-2.5 rounded-xl border text-xs font-semibold transition ${
-                                formData.hostingOwned === opt
+                              className={`px-4 py-2.5 rounded-xl border text-xs font-semibold transition ${formData.hostingOwned === opt
                                   ? "bg-teal-950/20 border-teal-500 text-teal-300"
                                   : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                              }`}
+                                }`}
                             >
                               {opt}
                             </button>
@@ -966,17 +958,15 @@ export default function ClientRequirementWizard() {
                               key={feature}
                               type="button"
                               onClick={() => handleCheckboxChange("featuresNeeded", feature)}
-                              className={`p-3 rounded-xl border flex items-center justify-between text-left text-xs transition duration-200 ${
-                                isChecked
+                              className={`p-3 rounded-xl border flex items-center justify-between text-left text-xs transition duration-200 ${isChecked
                                   ? "bg-teal-950/20 border-teal-500 text-teal-300"
                                   : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                              }`}
+                                }`}
                             >
                               <span className="leading-snug pr-2">{feature}</span>
                               <div
-                                className={`w-3.5 h-3.5 rounded border flex items-center justify-center flex-shrink-0 ${
-                                  isChecked ? "bg-teal-500 border-teal-400 text-slate-950" : "border-slate-800"
-                                }`}
+                                className={`w-3.5 h-3.5 rounded border flex items-center justify-center flex-shrink-0 ${isChecked ? "bg-teal-500 border-teal-400 text-slate-950" : "border-slate-800"
+                                  }`}
                               >
                                 {isChecked && <Check className="w-2.5 h-2.5 stroke-[3px]" />}
                               </div>
@@ -996,11 +986,10 @@ export default function ClientRequirementWizard() {
                             key={opt}
                             type="button"
                             onClick={() => setFormData((prev) => ({ ...prev, mobileAppNeeded: opt }))}
-                            className={`px-6 py-3 rounded-xl border font-semibold text-sm transition ${
-                              formData.mobileAppNeeded === opt
+                            className={`px-6 py-3 rounded-xl border font-semibold text-sm transition ${formData.mobileAppNeeded === opt
                                 ? "bg-indigo-950/40 border-indigo-500 text-indigo-300"
                                 : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                            }`}
+                              }`}
                           >
                             {opt}
                           </button>
@@ -1064,11 +1053,10 @@ export default function ClientRequirementWizard() {
                             key={opt}
                             type="button"
                             onClick={() => setFormData((prev) => ({ ...prev, contentReady: opt }))}
-                            className={`px-6 py-3.5 rounded-xl border font-semibold text-sm transition ${
-                              formData.contentReady === opt
+                            className={`px-6 py-3.5 rounded-xl border font-semibold text-sm transition ${formData.contentReady === opt
                                 ? "bg-teal-950/20 border-teal-500 text-teal-300"
                                 : "bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700"
-                            }`}
+                              }`}
                           >
                             {opt}
                           </button>
@@ -1291,9 +1279,8 @@ export default function ClientRequirementWizard() {
             <button
               onClick={handleBack}
               disabled={currentStep === 1 || loading}
-              className={`flex items-center gap-1.5 px-5 py-3 border border-slate-800 hover:border-slate-700 bg-slate-950 text-slate-300 hover:text-white rounded-xl text-sm font-semibold transition ${
-                currentStep === 1 || loading ? "opacity-30 cursor-not-allowed" : ""
-              }`}
+              className={`flex items-center gap-1.5 px-5 py-3 border border-slate-800 hover:border-slate-700 bg-slate-950 text-slate-300 hover:text-white rounded-xl text-sm font-semibold transition ${currentStep === 1 || loading ? "opacity-30 cursor-not-allowed" : ""
+                }`}
             >
               <ChevronLeft className="w-4 h-4" />
               Back

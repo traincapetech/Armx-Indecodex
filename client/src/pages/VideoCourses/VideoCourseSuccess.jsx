@@ -72,7 +72,7 @@ const VideoCourseSuccess = () => {
   return (
     <>
       <Helmet>
-        <title>Payment Verification - Traincape Technology</title>
+        <title>Payment Verification - Armx-Indecodex</title>
       </Helmet>
 
       <div className="min-h-screen bg-slate-950 flex items-center justify-center text-white p-4">

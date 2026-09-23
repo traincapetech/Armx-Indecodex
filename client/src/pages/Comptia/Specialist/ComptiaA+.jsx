@@ -67,9 +67,9 @@ const ComptiaAPlus = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
       <SEOHead
-        title="CompTIA A+ Certification Training | Hardware & IT Fundamentals - Traincape Technology"
+        title="CompTIA A+ Certification Training | Hardware & IT Fundamentals - Armx-Indecodex"
         description="Get CompTIA A+ certified. Master hardware, networking, mobile devices, virtualization, and troubleshooting. Entry-level IT certification with 220-1101 & 220-1102 exams."
-        canonical="https://www.traincapetech.in/comptia/specialist/a-plus"
+        canonical="https://www.Armx-Indecodextech.in/comptia/specialist/a-plus"
       />
       {/* Hero Section */}
       <motion.section
@@ -132,7 +132,7 @@ const ComptiaAPlus = () => {
                 >
                   Download Brochure
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIAA+", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -308,12 +308,12 @@ const ComptiaAPlus = () => {
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIAA+", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIAA+", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

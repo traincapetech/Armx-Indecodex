@@ -128,18 +128,18 @@ const CyberSecurityManagement = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-red-50 to-pink-50">
       {/* ✅ Updated Helmet Meta */}
       <Helmet>
-        <title>Cybersecurity Management | Traincape Technology</title>
+        <title>Cybersecurity Management | Armx-Indecodex</title>
         <meta
           name="description"
           content="Become certified in cybersecurity management. To progress in the cybersecurity industry, become an expert in risk management, compliance, and data protection."
         />
         <meta
           name="keywords"
-          content="PECB Cybersecurity Management, Cybersecurity Certification, Traincape Technology, Cybersecurity Courses"
+          content="PECB Cybersecurity Management, Cybersecurity Certification, Armx-Indecodex, Cybersecurity Courses"
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/cybersecurity-management"
+          href="https://www.Armx-Indecodextech.in/pecb/cybersecurity-management"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>

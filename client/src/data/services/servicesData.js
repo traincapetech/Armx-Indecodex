@@ -62,7 +62,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Bespoke Custom Software Development Services | Traincape",
+      title: "Bespoke Custom Software Development Services | Armx-Indecodex",
       description: "Get secure, high-performance custom enterprise software systems engineered on React and Node.js without license markup constraints.",
       keywords: "custom software development, enterprise database build, Node.js API, React frontend team"
     }
@@ -101,7 +101,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Custom CRM & HRMS Software Development | Traincape",
+      title: "Custom CRM & HRMS Software Development | Armx-Indecodex",
       description: "Automate deal pipelines and manage client interaction logs. Deploy a secure, custom CRM platform built for your sales methodology.",
       keywords: "custom CRM software, B2B lead capture tool, HRMS portal engineering"
     }
@@ -131,8 +131,8 @@ export const servicesData = [
     ],
     technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP", "Stripe API", "Helmet Async"],
     industries: ["Luxury Retail", "EdTech Providers", "Professional Services"],
-    portfolioReferences: ["nk-luxe", "traincape", "bold-india-group"],
-    caseStudyReferences: ["nk-luxe", "traincape"],
+    portfolioReferences: ["nk-luxe", "Armx-Indecodex", "bold-india-group"],
+    caseStudyReferences: ["nk-luxe", "Armx-Indecodex"],
     faqs: [
       {
         q: "What is pre-rendering and why is it useful?",
@@ -140,7 +140,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Enterprise Headless Storefronts & Web Development | Traincape",
+      title: "Enterprise Headless Storefronts & Web Development | Armx-Indecodex",
       description: "Design stunning, sub-second corporate storefronts and luxury headless shops. Fully crawlable and optimized for organic ranks.",
       keywords: "web development services, React storefront build, SEO optimized web page, headless shop development"
     }
@@ -179,7 +179,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "React Native Mobile Application Development | Traincape",
+      title: "React Native Mobile Application Development | Armx-Indecodex",
       description: "Build premium, cross-platform mobile apps for iOS and Android with Firebase real-time messaging and battery-optimized geolocation.",
       keywords: "React Native app development, cross platform mobile engineer, Firebase Firestore chat app"
     }
@@ -209,8 +209,8 @@ export const servicesData = [
     ],
     technologies: ["Framer Motion", "Tailwind CSS", "Figma Design System", "Google Fonts Outfit"],
     industries: ["Enterprise Software", "EdTech Systems", "FinTech Stores"],
-    portfolioReferences: ["nk-luxe", "traincape"],
-    caseStudyReferences: ["nk-luxe", "traincape"],
+    portfolioReferences: ["nk-luxe", "Armx-Indecodex"],
+    caseStudyReferences: ["nk-luxe", "Armx-Indecodex"],
     faqs: [
       {
         q: "What guidelines do you follow for accessibility?",
@@ -218,8 +218,8 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Premium B2B UI/UX Design & System Architecture | Traincape",
-      description: "Architect cohesive enterprise design systems, sleek dark layouts, and intuitive interface hierarchies with Traincape.",
+      title: "Premium B2B UI/UX Design & System Architecture | Armx-Indecodex",
+      description: "Architect cohesive enterprise design systems, sleek dark layouts, and intuitive interface hierarchies with Armx-Indecodex.",
       keywords: "UI UX design service, enterprise design tokens, HSL layout wireframing, figma design system"
     }
   },
@@ -257,7 +257,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "AWS Cloud Engineering & DevOps Architecture | Traincape",
+      title: "AWS Cloud Engineering & DevOps Architecture | Armx-Indecodex",
       description: "Deploy stateless, auto-scaling cloud databases and secure microservice clusters. Set up robust Git-triggered CI/CD pipelines.",
       keywords: "cloud engineering service, AWS fargate deploy, PostgreSQL database tuning, devops automation"
     }
@@ -296,7 +296,7 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Custom AI & Machine Learning Integration Services | Traincape",
+      title: "Custom AI & Machine Learning Integration Services | Armx-Indecodex",
       description: "Integrate LLM API engines, predictive databases, and automated document RAG search layers to maximize data efficiency.",
       keywords: "AI solutions development, large language model integration, custom RAG database, vector search AI"
     }
@@ -326,8 +326,8 @@ export const servicesData = [
     ],
     technologies: ["React 18", "Node.js", "Docker", "Sitemap Auditing Tools", "GitHub Actions"],
     industries: ["All Enterprise Sectors", "Headless E-commerce", "Corporate Portals"],
-    portfolioReferences: ["traincape", "bold-india-group"],
-    caseStudyReferences: ["traincape"],
+    portfolioReferences: ["Armx-Indecodex", "bold-india-group"],
+    caseStudyReferences: ["Armx-Indecodex"],
     faqs: [
       {
         q: "What response times do you guarantee under your support SLAs?",
@@ -335,8 +335,8 @@ export const servicesData = [
       }
     ],
     seo: {
-      title: "Enterprise Software Maintenance & Support SLAs | Traincape",
-      description: "Ensure software security, library patches, and sitemap crawling success with Traincape scheduled SLA maintenance packages.",
+      title: "Enterprise Software Maintenance & Support SLAs | Armx-Indecodex",
+      description: "Ensure software security, library patches, and sitemap crawling success with Armx-Indecodex scheduled SLA maintenance packages.",
       keywords: "software support SLA, web application maintenance, security patching service, sitemap crawl audit"
     }
   }

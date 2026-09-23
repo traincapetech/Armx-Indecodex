@@ -99,14 +99,14 @@ const InformationSecurityCategory = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-cyan-50">
       <Helmet>
-        <title> Traning and Certifications|| PECB || Information Security Category || Traincape Technology </title>
+        <title> Traning and Certifications|| PECB || Information Security Category || Armx-Indecodex </title>
         <meta name="description" content="Explore information security certifications covering ISMS implementation, risk management, incident response, and executive leadership with the international standard for information security management and controls." />
-        <meta name="keywords" content="Training and Certifications, PECB, Information Security Category, Information Security, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Category, Traincape Technology, Information Security Category, Information Security, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Category, Traincape Technology" />
+        <meta name="keywords" content="Training and Certifications, PECB, Information Security Category, Information Security, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Category, Armx-Indecodex, Information Security Category, Information Security, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Category, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/information-security/information-security-category" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/information-security/information-security-category" />
       </Helmet>
-        {/* Hero Section */}
-      <motion.section 
+      {/* Hero Section */}
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -116,7 +116,7 @@ const InformationSecurityCategory = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -124,7 +124,7 @@ const InformationSecurityCategory = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION CATEGORY</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -132,7 +132,7 @@ const InformationSecurityCategory = () => {
               >
                 Information Security
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -140,7 +140,7 @@ const InformationSecurityCategory = () => {
               >
                 Master Information Security Management & Controls
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -148,19 +148,19 @@ const InformationSecurityCategory = () => {
               >
                 Comprehensive information security certifications covering ISMS implementation, risk management, incident response, and executive leadership.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Get Started
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition"
                 >
@@ -168,7 +168,7 @@ const InformationSecurityCategory = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -259,9 +259,9 @@ const InformationSecurityCategory = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <p className="text-gray-600 mb-4 text-sm">{cert.description}</p>
-                  
+
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-800 mb-2 text-sm">Key Topics:</h4>
                     <div className="flex flex-wrap gap-1">
@@ -272,7 +272,7 @@ const InformationSecurityCategory = () => {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <span className="text-lg font-bold text-gray-800">{cert.price}</span>
@@ -315,7 +315,7 @@ const InformationSecurityCategory = () => {
                 <p className="text-gray-600">Information security professionals earn $85,000 - $130,000+ annually</p>
               </div>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -330,7 +330,7 @@ const InformationSecurityCategory = () => {
                 <p className="text-gray-600">Information security jobs are projected to grow 33% by 2030</p>
               </div>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -361,13 +361,13 @@ const InformationSecurityCategory = () => {
             <h2 className="text-4xl font-bold mb-4">Start Your Information Security Journey</h2>
             <p className="text-xl mb-8">Choose from our comprehensive range of information security certifications</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Get Started Today
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition text-lg"
               >

@@ -31,11 +31,11 @@ const ISO21502ProjectManagement = () => {
     "@type": "Course",
     "name": "ISO 21502 Project Management Training | All IT Training & Certification",
     "description":
-      "Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Traincape Technology.",
+      "Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Armx-Indecodex.",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -145,16 +145,16 @@ const ISO21502ProjectManagement = () => {
         <title>ISO 21502 Project Management Training | All IT Training & Certification</title>
         <meta
           name="description"
-          content="Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Traincape Technology."
+          content="Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Armx-Indecodex."
         />
         <meta
           name="keywords"
-          content="ISO 21502 training, project management certification, PECB ISO 21502, Traincape Technology, project governance, project risk management, ISO project best practices"
+          content="ISO 21502 training, project management certification, PECB ISO 21502, Armx-Indecodex, project governance, project risk management, ISO project best practices"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/quality/iso-21502-training"
+          href="https://www.Armx-Indecodextech.in/pecb/quality/iso-21502-training"
         />
         {/* Open Graph Tags */}
         <meta
@@ -163,11 +163,11 @@ const ISO21502ProjectManagement = () => {
         />
         <meta
           property="og:description"
-          content="Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Traincape Technology."
+          content="Learn how ISO 21502 provides internationally recognized guidelines for project management. Understand best practices, processes, and implementation strategies. Get certified globally from Armx-Indecodex."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/quality/iso-21502-training"
+          content="https://Armx-Indecodextech.in/pecb/quality/iso-21502-training"
         />
         <meta property="og:type" content="website" />
         {/* Twitter Meta */}
@@ -178,15 +178,15 @@ const ISO21502ProjectManagement = () => {
         />
         <meta
           name="twitter:description"
-          content="Master project management best practices and gain a globally recognized ISO 21502 certification with Traincape Technology."
+          content="Master project management best practices and gain a globally recognized ISO 21502 certification with Armx-Indecodex."
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
-      
+
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -196,7 +196,7 @@ const ISO21502ProjectManagement = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -204,7 +204,7 @@ const ISO21502ProjectManagement = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -212,7 +212,7 @@ const ISO21502ProjectManagement = () => {
               >
                 ISO 21502 Project Management
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -220,7 +220,7 @@ const ISO21502ProjectManagement = () => {
               >
                 Master Project Management Excellence
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -228,25 +228,25 @@ const ISO21502ProjectManagement = () => {
               >
                 ISO 21502 provides guidance on project management best practices. Master project lifecycle management, stakeholder engagement, and risk management for successful project delivery.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-orange-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO21502ProjectManagement", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -254,7 +254,7 @@ const ISO21502ProjectManagement = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -495,24 +495,24 @@ const ISO21502ProjectManagement = () => {
             <h2 className="text-4xl font-bold mb-4">Master Project Management Excellence</h2>
             <p className="text-xl mb-8">Start your journey to becoming an ISO 21502 expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO21502ProjectManagement", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO21502ProjectManagement", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

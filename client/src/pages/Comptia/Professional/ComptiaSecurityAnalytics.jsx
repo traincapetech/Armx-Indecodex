@@ -38,8 +38,8 @@ const ComptiaSecurityAnalytics = () => {
       "Master Security Operations & Analytics with CompTIA Security Analytics Professional Certification. Learn to detect, analyze, and respond to cybersecurity threats. Contact us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -132,22 +132,22 @@ const ComptiaSecurityAnalytics = () => {
         <title>CompTIA Security Analytics Professional (CSAP) Training & Certifications </title>
         <meta
           name="description"
-          content="Get CompTIA Security+ & CySA+ certified to achieve the CSAP credential. The CompTIA CSAP Certification validates your ability in security operations and analysis — from Security+ to CySA+. Get certified with Traincape Technology."
+          content="Get CompTIA Security+ & CySA+ certified to achieve the CSAP credential. The CompTIA CSAP Certification validates your ability in security operations and analysis — from Security+ to CySA+. Get certified with Armx-Indecodex."
         />
         <meta
           name="keywords"
-          content="CompTIA Security Analytics Professional Certification, CompTIA CSAP, Security Operations, Security Analytics, CompTIA, Traincape Technology"
+          content="CompTIA Security Analytics Professional Certification, CompTIA CSAP, Security Operations, Security Analytics, CompTIA, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/comptia/professional/security-analytics-professional-certification"
+          href="https://www.Armx-Indecodextech.in/comptia/professional/security-analytics-professional-certification"
         />
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Security Analytics Professional Certification | Traincape Technology"
+          content="CompTIA Security Analytics Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -155,11 +155,11 @@ const ComptiaSecurityAnalytics = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/security-analytics-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/security-analytics-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/security-analytics-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/security-analytics-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -167,7 +167,7 @@ const ComptiaSecurityAnalytics = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Security Analytics Professional Certification | Traincape Technology"
+          content="CompTIA Security Analytics Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -175,14 +175,14 @@ const ComptiaSecurityAnalytics = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/security-analytics-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/security-analytics-professional-banner.webp"
         />
 
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Security Analytics Professional Certification | Traincape Technology"
+          content="CompTIA Security Analytics Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -190,11 +190,11 @@ const ComptiaSecurityAnalytics = () => {
         />
         <meta
           property="og:url"
-            content="https://traincapetech.in/comptia/professional/security-analytics-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/security-analytics-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/security-analytics-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/security-analytics-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -202,7 +202,7 @@ const ComptiaSecurityAnalytics = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Security Analytics Professional Certification | Traincape Technology"
+          content="CompTIA Security Analytics Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -210,14 +210,14 @@ const ComptiaSecurityAnalytics = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/security-analytics-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/security-analytics-professional-banner.webp"
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -227,7 +227,7 @@ const ComptiaSecurityAnalytics = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -235,7 +235,7 @@ const ComptiaSecurityAnalytics = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL • STACKABLE</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -243,7 +243,7 @@ const ComptiaSecurityAnalytics = () => {
               >
                 CompTIA Security Analytics Professional (CSAP) Certification
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -251,7 +251,7 @@ const ComptiaSecurityAnalytics = () => {
               >
                 Master Security Operations & Analytics
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -259,25 +259,25 @@ const ComptiaSecurityAnalytics = () => {
               >
                 The CompTIA Security Analytics Professional (CSAP) stackable certification validates your ability to detect, analyze, and respond to cybersecurity threats. Earn it by completing Security+ and CySA+ certifications.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-purple-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Start Your Journey
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/comptia/professional")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-purple-700 transition"
                 >
                   View All Professional Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecurityAnalytics", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -285,7 +285,7 @@ const ComptiaSecurityAnalytics = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -546,24 +546,24 @@ const ComptiaSecurityAnalytics = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Become a Security Analyst?</h2>
             <p className="text-xl mb-8">Start with Security+ and advance to CySA+ for CSAP certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Start Your Journey
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-purple-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecurityAnalytics", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecurityAnalytics", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

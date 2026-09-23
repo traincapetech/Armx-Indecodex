@@ -52,7 +52,7 @@
     <text x="120" y="150" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">T</text>
     
     <!-- Company Branding -->
-    <text x="200" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="bold" filter="url(#glow)">TRAINCAPE</text>
+    <text x="200" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="bold" filter="url(#glow)">Armx-Indecodex</text>
     <text x="200" y="170" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="bold" filter="url(#glow)">TECHNOLOGY</text>
     <text x="200" y="200" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18" font-weight="300">Elevating Your Career with Expert IT Training</text>
     
@@ -170,7 +170,7 @@
   <g id="cta-section">
     <rect x="100" y="600" width="600" height="80" rx="12" fill="#152B54" opacity="0.95" filter="url(#glow)"/>
     <text x="130" y="630" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Ready to Transform Your Career?</text>
-    <text x="130" y="655" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">📧 sales@traincapetech.info • 📞 +91 6280281505 • 🌐 www.traincapetech.in</text>
+    <text x="130" y="655" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">📧 sales@Armx-Indecodextech.info • 📞 +91 6280281505 • 🌐 www.Armx-Indecodextech.in</text>
     
     <!-- CTA Buttons -->
     <rect x="750" y="610" width="140" height="60" rx="30" fill="url(#buttonGradient)" filter="url(#glow)"/>

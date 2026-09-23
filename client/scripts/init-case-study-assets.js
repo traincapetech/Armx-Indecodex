@@ -6,7 +6,7 @@ const dirs = [
   'src/assets/caseStudies/crm',
   'src/assets/caseStudies/verda',
   'src/assets/caseStudies/dating-app',
-  'src/assets/caseStudies/traincape'
+  'src/assets/caseStudies/Armx-Indecodex'
 ];
 
 dirs.forEach(dir => {
@@ -33,9 +33,9 @@ const files = {
   'src/assets/caseStudies/dating-app/dashboard.png': tinyPng,
   'src/assets/caseStudies/dating-app/logo.png': tinyPng,
 
-  'src/assets/caseStudies/traincape/desktop.png': tinyPng,
-  'src/assets/caseStudies/traincape/mobile.png': tinyPng,
-  'src/assets/caseStudies/traincape/logo.png': tinyPng,
+  'src/assets/caseStudies/Armx-Indecodex/desktop.png': tinyPng,
+  'src/assets/caseStudies/Armx-Indecodex/mobile.png': tinyPng,
+  'src/assets/caseStudies/Armx-Indecodex/logo.png': tinyPng,
 };
 
 Object.entries(files).forEach(([file, content]) => {

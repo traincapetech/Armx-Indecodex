@@ -2,8 +2,8 @@
 > client@0.1.0 prebuild
 > node scripts/prepare-build.js && node scripts/generate-sitemap.js
 
-[prepare-build] Cleaned: /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/build
-[generate-sitemap] Wrote 256 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap.xml
+[prepare-build] Cleaned: /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/build
+[generate-sitemap] Wrote 256 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap.xml
 
 > client@0.1.0 build
 > craco build
@@ -12,7 +12,7 @@ Creating an optimized production build...
 Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme
-[BABEL] Note: The code generator has deoptimised the styling of /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/src/assets/CareerBannerIMG.svg as it exceeds the max of 500KB.
+[BABEL] Note: The code generator has deoptimised the styling of /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/src/assets/CareerBannerIMG.svg as it exceeds the max of 500KB.
 [BABEL] Note: The code generator has deoptimised the styling of undefined as it exceeds the max of 500KB.
 Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
   npx update-browserslist-db@latest
@@ -37,7 +37,7 @@ Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
   Why you should do it regularly: https://github.com/browserslist/update-db#readme
 Compiled with warnings.
 
-Failed to parse source map from '/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/html2pdf.js/dist/es6-promise.map' file: Error: ENOENT: no such file or directory, open '/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/html2pdf.js/dist/es6-promise.map'
+Failed to parse source map from '/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/html2pdf.js/dist/es6-promise.map' file: Error: ENOENT: no such file or directory, open '/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/html2pdf.js/dist/es6-promise.map'
 
 [eslint] 
 src/allRoute/AllRoute.jsx
@@ -617,28 +617,28 @@ Find out more about deployment here:
 ✅  crawled 18 out of 26 (/services/web-development)
 ️️️💬  console.log at /services/digital-marketing: Failed to load resource: net::ERR_FAILED
 🔥  error at /services/digital-marketing TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded
-    at /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/puppeteer/lib/LifecycleWatcher.js:142:21
+    at /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/puppeteer/lib/LifecycleWatcher.js:142:21
   -- ASYNC --
-    at Frame.<anonymous> (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/puppeteer/lib/helper.js:111:15)
-    at Page.goto (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/puppeteer/lib/Page.js:674:49)
-    at Page.<anonymous> (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/puppeteer/lib/helper.js:112:23)
-    at fetchPage (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/react-snap/src/puppeteer_utils.js:232:22)
+    at Frame.<anonymous> (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/puppeteer/lib/helper.js:111:15)
+    at Page.goto (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/puppeteer/lib/Page.js:674:49)
+    at Page.<anonymous> (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/puppeteer/lib/helper.js:112:23)
+    at fetchPage (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/react-snap/src/puppeteer_utils.js:232:22)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1492
+/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1492
             throw new Error('Cannot write to stream after nil');
             ^
 
 Error: Cannot write to stream after nil
-    at push (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1492:19)
-    at /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:2146:13
-    at s._send (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1549:9)
-    at Stream.write (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1650:18)
-    at Stream._send (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:974:26)
-    at Stream._readFromBuffer (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1112:18)
-    at Stream._resume (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1164:14)
-    at Stream._checkBackPressure (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1091:10)
-    at Stream._resume (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1172:33)
-    at Stream._checkBackPressure (/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/highland/lib/index.js:1091:10)
+    at push (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1492:19)
+    at /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:2146:13
+    at s._send (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1549:9)
+    at Stream.write (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1650:18)
+    at Stream._send (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:974:26)
+    at Stream._readFromBuffer (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1112:18)
+    at Stream._resume (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1164:14)
+    at Stream._checkBackPressure (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1091:10)
+    at Stream._resume (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1172:33)
+    at Stream._checkBackPressure (/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/highland/lib/index.js:1091:10)
 
 Node.js v20.19.6
 BUILD_EXIT:1

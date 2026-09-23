@@ -42,8 +42,8 @@ const corsOptions = {
     if (!origin) return callback(null, true);
 
     const allowedOrigins = [
-      'https://traincapetech.in',
-      'https://www.traincapetech.in',
+      'https://Armx-Indecodextech.in',
+      'https://www.Armx-Indecodextech.in',
       'http://localhost:3000',
       'http://localhost:5173',
       'http://localhost:3001',
@@ -96,7 +96,7 @@ app.use("/video-courses", videoCourseRouter);
 // ✅ Home Endpoint
 app.get("/", (req, res) => {
   res.status(200).send({
-    message: "Welcome to Traincape Technology API",
+    message: "Welcome to Armx-Indecodex API",
   });
 });
 

@@ -37,19 +37,19 @@ export default function BlogDetails() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.traincapetech.in/"
+        "item": "https://www.Armx-Indecodextech.in/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blogs",
-        "item": "https://www.traincapetech.in/blogs"
+        "item": "https://www.Armx-Indecodextech.in/blogs"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://www.traincapetech.in/blogs/${post.slug}`
+        "item": `https://www.Armx-Indecodextech.in/blogs/${post.slug}`
       }
     ]
   };
@@ -69,10 +69,10 @@ export default function BlogDetails() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Traincape Technology",
+      "name": "Armx-Indecodex",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.traincapetech.in/android-chrome-512x512.png"
+        "url": "https://www.Armx-Indecodextech.in/android-chrome-512x512.png"
       }
     }
   };
@@ -93,15 +93,15 @@ export default function BlogDetails() {
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
       <Helmet>
-        <title>{post.seo?.title || `${post.title} | Traincape Blog`}</title>
+        <title>{post.seo?.title || `${post.title} | Armx-Indecodex Blog`}</title>
         <meta name="description" content={post.seo?.description || post.excerpt} />
         <meta name="keywords" content={post.seo?.keywords || post.tags.join(", ")} />
-        <link rel="canonical" href={`https://www.traincapetech.in/blogs/${post.slug}`} />
+        <link rel="canonical" href={`https://www.Armx-Indecodextech.in/blogs/${post.slug}`} />
 
         {/* OG Tags */}
         <meta property="og:title" content={post.seo?.title || post.title} />
         <meta property="og:description" content={post.seo?.description || post.excerpt} />
-        <meta property="og:url" content={`https://www.traincapetech.in/blogs/${post.slug}`} />
+        <meta property="og:url" content={`https://www.Armx-Indecodextech.in/blogs/${post.slug}`} />
         <meta property="og:image" content={post.coverImage} />
         <meta property="og:type" content="article" />
 

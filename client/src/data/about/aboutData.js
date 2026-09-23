@@ -3,13 +3,13 @@
 export const aboutData = {
   hero: {
     title: "Bridging the Gap Between Software Engineering & Professional Skill",
-    subheading: "Traincape Technology is an enterprise software developer and professional upskilling partner. We design secure digital systems and prepare modern teams to run them.",
+    subheading: "Armx-Indecodex is an enterprise software developer and professional upskilling partner. We design secure digital systems and prepare modern teams to run them.",
     primaryCta: "Explore Technology Solutions",
     secondaryCta: "Discover Upskilling Programs"
   },
   whoWeAre: {
     heading: "A Dual-Engine Technology Firm",
-    description: "Traincape Technology Pvt Ltd was established with a singular focus: solving organization-level digital friction. We operate at the intersection of custom software development and corporate upskilling. We believe that software is only as powerful as the team running it, and teams are only as efficient as the platforms they use.",
+    description: "Armx-Indecodex Pvt Ltd was established with a singular focus: solving organization-level digital friction. We operate at the intersection of custom software development and corporate upskilling. We believe that software is only as powerful as the team running it, and teams are only as efficient as the platforms they use.",
     painPointsSolved: [
       "Rigid, overpriced software architectures with high license overheads.",
       "Skill disconnects between university curriculums and modern developer stacks.",
@@ -19,7 +19,7 @@ export const aboutData = {
   story: {
     heading: "Our Journey & Philosophy",
     paragraphs: [
-      "Founded in 2021 by Parichay Singh Rana, Traincape started as a software consultancy aiming to eliminate user-licensing markup penalties for mid-market clients. As we deployed custom CRM and logistics architectures, we noticed a recurring barrier: clients struggled to onboard internal teams to modern tech stacks.",
+      "Founded in 2021 by Parichay Singh Rana, Armx-Indecodex started as a software consultancy aiming to eliminate user-licensing markup penalties for mid-market clients. As we deployed custom CRM and logistics architectures, we noticed a recurring barrier: clients struggled to onboard internal teams to modern tech stacks.",
       "We realized that building custom software and offering professional upskilling are two sides of the same coin. By unifying custom software development with professional upskilling, we ensure that digital systems are backed by competent, hands-on engineers.",
       "Today, we deliver high-performance headless portals, mobile apps, and automated accounting engines while upskilling hundreds of working professionals through real-world developer workflows."
     ]
@@ -98,16 +98,12 @@ export const aboutData = {
     }
   },
   timeline: [
-    { year: "2021", title: "Foundation", desc: "Traincape Technology was founded by Parichay Singh Rana to deliver custom CRM and portal systems." },
+    { year: "2021", title: "Foundation", desc: "Armx-Indecodex was founded by Parichay Singh Rana to deliver custom CRM and portal systems." },
     { year: "2022", title: "B2B Expansion", desc: "Deployed customized agricultural trade portals and headless catalog systems for global clients." },
     { year: "2023", title: "Upskilling Integration", desc: "Launched unified developer training to bridge the gap between academic theory and active software stacks." },
     { year: "2024", title: "Scale", desc: "Crossed 300,000+ total platform interactions and rolled out auto-scaling microservice setups." }
   ],
-  leadership: {
-    name: "Parichay Singh Rana",
-    role: "Founder & CEO",
-    message: "At Traincape, we focus on delivering reliable custom software and industry-aligned upskilling. Technology should solve problems without licensing markup headaches. We are dedicated to building capability and driving digital progress with clarity and transparency."
-  },
+
   team: [
     { name: "Saurav Kumar", role: "Lead Systems Developer" },
     { name: "Gaurav Joshi", role: "UX / Brand Architect" },

@@ -3,7 +3,7 @@ import { Linkedin, Twitter, MessageSquare, Link2 } from "lucide-react";
 import toast from "react-hot-toast";
 
 export default function ShareButtons({ title, slug }) {
-  const absoluteUrl = `https://www.traincapetech.in/blogs/${slug}`;
+  const absoluteUrl = `https://www.Armx-Indecodextech.in/blogs/${slug}`;
 
   const shareLinks = {
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(absoluteUrl)}`,

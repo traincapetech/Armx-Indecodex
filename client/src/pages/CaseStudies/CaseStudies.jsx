@@ -20,16 +20,16 @@ export default function CaseStudies() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>Client Case Studies &amp; Software Solutions | Traincape Technology</title>
+        <title>Client Case Studies &amp; Software Solutions | Armx-Indecodex</title>
         <meta
           name="description"
           content="Explore our corporate case studies of enterprise CRM software, agricultural logistics databases, React Native startups apps, and headless luxury storefronts."
         />
-        <meta name="keywords" content="Traincape Technology case studies, software development, CRM custom, ERP systems, B2B logistics, react native mobile apps" />
-        <link rel="canonical" href="https://www.traincapetech.in/case-studies" />
-        <meta property="og:title" content="Client Case Studies &amp; Software Solutions | Traincape Technology" />
+        <meta name="keywords" content="Armx-Indecodex case studies, software development, CRM custom, ERP systems, B2B logistics, react native mobile apps" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/case-studies" />
+        <meta property="og:title" content="Client Case Studies &amp; Software Solutions | Armx-Indecodex" />
         <meta property="og:description" content="Explore our corporate case studies of enterprise CRM software, agricultural logistics databases, React Native startups apps, and headless luxury storefronts." />
-        <meta property="og:url" content="https://traincapetech.in/case-studies" />
+        <meta property="og:url" content="https://Armx-Indecodextech.in/case-studies" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,7 +40,7 @@ export default function CaseStudies() {
                 "@type": "ListItem",
                 "position": 1,
                 "item": {
-                  "@id": "https://traincapetech.in",
+                  "@id": "https://Armx-Indecodextech.in",
                   "name": "Home"
                 }
               },
@@ -48,7 +48,7 @@ export default function CaseStudies() {
                 "@type": "ListItem",
                 "position": 2,
                 "item": {
-                  "@id": "https://traincapetech.in/case-studies",
+                  "@id": "https://Armx-Indecodextech.in/case-studies",
                   "name": "Case Studies"
                 }
               }
@@ -97,11 +97,10 @@ export default function CaseStudies() {
                     role="tab"
                     aria-selected={isActive}
                     onClick={() => setSelectedIndustry(ind.id)}
-                    className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide border transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                      isActive
+                    className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide border transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 ${isActive
                         ? "text-blue-600 bg-blue-50 border-blue-100 shadow-sm"
                         : "text-slate-600 hover:text-slate-900 bg-white hover:bg-slate-100/50 border-slate-200 shadow-sm"
-                    }`}
+                      }`}
                   >
                     {ind.label}
                   </button>

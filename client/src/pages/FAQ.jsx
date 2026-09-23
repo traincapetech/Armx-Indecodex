@@ -16,18 +16,18 @@ const FAQ = () => {
     <>
       {/* ✅ SEO Helmet */}
       <Helmet>
-        <title>Frequently Asked Questions (FAQ) – Traincape Technology</title>
+        <title>Frequently Asked Questions (FAQ) – Armx-Indecodex</title>
         <meta
           name="description"
-          content="Get answers to all your queries about Traincape Technology’s online IT training and certification courses in AWS, CompTIA, Microsoft, and Cisco."
+          content="Get answers to all your queries about Armx-Indecodex’s online IT training and certification courses in AWS, CompTIA, Microsoft, and Cisco."
         />
         <meta
           name="keywords"
-          content="Traincape Technology FAQ, IT certification help, AWS training, CompTIA certification, Microsoft training, Cisco courses"
+          content="Armx-Indecodex FAQ, IT certification help, AWS training, CompTIA certification, Microsoft training, Cisco courses"
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/frequently-asked-questions"
+          href="https://www.Armx-Indecodextech.in/frequently-asked-questions"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -37,7 +37,7 @@ const FAQ = () => {
         {/* ✅ Updated Headings */}
         <div className="text-center mb-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-            Frequently Asked Questions (FAQ) – Traincape Technology
+            Frequently Asked Questions (FAQ) – Armx-Indecodex
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-700 mb-6">
             Solutions to all your doubts cleared
@@ -127,7 +127,7 @@ const FAQ = () => {
               className="cursor-pointer bg-slate-200 md:p-4 p-2.5 border-2 border-black flex justify-between items-center mb-4 rounded-lg"
             >
               <h3 className="md:text-2xl text-xl font-semibold">
-                What are Traincape Technology’s customer support hours?
+                What are Armx-Indecodex’s customer support hours?
               </h3>
               <button className="text-2xl font-bold">
                 {expandedQuestion === 2 ? "-" : "+"}

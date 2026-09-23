@@ -46,7 +46,7 @@ const sendEmail = async (to, subject, text) => {
 const sendVoucherEmail = async (to, voucherData) => {
   try {
     const subject = `Your Voucher for ${voucherData.course} - ${voucherData.subCourse}`;
-    
+
     const htmlContent = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
@@ -75,12 +75,12 @@ const sendVoucherEmail = async (to, voucherData) => {
           
           <div style="text-align: center; margin-top: 30px;">
             <p style="color: #666; margin-bottom: 20px;">Need help? Contact our support team</p>
-            <a href="mailto:support@traincapetech.in" style="background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;">Contact Support</a>
+            <a href="mailto:support@Armx-Indecodextech.in" style="background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;">Contact Support</a>
           </div>
         </div>
         
         <div style="text-align: center; margin-top: 20px; color: #666; font-size: 12px;">
-          <p>© 2024 Traincape Technology. All rights reserved.</p>
+          <p>© 2024 Armx-Indecodex. All rights reserved.</p>
         </div>
       </div>
     `;

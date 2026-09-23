@@ -15,9 +15,9 @@ import datingAppLogin from "../../assets/caseStudies/dating-app/dashboard.png";
 import datingAppDashboard from "../../assets/caseStudies/dating-app/mobile.jpeg";
 import datingAppLogo from "../../assets/caseStudies/dating-app/logo.png";
 
-import traincapeDesktop from "../../assets/caseStudies/traincape/desktop.png";
-import traincapeMobile from "../../assets/caseStudies/traincape/mobile.png";
-import traincapeLogo from "../../assets/caseStudies/traincape/logo.png";
+import armxIndecodexDesktop from "../../assets/caseStudies/traincape/desktop.png";
+import armxIndecodexMobile from "../../assets/caseStudies/traincape/mobile.png";
+import armxIndecodexLogo from "../../assets/caseStudies/traincape/logo.png";
 
 export const caseStudiesData = [
   {
@@ -66,23 +66,23 @@ export const caseStudiesData = [
       "Highly responsive mobile experience"
     ],
     testimonial: {
-      quote: "Traincape converted our luxury branding into a blistering fast e-commerce portal. The performance gains were immediate.",
+      quote: "Armx-Indecodex converted our luxury branding into a blistering fast e-commerce portal. The performance gains were immediate.",
       author: "N. Khan",
       role: "Founder, NK Luxe",
       avatar: ""
     },
     seo: {
-      title: "NK Luxe headles e-commerce web portal case study | Traincape",
-      description: "How Traincape developed the high-performance headless luxury storefront for NK Luxe, achieving sub-second loads and premium aesthetics.",
+      title: "NK Luxe headles e-commerce web portal case study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed the high-performance headless luxury storefront for NK Luxe, achieving sub-second loads and premium aesthetics.",
       keywords: "headless ecommerce, retail portal, React web development, Stripe checkout integration"
     },
-    relatedProjects: ["verda", "traincape"]
+    relatedProjects: ["verda", "Armx-Indecodex"]
   },
   {
     id: "crm",
     slug: "crm",
     title: "Enterprise CRM & Unified HRMS Suite",
-    client: "Traincape Corporate Services",
+    client: "Armx-Indecodex Corporate Services",
     industry: "Enterprise Software",
     country: "United Kingdom",
     overview: "A comprehensive custom enterprise workspace consolidating Client Relationship Management, Human Resource Management, Automated Payroll, Biometric Attendance, and Inventory Control.",
@@ -131,8 +131,8 @@ export const caseStudiesData = [
       avatar: ""
     },
     seo: {
-      title: "Enterprise CRM & HRMS Custom Software Case Study | Traincape",
-      description: "How Traincape developed a bespoke, accessible corporate CRM & HRMS dashboard, consolidating operations and reducing overhead.",
+      title: "Enterprise CRM & HRMS Custom Software Case Study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed a bespoke, accessible corporate CRM & HRMS dashboard, consolidating operations and reducing overhead.",
       keywords: "custom CRM system, HRMS software build, automated payroll calculator, accessible dashboard"
     },
     relatedProjects: ["nk-luxe", "verda"]
@@ -189,11 +189,11 @@ export const caseStudiesData = [
       avatar: ""
     },
     seo: {
-      title: "Verda Exports International Trade Portal Case Study | Traincape",
-      description: "How Traincape developed a custom B2B agricultural logistics and supply chain portal with live tracking and document automation.",
+      title: "Verda Exports International Trade Portal Case Study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed a custom B2B agricultural logistics and supply chain portal with live tracking and document automation.",
       keywords: "supply chain portal, trade contract bidding, websocket logistics tracker, custom B2B software"
     },
-    relatedProjects: ["nk-luxe", "traincape"]
+    relatedProjects: ["nk-luxe", "Armx-Indecodex"]
   },
   {
     id: "dating-app",
@@ -247,20 +247,20 @@ export const caseStudiesData = [
       avatar: ""
     },
     seo: {
-      title: "Aura React Native Mobile App Case Study | Traincape",
-      description: "How Traincape developed the high-performance geo-connection mobile application with Firebase messaging and battery-optimized location services.",
+      title: "Aura React Native Mobile App Case Study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed the high-performance geo-connection mobile application with Firebase messaging and battery-optimized location services.",
       keywords: "React Native app, firebase dating app, background geolocation development, mobile chat backend"
     },
-    relatedProjects: ["nk-luxe", "traincape"]
+    relatedProjects: ["nk-luxe", "Armx-Indecodex"]
   },
   {
-    id: "traincape",
-    slug: "traincape",
-    title: "Traincape Corporate Portal & LMS Suite",
-    client: "Traincape Technology Pvt Ltd",
+    id: "Armx-Indecodex",
+    slug: "Armx-Indecodex",
+    title: "Armx-Indecodex Corporate Portal & LMS Suite",
+    client: "Armx-Indecodex Pvt Ltd",
     industry: "Software Design & EdTech",
     country: "India",
-    overview: "Redesigned Traincape's corporate storefront, custom LMS portals, and dynamic certificate directories. Built using HSL system tokens and pre-rendered crawling configurations.",
+    overview: "Redesigned Armx-Indecodex's corporate storefront, custom LMS portals, and dynamic certificate directories. Built using HSL system tokens and pre-rendered crawling configurations.",
     businessProblem: "The legacy education portal had disjointed layouts, poor mobile rendering, and lacked structured SEO optimization, missing organic certification searches.",
     challenges: [
       "Mapping 24 nested certification directories without losing URL ranks",
@@ -288,10 +288,10 @@ export const caseStudiesData = [
       { name: "Vikas M.", role: "Lead Frontend Engineer" }
     ],
     gallery: {
-      desktop: traincapeDesktop,
-      mobile: traincapeMobile
+      desktop: armxIndecodexDesktop,
+      mobile: armxIndecodexMobile
     },
-    logo: traincapeLogo,
+    logo: armxIndecodexLogo,
     results: [
       "100% crawlable static certification paths",
       "SEO readiness with breadcrumbs and schema integration",
@@ -301,12 +301,12 @@ export const caseStudiesData = [
     testimonial: {
       quote: "Our new platform represents our engineering capability. Page speeds are up and crawlers index our routes perfectly.",
       author: "P. Parichay",
-      role: "CEO, Traincape",
+      role: "CEO, Armx-Indecodex",
       avatar: ""
     },
     seo: {
-      title: "Traincape Corporate Portal & LMS Case Study | Traincape",
-      description: "How Traincape developed its own optimized corporate storefront, multi-language translation bindings, and secure certificate directories.",
+      title: "Armx-Indecodex Corporate Portal & LMS Case Study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed its own optimized corporate storefront, multi-language translation bindings, and secure certificate directories.",
       keywords: "LMS website design, certificate validation portal, multi-language React, SEO web development"
     },
     relatedProjects: ["crm", "nk-luxe"]

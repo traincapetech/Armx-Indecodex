@@ -25,7 +25,7 @@ const CertificateLookup = () => {
 
     try {
       const res = await axios.get(
-        `https://traincape-backend-uwoa.onrender.com/certificates/${certificateId}`
+        `https://Armx-Indecodex-backend-uwoa.onrender.com/certificates/${certificateId}`
       );
       if (res.data && res.data.success) {
         setCertificate(res.data.data);

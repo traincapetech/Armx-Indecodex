@@ -16,7 +16,7 @@ export const blogPosts = [
       name: "Saurav Kumar",
       role: "Lead Full Stack Architect",
       avatar: Saurav,
-      bio: "Saurav is a staff engineer at Traincape Technology specializing in high-performance web systems and MERN stack scaling.",
+      bio: "Saurav is a staff engineer at Armx-Indecodex specializing in high-performance web systems and MERN stack scaling.",
     },
     publishDate: "July 17, 2026",
     lastUpdated: "July 17, 2026",
@@ -50,7 +50,7 @@ async function saveApplication(formData) {
       <p>While serverless frameworks are growing, Express remains vital for microservices, websocket syncing, and complex session authorization layers. By structuring your Express APIs with clean controller layers and caching query responses in Redis, MERN platforms can easily support millions of concurrent connections.</p>
     `,
     seo: {
-      title: "Future of MERN Stack Development & React 19 | Traincape Blog",
+      title: "Future of MERN Stack Development & React 19 | Armx-Indecodex Blog",
       description:
         "How React 19 Server Actions, MongoDB vector search, and Express microservices are reshaping fullstack web systems in 2026.",
       keywords:
@@ -85,7 +85,7 @@ async function saveApplication(formData) {
       name: "Parichay Singh Rana",
       role: "Lead Cybersecurity Consultant",
       avatar: ParichaySir,
-      bio: "Parichay is a cybersecurity auditor at Traincape Tech auditing compliance guidelines, secure endpoints, and token handshakes.",
+      bio: "Parichay is a cybersecurity auditor at Armx-Indecodex Tech auditing compliance guidelines, secure endpoints, and token handshakes.",
     },
     publishDate: "May 12, 2026",
     lastUpdated: "July 17, 2026",
@@ -114,7 +114,7 @@ app.use(helmet()); // Safeguards headers Automatically</code></pre>
       <p>Prevent denial of service (DoS) attempts by applying rate limit thresholds using libraries like express-rate-limit. Track IP hashes in Redis to ensure scalable rate tracking across clustered server settings.</p>
     `,
     seo: {
-      title: "Securing Node.js REST APIs: Security Checklist | Traincape Blog",
+      title: "Securing Node.js REST APIs: Security Checklist | Armx-Indecodex Blog",
       description:
         "Step-by-step checklist to secure Express APIs using Helmet headers, strict CORS, rate limiters, and Redis token checks.",
       keywords:
@@ -149,7 +149,7 @@ app.use(helmet()); // Safeguards headers Automatically</code></pre>
       name: "Parichay Singh Rana",
       role: "Compliance & Governance Auditor",
       avatar: ParichaySir,
-      bio: "Parichay leads PECB training audits and information systems compliance certifications at Traincape.",
+      bio: "Parichay leads PECB training audits and information systems compliance certifications at Armx-Indecodex.",
     },
     publishDate: "June 08, 2026",
     lastUpdated: "July 17, 2026",
@@ -172,7 +172,7 @@ app.use(helmet()); // Safeguards headers Automatically</code></pre>
       <p>Educating employees is the single most critical factor. Enrolling core engineers and security leads in structured ISO 27001 lead auditor or implementer training ensures the organization is ready for official evaluations.</p>
     `,
     seo: {
-      title: "ISO 27001 Compliance & ISMS Audit Guide | Traincape Blog",
+      title: "ISO 27001 Compliance & ISMS Audit Guide | Armx-Indecodex Blog",
       description:
         "Learn how to structure your Statement of Applicability and pass ISO 27001 compliance reviews easily.",
       keywords:
@@ -229,7 +229,7 @@ app.use(helmet()); // Safeguards headers Automatically</code></pre>
       </div>
     `,
     seo: {
-      title: "Tarun Aggrawal Digital Marketing Course Download | Traincape",
+      title: "Tarun Aggrawal Digital Marketing Course Download | Armx-Indecodex",
       description:
         "Direct access link to the Advanced Digital Marketing paid course folders and resources.",
       keywords:
@@ -274,7 +274,7 @@ app.use(helmet()); // Safeguards headers Automatically</code></pre>
       </div>
     `,
     seo: {
-      title: "Complete WordPress Website Course Drive Link | Traincape",
+      title: "Complete WordPress Website Course Drive Link | Armx-Indecodex",
       description:
         "Access templates, theme folders, and elementor builds via Google Drive.",
       keywords:

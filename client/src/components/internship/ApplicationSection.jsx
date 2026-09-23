@@ -163,7 +163,7 @@ export default function ApplicationSection() {
                 onChange={handleChange}
                 rows="4"
                 className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                placeholder="Tell us about yourself, your educational background, and why you want to intern at Traincape..."
+                placeholder="Tell us about yourself, your educational background, and why you want to intern at Armx-Indecodex..."
                 required
               ></textarea>
             </div>

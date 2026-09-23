@@ -176,47 +176,47 @@ const VerifyCertificate = () => {
                   {/* Gold ornamental corner decorations */}
                   {/* Top-left */}
                   <svg style={{ position: "absolute", top: "0", left: "0", width: "100px", height: "100px" }} viewBox="0 0 100 100" fill="none">
-                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3"/>
-                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5"/>
-                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2"/>
-                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6"/>
-                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4"/>
+                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3" />
+                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5" />
+                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2" />
+                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6" />
+                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4" />
                   </svg>
                   {/* Top-right */}
                   <svg style={{ position: "absolute", top: "0", right: "0", width: "100px", height: "100px", transform: "scaleX(-1)" }} viewBox="0 0 100 100" fill="none">
-                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3"/>
-                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5"/>
-                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2"/>
-                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6"/>
-                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4"/>
+                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3" />
+                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5" />
+                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2" />
+                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6" />
+                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4" />
                   </svg>
                   {/* Bottom-left */}
                   <svg style={{ position: "absolute", bottom: "0", left: "0", width: "100px", height: "100px", transform: "scaleY(-1)" }} viewBox="0 0 100 100" fill="none">
-                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3"/>
-                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5"/>
-                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2"/>
-                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6"/>
-                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4"/>
+                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3" />
+                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5" />
+                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2" />
+                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6" />
+                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4" />
                   </svg>
                   {/* Bottom-right */}
                   <svg style={{ position: "absolute", bottom: "0", right: "0", width: "100px", height: "100px", transform: "scale(-1,-1)" }} viewBox="0 0 100 100" fill="none">
-                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3"/>
-                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5"/>
-                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2"/>
-                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6"/>
-                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4"/>
+                    <path d="M0,0 C0,0 30,5 50,25 C30,30 10,20 0,0Z" fill="#c9a84c" opacity="0.3" />
+                    <path d="M0,0 C5,15 15,30 35,40 C15,35 5,20 0,0Z" fill="#c9a84c" opacity="0.5" />
+                    <path d="M0,5 Q20,20 40,25 Q20,30 5,15Z" fill="#c9a84c" opacity="0.2" />
+                    <circle cx="20" cy="20" r="3" fill="#c9a84c" opacity="0.6" />
+                    <circle cx="35" cy="35" r="2" fill="#c9a84c" opacity="0.4" />
                   </svg>
 
                   {/* TOP: Logo + Title */}
                   <div style={{ display: "flex", alignItems: "center", gap: "16px", zIndex: 1 }}>
-                    <div style={{ 
-                      width: "70px", height: "70px", 
-                      background: "#1a1a5e", 
-                      borderRadius: "8px", 
+                    <div style={{
+                      width: "70px", height: "70px",
+                      background: "#1a1a5e",
+                      borderRadius: "8px",
                       display: "flex", alignItems: "center", justifyContent: "center",
                       padding: "8px"
                     }}>
-                      <img src={Logo} alt="Traincape" style={{ width: "100%", filter: "brightness(0) invert(1)" }} />
+                      <img src={Logo} alt="Armx-Indecodex" style={{ width: "100%", filter: "brightness(0) invert(1)" }} />
                     </div>
                     <div>
                       <h1
@@ -284,9 +284,9 @@ const VerifyCertificate = () => {
                       >
                         {verificationResult.name}
                       </h2>
-                      <div style={{ 
-                        height: "2px", 
-                        background: "linear-gradient(90deg, transparent, #c9a84c, transparent)", 
+                      <div style={{
+                        height: "2px",
+                        background: "linear-gradient(90deg, transparent, #c9a84c, transparent)",
                         margin: "4px auto 0",
                         width: "80%",
                       }} />
@@ -318,7 +318,7 @@ const VerifyCertificate = () => {
                           <strong style={{ color: "#1a1a5e" }}>{verificationResult.subTopic}</strong>{" "}
                           assessment under{" "}
                           <strong style={{ color: "#1a1a5e" }}>{verificationResult.course}</strong>{" "}
-                          from Traincape Technology.
+                          from Armx-Indecodex.
                         </>
                       )}
                     </p>
@@ -341,8 +341,8 @@ const VerifyCertificate = () => {
                         Certificate ID: {certificateId}
                       </p>
                       <p style={{ fontSize: "10px", color: "#999", margin: "0" }}>
-                        {verificationResult.issueDate 
-                          ? new Date(verificationResult.issueDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) 
+                        {verificationResult.issueDate
+                          ? new Date(verificationResult.issueDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
                           : today}
                       </p>
                     </div>
@@ -366,7 +366,7 @@ const VerifyCertificate = () => {
                       >
                         <div style={{ textAlign: "center" }}>
                           <span style={{ fontSize: "6px", fontWeight: "bold", color: "#1a1a5e", letterSpacing: "1px", display: "block" }}>
-                            ★ TRAINCAPE ★
+                            ★ Armx-Indecodex ★
                           </span>
                           <span style={{ fontSize: "8px", fontWeight: "900", color: "#1a1a5e", display: "block", margin: "1px 0" }}>
                             VERIFIED
@@ -377,19 +377,19 @@ const VerifyCertificate = () => {
                         </div>
                       </div>
                       <p style={{ fontSize: "8px", color: "#888", margin: "0", letterSpacing: "0.5px" }}>
-                        www.traincapetech.in/verify-certificate
+                        www.Armx-Indecodextech.in/verify-certificate
                       </p>
                     </div>
 
                     {/* Signature (right) */}
                     <div style={{ textAlign: "center", flex: "0 0 180px" }}>
                       {/* Logo small */}
-                      <p style={{ 
-                        fontSize: "9px", fontWeight: "800", color: "#1a1a5e", 
+                      <p style={{
+                        fontSize: "9px", fontWeight: "800", color: "#1a1a5e",
                         textTransform: "uppercase", letterSpacing: "1px", margin: "0 0 2px",
                         lineHeight: "1.2",
                       }}>
-                        Traincape<br/>Technology
+                        Armx-Indecodex<br />Technology
                       </p>
                       {/* Cursive signature */}
                       <p
@@ -450,8 +450,8 @@ const VerifyCertificate = () => {
                   <p className="text-sm text-gray-600">Issued By: {verificationResult.issuedBy}</p>
                 )}
                 <p className="text-sm text-gray-600">
-                  {verificationResult.issueDate 
-                    ? `Issued: ${new Date(verificationResult.issueDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}` 
+                  {verificationResult.issueDate
+                    ? `Issued: ${new Date(verificationResult.issueDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}`
                     : `Verified On: ${today}`}
                 </p>
                 <p className="text-xs font-mono mt-2 text-gray-500 truncate" title={certificateId}>

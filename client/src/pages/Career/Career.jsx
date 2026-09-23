@@ -195,12 +195,12 @@ const Career = () => {
   return (
     <>
       <Helmet>
-        <title>Careers at Traincape Technology | Join Our Growing Team</title>
+        <title>Careers at Armx-Indecodex | Join Our Growing Team</title>
         <meta
           name="description"
-          content="Join Traincape Technology and accelerate your career. Explore exciting opportunities in Sales and Lead Generation. Competitive pay, growth opportunities, and a great team await!"
+          content="Join Armx-Indecodex and accelerate your career. Explore exciting opportunities in Sales and Lead Generation. Competitive pay, growth opportunities, and a great team await!"
         />
-        <link rel="canonical" href="https://www.traincapetech.in/career" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/career" />
       </Helmet>
 
       <div className={styles.careerPage}>
@@ -236,7 +236,7 @@ const Career = () => {
         {/* Why Join Us Section */}
         <section className={styles.benefitsSection}>
           <div className={styles.sectionHeader}>
-            <span className={styles.sectionTag}>Why Traincape?</span>
+            <span className={styles.sectionTag}>Why Armx-Indecodex?</span>
             <h2 className={styles.sectionTitle}>
               Why You'll Love Working Here
             </h2>
@@ -346,7 +346,7 @@ const Career = () => {
             <div className={styles.formHeader}>
               <h2>Apply Now</h2>
               <p>
-                Take the first step towards an exciting career at Traincape
+                Take the first step towards an exciting career at Armx-Indecodex
                 Technology
               </p>
             </div>
@@ -461,7 +461,7 @@ const Career = () => {
 
               <div className={styles.formGroup}>
                 <label htmlFor="coverLetter">
-                  Why do you want to join Traincape? *
+                  Why do you want to join Armx-Indecodex? *
                 </label>
                 <textarea
                   id="coverLetter"

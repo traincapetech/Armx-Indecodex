@@ -29,13 +29,13 @@ const CertifiedCyberThreatAnalystCCTA = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-red-50 to-red-100">
       <Helmet>
-        <title>Certified Cyber Threat Analyst (CCTA) || Traning and Certifications|| PECB || Cyber Threat Analyst Certification || Traincape Technology || CCTA Certifications</title>
+        <title>Certified Cyber Threat Analyst (CCTA) || Traning and Certifications|| PECB || Cyber Threat Analyst Certification || Armx-Indecodex || CCTA Certifications</title>
         <meta name="description" content="Advance your cybersecurity career with the PECB Certified Cyber Threat Analyst (CCTA) program. Gain hands-on skills in threat intelligence and cyber threat analysis." />
-        <meta name="keywords" content="Training and Certifications, PECB, Certified Cyber Threat Analyst (CCTA), Certified Cyber Threat Analyst (CCTA), Certified Cyber Threat Analyst (CCTA), Traincape Technology, CCTA Certifications, Cyber Threat Intelligence, Cyber Threat Analysis, Cyber Threat Defense, Cyber Threat Detection, Cyber Threat Prevention" />
+        <meta name="keywords" content="Training and Certifications, PECB, Certified Cyber Threat Analyst (CCTA), Certified Cyber Threat Analyst (CCTA), Certified Cyber Threat Analyst (CCTA), Armx-Indecodex, CCTA Certifications, Cyber Threat Intelligence, Cyber Threat Analysis, Cyber Threat Defense, Cyber Threat Detection, Cyber Threat Prevention" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/technical-cybersecurity/certified-cyber-threat-analyst-ccta" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/technical-cybersecurity/certified-cyber-threat-analyst-ccta" />
       </Helmet>
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -45,7 +45,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -53,7 +53,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -61,7 +61,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               >
                 Certified Cyber Threat Analyst (CCTA)
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -69,7 +69,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               >
                 Master Threat Intelligence & Analysis
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -77,25 +77,25 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               >
                 Learn to analyze cyber threats, conduct threat intelligence, and implement proactive defense strategies. Master threat hunting and advanced persistent threat detection.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-red-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-red-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "CertifiedCyberThreatAnalyst", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -103,7 +103,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -152,7 +152,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Professional Certification</h2>
             <p className="text-xl text-gray-600">Advance your career with globally recognized expertise</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div
               initial="hidden"
@@ -165,7 +165,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Industry Recognition</h3>
               <p className="text-gray-600">Globally recognized professional certification</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -178,7 +178,7 @@ const CertifiedCyberThreatAnalystCCTA = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Career Growth</h3>
               <p className="text-gray-600">Advance to senior management positions</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -206,24 +206,24 @@ const CertifiedCyberThreatAnalystCCTA = () => {
             <h2 className="text-4xl font-bold mb-4">Start Your Professional Journey</h2>
             <p className="text-xl mb-8">Enroll now and advance your career with PECB certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-red-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-red-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "CertifiedCyberThreatAnalyst", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "CertifiedCyberThreatAnalyst", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

@@ -1,4 +1,4 @@
-# Traincape Technology - Deployment Guide
+# Armx-Indecodex - Deployment Guide
 
 ## 🚀 SEO-Optimized Deployment Instructions
 
@@ -16,7 +16,7 @@ This guide will help you deploy your SEO-optimized React application with proper
 - [x] `CourseSEO.jsx` - Course-specific SEO
 
 ### ✅ Build Optimization
-- [x] Canonical URLs set to `www.traincapetech.in`
+- [x] Canonical URLs set to `www.Armx-Indecodextech.in`
 - [x] Meta tags optimized
 - [x] Structured data implemented
 - [x] Error boundaries added
@@ -25,7 +25,7 @@ This guide will help you deploy your SEO-optimized React application with proper
 
 ### 1. Build the Application
 ```bash
-cd Traincape_/client
+cd Armx-Indecodex_/client
 npm run build
 ```
 
@@ -50,19 +50,19 @@ Check that these files exist in the `build` folder:
 #### Step 2: Configure Build Settings
 ```
 Repository: Your GitHub repository
-Base directory: Traincape_/client
+Base directory: Armx-Indecodex_/client
 Build command: npm run build
 Publish directory: build
 ```
 
 #### Step 3: Environment Variables (Optional)
 ```
-REACT_APP_API_URL=https://traincape-backend-1.onrender.com
+REACT_APP_API_URL=https://Armx-Indecodex-backend-1.onrender.com
 ```
 
 #### Step 4: Custom Domain Setup
 1. Go to Site settings > Domain management
-2. Add custom domain: `www.traincapetech.in`
+2. Add custom domain: `www.Armx-Indecodextech.in`
 3. Configure DNS records as instructed by Netlify
 
 ### Option 2: Vercel
@@ -75,34 +75,34 @@ REACT_APP_API_URL=https://traincape-backend-1.onrender.com
 #### Step 2: Configure Build Settings
 ```
 Framework Preset: Create React App
-Root Directory: Traincape_/client
+Root Directory: Armx-Indecodex_/client
 Build Command: npm run build
 Output Directory: build
 ```
 
 #### Step 3: Custom Domain
 1. Go to Settings > Domains
-2. Add `www.traincapetech.in`
+2. Add `www.Armx-Indecodextech.in`
 3. Configure DNS records
 
 ### Option 3: AWS S3 + CloudFront
 
 #### Step 1: Create S3 Bucket
 ```bash
-aws s3 mb s3://www.traincapetech.in
-aws s3 website s3://www.traincapetech.in --index-document index.html --error-document index.html
+aws s3 mb s3://www.Armx-Indecodextech.in
+aws s3 website s3://www.Armx-Indecodextech.in --index-document index.html --error-document index.html
 ```
 
 #### Step 2: Upload Build Files
 ```bash
-aws s3 sync build/ s3://www.traincapetech.in --delete
+aws s3 sync build/ s3://www.Armx-Indecodextech.in --delete
 ```
 
 #### Step 3: Configure CloudFront
 1. Create CloudFront distribution
 2. Origin: S3 bucket
 3. Behaviors: Redirect HTTP to HTTPS
-4. Custom domain: `www.traincapetech.in`
+4. Custom domain: `www.Armx-Indecodextech.in`
 
 ## 🔧 DNS Configuration
 
@@ -114,7 +114,7 @@ Value: [Your hosting provider's IP]
 
 Type: CNAME
 Name: @
-Value: www.traincapetech.in
+Value: www.Armx-Indecodextech.in
 ```
 
 ### SSL Certificate
@@ -125,14 +125,14 @@ Value: www.traincapetech.in
 
 ### 1. Google Search Console Setup
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add property: `https://www.traincapetech.in`
+2. Add property: `https://www.Armx-Indecodextech.in`
 3. Verify ownership (DNS or HTML file)
-4. Submit sitemap: `https://www.traincapetech.in/sitemap.xml`
+4. Submit sitemap: `https://www.Armx-Indecodextech.in/sitemap.xml`
 
 ### 2. Test Canonical URLs
 Visit these URLs to ensure proper redirects:
-- `https://traincapetech.in` → `https://www.traincapetech.in`
-- `http://traincapetech.in` → `https://www.traincapetech.in`
+- `https://Armx-Indecodextech.in` → `https://www.Armx-Indecodextech.in`
+- `http://Armx-Indecodextech.in` → `https://www.Armx-Indecodextech.in`
 
 ### 3. SEO Testing Tools
 - [Google PageSpeed Insights](https://pagespeed.web.dev/)
@@ -176,7 +176,7 @@ Use browser developer tools to check:
 #### 2. Canonical URLs Not Working
 **Solution**: Check redirect configuration
 ```bash
-curl -I https://traincapetech.in
+curl -I https://Armx-Indecodextech.in
 # Should return 301 redirect to www version
 ```
 
@@ -189,7 +189,7 @@ npm run build
 
 #### 4. Sitemap Not Found
 **Solution**: Verify sitemap location
-- URL: `https://www.traincapetech.in/sitemap.xml`
+- URL: `https://www.Armx-Indecodextech.in/sitemap.xml`
 - Should be accessible without authentication
 
 ## 📈 Performance Optimization

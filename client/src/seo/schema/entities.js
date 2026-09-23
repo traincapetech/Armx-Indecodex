@@ -55,30 +55,32 @@ export function getSameAsForTechnologies(techs = []) {
 }
 
 /**
- * Primary organization configuration for Traincape Technology.
+ * Primary organization configuration for Armx-Indecodex.
  */
-export const TRAINCAPE_ORG_INFO = {
-  name: "Traincape Technology",
-  legalName: "Traincape Technology (OPC) Private Limited",
-  url: "https://www.traincapetech.in",
-  logo: "https://www.traincapetech.in/android-chrome-512x512.png",
-  description: "Enterprise-grade Custom Software Engineering, CRM/HRMS Development, and Professional IT Certifications Training provider.",
-  telephone: "+441253928501", // Sales WhatsApp & Phone
-  email: "sales@traincapetech.in",
-  address: {
+export const ARMX_INDECODEX_ORG_INFO = {
+  name: "Armx-Indecodex",
+  legalName: "Armx-Indecodex (OPC) Private Limited",
+      url: "https://www.Armx-Indecodextech.in",
+        logo: "https://www.Armx-Indecodextech.in/android-chrome-512x512.png",
+          description: "Enterprise-grade Custom Software Engineering, CRM/HRMS Development, and Professional IT Certifications Training provider.",
+            telephone: "+441253928501", // Sales WhatsApp & Phone
+              email: "sales@Armx-Indecodextech.in",
+                address: {
     streetAddress: "Ramphal Chowk Road, Dwarka Sector 7",
-    addressLocality: "New Delhi",
-    addressRegion: "Delhi",
-    postalCode: "110075",
-    addressCountry: "IN"
+      addressLocality: "New Delhi",
+        addressRegion: "Delhi",
+          postalCode: "110075",
+            addressCountry: "IN"
   },
   geo: {
     latitude: "28.5830",
-    longitude: "77.0673"
+      longitude: "77.0673"
   },
   sameAs: [
-    "https://linkedin.com/company/traincape-technology", // Placeholder/Actual social pages
-    "https://github.com/traincape-technology",
+    "https://linkedin.com/company/Armx-Indecodex-technology", // Placeholder/Actual social pages
+    "https://github.com/Armx-Indecodex-technology",
     "https://search.google.com/local/writereview?placeid=ChIJwSll3OwFDTkRaLVyrLz7GXQ"
   ]
 };
+
+export const TRAINCAPE_ORG_INFO = ARMX_INDECODEX_ORG_INFO;

@@ -8,8 +8,8 @@
 | **Upload to local DB** | `node server/scripts/upload-questions.js` |
 | **Upload to production DB** | `node server/scripts/upload-questions.js prod` |
 | **Total certifications** | 292 (CompTIA + PECB + GIPMC) |
-| **Production Backend** | `https://traincape-backend-1.onrender.com` |
-| **Production Frontend** | `https://cognify.traincapetech.in` |
+| **Production Backend** | `https://Armx-Indecodex-backend-1.onrender.com` |
+| **Production Frontend** | `https://cognify.Armx-Indecodextech.in` |
 
 ---
 
@@ -152,22 +152,22 @@ Find your certification. Example for CWDE:
 Make sure your local server is running (`npm start` in server folder), then:
 
 ```bash
-cd "d:\train cape career\Traincape_Website"
+cd "d:\train cape career\Armx-Indecodex_Website"
 node server/scripts/upload-questions.js
 ```
 or
-node Traincape_Website/server/scripts/upload-questions.js
+node Armx-Indecodex_Website/server/scripts/upload-questions.js
 
 This uploads to: `http://localhost:8080/questions/addQuestion`
 
 ### 🌐 PRODUCTION (Live Website)
 
 ```bash
-cd "d:\train cape career\Traincape_Website"
+cd "d:\train cape career\Armx-Indecodex_Website"
 node server/scripts/upload-questions.js prod
 ```
 
-This uploads to: `https://traincape-backend-1.onrender.com/questions/addQuestion`
+This uploads to: `https://Armx-Indecodex-backend-1.onrender.com/questions/addQuestion`
 
 ### What the script does:
 
@@ -195,7 +195,7 @@ This uploads to: `https://traincape-backend-1.onrender.com/questions/addQuestion
 
 ```
 Found 292 courses in course-questions.json
-Uploading to: https://traincape-backend-1.onrender.com
+Uploading to: https://Armx-Indecodex-backend-1.onrender.com
 
 📝 comptia_CompTIACySA+: Uploading 10 questions...
    ✅ 10 uploaded, ❌ 0 failed
@@ -295,8 +295,8 @@ When deploying to production, make sure:
 | # | Task | How |
 |---|------|-----|
 | 1 | Questions uploaded to production DB | `node server/scripts/upload-questions.js prod` |
-| 2 | Backend running on Render | Check `https://traincape-backend-1.onrender.com` |
-| 3 | Frontend deployed | Check `https://cognify.traincapetech.in` |
+| 2 | Backend running on Render | Check `https://Armx-Indecodex-backend-1.onrender.com` |
+| 3 | Frontend deployed | Check `https://cognify.Armx-Indecodextech.in` |
 | 4 | API endpoints correct | `client/src/config/api.js` auto-switches based on NODE_ENV |
 | 5 | MongoDB accessible | Production MongoDB connection string in `.env` on Render |
 

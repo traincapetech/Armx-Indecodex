@@ -115,13 +115,13 @@ const CSAE = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-900 text-white">
       <Helmet>
         <title>CompTIA Security Analytics Expert (CSAE) Training & Certification  </title>
-        <meta name="description" content="Master the complete CompTIA Security Analytics Expert (CSAE) Certification Path: Security+, CySA+ or PenTest+, and CASP+ with Traincape Technology. Build expert-level cybersecurity analytics skills. Start from foundational security with Security+ and advance to elite CSAE status. Train and get certified today." />
-        <meta name="keywords" content="CompTIA CSAE, CompTIA, CSAE, CompTIA Certification, Traincape Technology" />
+        <meta name="description" content="Master the complete CompTIA Security Analytics Expert (CSAE) Certification Path: Security+, CySA+ or PenTest+, and CASP+ with Armx-Indecodex. Build expert-level cybersecurity analytics skills. Start from foundational security with Security+ and advance to elite CSAE status. Train and get certified today." />
+        <meta name="keywords" content="CompTIA CSAE, CompTIA, CSAE, CompTIA Certification, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/comptia/expert/csae" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/comptia/expert/csae" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -131,7 +131,7 @@ const CSAE = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -139,7 +139,7 @@ const CSAE = () => {
               >
                 <span className="text-sm font-semibold">EXPERT LEVEL • STACKABLE</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -147,7 +147,7 @@ const CSAE = () => {
               >
                 CompTIA Security Analytics Expert (CSAE) Training
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -155,7 +155,7 @@ const CSAE = () => {
               >
                 The Ultimate Security Certification Stack
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -163,34 +163,34 @@ const CSAE = () => {
               >
                 CompTIA Security Analytics Expert (CSAE) is a stackable certification that demonstrates mastery across the entire security spectrum—from foundational knowledge through analytical skills to advanced practitioner expertise. It validates your comprehensive security knowledge and hands-on experience.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-indigo-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Start Your Journey
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/CompTIA-single-page")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-indigo-900 transition"
                 >
                   View CompTIA Certifications
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACSAE", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Take Test
                 </button>
               </motion.div>
-            </div> 
-          
-            <motion.div 
+            </div>
+
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -452,24 +452,24 @@ const CSAE = () => {
             <h2 className="text-4xl font-bold mb-4">Become a Security Analytics Expert</h2>
             <p className="text-xl mb-8">Start your journey to comprehensive security mastery today</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-indigo-900 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Start Your Journey
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-indigo-900 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACSAE", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACSAE", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

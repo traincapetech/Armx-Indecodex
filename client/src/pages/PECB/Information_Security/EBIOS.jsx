@@ -29,14 +29,14 @@ const EBIOSRiskManager = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-teal-50 to-cyan-50">
       <Helmet>
-        <title> Traning and Certifications|| PECB || EBIOS Risk Manager || Traincape Technology </title>
+        <title> Traning and Certifications|| PECB || EBIOS Risk Manager || Armx-Indecodex </title>
         <meta name="description" content="Master EBIOS Risk Assessment Methodology for comprehensive information security risk assessment." />
-        <meta name="keywords" content="Training and Certifications, PECB, EBIOS Risk Manager, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB EBIOS Risk Manager, Traincape Technology, EBIOS Risk Manager, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB EBIOS Risk Manager, Traincape Technology" />
+        <meta name="keywords" content="Training and Certifications, PECB, EBIOS Risk Manager, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB EBIOS Risk Manager, Armx-Indecodex, EBIOS Risk Manager, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB EBIOS Risk Manager, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/information-security/ebios" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/information-security/ebios" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -46,7 +46,7 @@ const EBIOSRiskManager = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -54,7 +54,7 @@ const EBIOSRiskManager = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -62,7 +62,7 @@ const EBIOSRiskManager = () => {
               >
                 EBIOS Risk Manager
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -70,7 +70,7 @@ const EBIOSRiskManager = () => {
               >
                 Master EBIOS Risk Assessment Methodology
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -78,25 +78,25 @@ const EBIOSRiskManager = () => {
               >
                 EBIOS (Expression of Needs and Identification of Security Objectives) is a comprehensive risk assessment methodology. Master threat analysis, vulnerability assessment, and risk treatment planning using the EBIOS framework.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-teal-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-teal-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EBIOS", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -104,7 +104,7 @@ const EBIOSRiskManager = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -154,7 +154,7 @@ const EBIOSRiskManager = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Professional Risk Management Certification</h2>
             <p className="text-xl text-gray-600">Advance your career with EBIOS methodology expertise</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div
               initial="hidden"
@@ -167,7 +167,7 @@ const EBIOSRiskManager = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Risk Assessment</h3>
               <p className="text-gray-600">Master comprehensive risk assessment using EBIOS</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -180,7 +180,7 @@ const EBIOSRiskManager = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Career Growth</h3>
               <p className="text-gray-600">Advance to senior risk management positions</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -209,24 +209,24 @@ const EBIOSRiskManager = () => {
             <h2 className="text-4xl font-bold mb-4">Master EBIOS Risk Management</h2>
             <p className="text-xl mb-8">Enroll now and become an EBIOS expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-teal-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-teal-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EBIOS", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EBIOS", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

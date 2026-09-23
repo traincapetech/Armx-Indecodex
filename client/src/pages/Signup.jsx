@@ -314,7 +314,7 @@
 //           <div className="relative">
 //             <img
 //               src={logo}
-//               alt="Traincape Technology"
+//               alt="Armx-Indecodex"
 //               className="w-[90px] h-[90px] md:w-[130px] md:h-[130px] absolute top-0"
 //             />
 //           </div>
@@ -685,7 +685,7 @@ const Signup = () => {
             <div className="relative z-10">
               <img
                 src={logo}
-                alt="Traincape Technology"
+                alt="Armx-Indecodex"
                 className="w-[90px] h-[90px] md:w-[130px] md:h-[130px] absolute top-0 left-0"
               />
             </div>

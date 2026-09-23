@@ -87,9 +87,9 @@ const PECB = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title="PECB Certifications | Information Security, Cybersecurity & Compliance Training - Traincape Technology"
+        title="PECB Certifications | Information Security, Cybersecurity & Compliance Training - Armx-Indecodex"
         description="Explore PECB certification courses in information security (ISO 27001), cybersecurity, quality management, governance, AI, privacy & data protection. Internationally recognized certifications."
-        canonical="https://www.traincapetech.in/PECB"
+        canonical="https://www.Armx-Indecodextech.in/PECB"
       />
       {/* Hero Section */}
       <motion.section

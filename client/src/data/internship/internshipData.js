@@ -1,10 +1,10 @@
-// Data configuration for the Traincape Internship Program
+// Data configuration for the Armx-Indecodex Internship Program
 
 export const programStats = [
   { label: "Interns Mentored", value: "60+", description: "Students from top engineering colleges" },
   { label: "Projects Contributed To", value: "15+", description: "Real-world production services & sites" },
   { label: "Hands-on Learning", value: "100%", description: "Real client projects with mentor guidance" },
-  {label: "Live Deployments",value: "15+",description: "Applications deployed to production environments"},
+  { label: "Live Deployments", value: "15+", description: "Applications deployed to production environments" },
 ];
 
 export const internshipTracks = [
@@ -71,9 +71,9 @@ export const featuredAlumni = [
     name: "Rohit Sharma",
     college: "Chitkara University",
     role: "Full Stack Engineer",
-    currentCompany: "Traincape Technology",
+    currentCompany: "Armx-Indecodex",
     photoUrl: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=256&h=256",
-    testimonial: "The Traincape internship was a game-changer. I transitioned from writing basic scripts to contributing to real-world React storefronts. The mentorship and daily code reviews helped me land a full-time role immediately after graduation."
+    testimonial: "The Armx-Indecodex internship was a game-changer. I transitioned from writing basic scripts to contributing to real-world React storefronts. The mentorship and daily code reviews helped me land a full-time role immediately after graduation."
   },
   {
     name: "Pooja Malhotra",
@@ -81,7 +81,7 @@ export const featuredAlumni = [
     college: "Rayat Bahra University",
     currentCompany: "Accenture",
     photoUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=256&h=256",
-    testimonial: "Unlike other training institutes, Traincape put me on a live client project from week three. I learned git workflows, Tailwind responsiveness, and sitemap structures. The letter of recommendation made my resume stand out."
+    testimonial: "Unlike other training institutes, Armx-Indecodex put me on a live client project from week three. I learned git workflows, Tailwind responsiveness, and sitemap structures. The letter of recommendation made my resume stand out."
   },
   {
     name: "Aman Preet",
@@ -95,7 +95,7 @@ export const featuredAlumni = [
 
 export const faqs = [
   {
-    question: "Who can apply for the Traincape Internship Program?",
+    question: "Who can apply for the Armx-Indecodex Internship Program?",
     answer: "Computer Science, IT, and engineering students (B.Tech, BE, MCA, BCA) seeking summer training, winter training, or industrial semester internships are eligible to apply. Self-taught developers looking for industry experience are also welcome."
   },
   {
@@ -104,7 +104,7 @@ export const faqs = [
   },
   {
     question: "Will I work on real projects?",
-    answer: "Yes. All Traincape interns contribute to active internal product modules (like our CRM and HRMS systems) and live client deployments where appropriate under the direct supervision of senior engineers."
+    answer: "Yes. All Armx-Indecodex interns contribute to active internal product modules (like our CRM and HRMS systems) and live client deployments where appropriate under the direct supervision of senior engineers."
   },
   {
     question: "Do I receive a certificate and recommendation letter?",

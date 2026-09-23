@@ -38,7 +38,7 @@ export default function RealProjects() {
             Work on Real Software Projects
           </h2>
           <p className="text-slate-500 text-sm md:text-base leading-relaxed">
-            We don't assign mock tutorials. Traincape interns write code that contributes directly to active internal tools (like our CRM and employee portals) and client systems. Under supervision, you gain real exposure to software cycles, issue debugging, and staging environments.
+            We don't assign mock tutorials. Armx-Indecodex interns write code that contributes directly to active internal tools (like our CRM and employee portals) and client systems. Under supervision, you gain real exposure to software cycles, issue debugging, and staging environments.
           </p>
         </div>
 

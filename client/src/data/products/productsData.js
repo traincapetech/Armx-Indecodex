@@ -15,13 +15,13 @@ export const productsData = [
   {
     id: "crm",
     slug: "crm",
-    name: "Traincape CRM",
+    name: "Armx-Indecodex CRM",
     tagline: "Enterprise-grade Client Relationship Management System",
     logo: crmLogo,
     heroImage: crmHero,
     dashboardPreview: crmDashboard,
     shortDescription: "Consolidate leads, automate sales cycles, track conversations, and analyze deal progress through a secure cloud interface.",
-    description: "Traincape CRM is engineered for mid-market and enterprise teams seeking to automate pipeline tracking, secure communications, and generate reports without workflow clutter.",
+    description: "Armx-Indecodex CRM is engineered for mid-market and enterprise teams seeking to automate pipeline tracking, secure communications, and generate reports without workflow clutter.",
     stats: [
       { label: "Deal Closure Speed", value: "+32%" },
       { label: "Workflow Efficiency", value: "+45%" },
@@ -80,10 +80,10 @@ export const productsData = [
     faqs: [
       {
         q: "Can we migrate data from Salesforce or HubSpot?",
-        a: "Yes. Traincape CRM provides built-in CSV/JSON data migration wizards that map legacy fields automatically."
+        a: "Yes. Armx-Indecodex CRM provides built-in CSV/JSON data migration wizards that map legacy fields automatically."
       },
       {
-        q: "Is it hosted on Traincape servers or our local cloud?",
+        q: "Is it hosted on Armx-Indecodex servers or our local cloud?",
         a: "We support both. We can deploy a dedicated instance to your private AWS/Azure cloud, ensuring full data control."
       },
       {
@@ -92,21 +92,21 @@ export const productsData = [
       }
     ],
     seo: {
-      title: "Traincape CRM | Custom Enterprise CRM Software Showcase",
-      description: "Explore the features, architecture, security standards, and modules of the Traincape CRM system designed for mid-market B2B scaling.",
+      title: "Armx-Indecodex CRM | Custom Enterprise CRM Software Showcase",
+      description: "Explore the features, architecture, security standards, and modules of the Armx-Indecodex CRM system designed for mid-market B2B scaling.",
       keywords: "custom CRM software, enterprise CRM, sales pipeline tool, headless CRM dashboard"
     }
   },
   {
     id: "hrms",
     slug: "hrms",
-    name: "Traincape HRMS",
+    name: "Armx-Indecodex HRMS",
     tagline: "Centralized Human Resource Management Platform",
     logo: hrmsLogo,
     heroImage: hrmsHero,
     dashboardPreview: hrmsDashboard,
     shortDescription: "Manage employee profiles, team structures, documentation checklists, and leave policies through an accessible dashboard.",
-    description: "Traincape HRMS streamlines core employee operations, from recruitment onboarding workflows to policy compliance validation.",
+    description: "Armx-Indecodex HRMS streamlines core employee operations, from recruitment onboarding workflows to policy compliance validation.",
     stats: [
       { label: "Onboarding Cycle Time", value: "-40%" },
       { label: "Admin overhead reduction", value: "+30%" }
@@ -146,25 +146,25 @@ export const productsData = [
     faqs: [
       {
         q: "Does it connect to payroll calculators?",
-        a: "Yes. Traincape HRMS integrates with Traincape Payroll to sync attendance and contract parameters automatically."
+        a: "Yes. Armx-Indecodex HRMS integrates with Armx-Indecodex Payroll to sync attendance and contract parameters automatically."
       }
     ],
     seo: {
-      title: "Traincape HRMS | Custom Human Resource Management Software",
-      description: "Discover Traincape HRMS. Centralize employee profiles, documentation lists, and policy distributions under a secure, accessible dashboard.",
+      title: "Armx-Indecodex HRMS | Custom Human Resource Management Software",
+      description: "Discover Armx-Indecodex HRMS. Centralize employee profiles, documentation lists, and policy distributions under a secure, accessible dashboard.",
       keywords: "HRMS portal development, employee directory, custom HR software, document vault"
     }
   },
   {
     id: "payroll",
     slug: "payroll",
-    name: "Traincape Payroll",
+    name: "Armx-Indecodex Payroll",
     tagline: "Automated Pay & Tax Compliance Ecosystem",
     logo: payrollLogo,
     heroImage: payrollHero,
     dashboardPreview: payrollDashboard,
     shortDescription: "Calculate taxes, track banking transfers, generate dynamic payslips, and coordinate payouts without errors.",
-    description: "Traincape Payroll automates bulk calculations, salary disbursements, and compliance filings, reducing processing cycle times.",
+    description: "Armx-Indecodex Payroll automates bulk calculations, salary disbursements, and compliance filings, reducing processing cycle times.",
     stats: [
       { label: "Processing Speed", value: "Instant" },
       { label: "Calculation Error Rate", value: "0.00%" }
@@ -204,12 +204,12 @@ export const productsData = [
     faqs: [
       {
         q: "Does it support local tax rules for India or the UK?",
-        a: "Yes. Traincape Payroll has localized calculation modules for both region's standard tax deductions."
+        a: "Yes. Armx-Indecodex Payroll has localized calculation modules for both region's standard tax deductions."
       }
     ],
     seo: {
-      title: "Traincape Payroll | Custom Payroll Automation Software",
-      description: "Automate payouts, salary calculations, tax filings, and payslip generations. Explore the Traincape Payroll system specifications.",
+      title: "Armx-Indecodex Payroll | Custom Payroll Automation Software",
+      description: "Automate payouts, salary calculations, tax filings, and payslip generations. Explore the Armx-Indecodex Payroll system specifications.",
       keywords: "payroll automation, tax calculator API, custom accounting software, salary transfer tracker"
     }
   }

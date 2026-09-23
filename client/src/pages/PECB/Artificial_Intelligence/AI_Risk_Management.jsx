@@ -29,11 +29,11 @@ const AIRiskManagement = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-fuchsia-50 to-fuchsia-100">
       <Helmet>
-        <title>AI Risk Management || Traning and Certifications|| PECB ||  Traincape Technology || AI Risk Management Certifications</title>
+        <title>AI Risk Management || Traning and Certifications|| PECB ||  Armx-Indecodex || AI Risk Management Certifications</title>
         <meta name="description" content="Master AI Risk & Ethics with comprehensive training in AI risk assessment, bias mitigation, and responsible AI deployment strategies." />
-        <meta name="keywords" content="Training and Certifications, PECB, AI Risk Management, AI Risk Management, AI Risk Management, Traincape Technology, AI Risk Management Certifications, AI Risk Management, AI Risk Management, AI Risk Management" />
+        <meta name="keywords" content="Training and Certifications, PECB, AI Risk Management, AI Risk Management, AI Risk Management, Armx-Indecodex, AI Risk Management Certifications, AI Risk Management, AI Risk Management, AI Risk Management" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/artificial-intelligence/ai-risk-management" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/artificial-intelligence/ai-risk-management" />
       </Helmet>
       <motion.section
         initial="hidden"

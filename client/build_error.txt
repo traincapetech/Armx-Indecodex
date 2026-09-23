@@ -2,26 +2,26 @@
 > client@0.1.0 prebuild
 > node scripts/prepare-build.js && node scripts/generate-sitemap.js
 
-[prepare-build] Cleaned: /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/build
-[generate-sitemap] Wrote 11 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-static.xml
-[generate-sitemap] Wrote 8 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-services.xml
-[generate-sitemap] Wrote 3 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-products.xml
-[generate-sitemap] Wrote 5 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-portfolio.xml
-[generate-sitemap] Wrote 5 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-case-studies.xml
-[generate-sitemap] Wrote 74 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-training.xml
-[generate-sitemap] Wrote 243 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-certifications.xml
-[generate-sitemap] Wrote 1 URLs -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap-blogs.xml
-[generate-sitemap] Wrote Sitemap Index with 8 sitemaps -> /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/public/sitemap.xml
+[prepare-build] Cleaned: /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/build
+[generate-sitemap] Wrote 11 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-static.xml
+[generate-sitemap] Wrote 8 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-services.xml
+[generate-sitemap] Wrote 3 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-products.xml
+[generate-sitemap] Wrote 5 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-portfolio.xml
+[generate-sitemap] Wrote 5 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-case-studies.xml
+[generate-sitemap] Wrote 74 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-training.xml
+[generate-sitemap] Wrote 243 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-certifications.xml
+[generate-sitemap] Wrote 1 URLs -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap-blogs.xml
+[generate-sitemap] Wrote Sitemap Index with 8 sitemaps -> /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/public/sitemap.xml
 
 > client@0.1.0 build
 > craco build
 
 Creating an optimized production build...
-[BABEL] Note: The code generator has deoptimised the styling of /Users/a/Desktop/Traincape-Technology-main/Traincape_/client/src/assets/CareerBannerIMG.svg as it exceeds the max of 500KB.
+[BABEL] Note: The code generator has deoptimised the styling of /Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/src/assets/CareerBannerIMG.svg as it exceeds the max of 500KB.
 [BABEL] Note: The code generator has deoptimised the styling of undefined as it exceeds the max of 500KB.
 Compiled with warnings.
 
-Failed to parse source map from '/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/html2pdf.js/dist/es6-promise.map' file: Error: ENOENT: no such file or directory, open '/Users/a/Desktop/Traincape-Technology-main/Traincape_/client/node_modules/html2pdf.js/dist/es6-promise.map'
+Failed to parse source map from '/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/html2pdf.js/dist/es6-promise.map' file: Error: ENOENT: no such file or directory, open '/Users/a/Desktop/Armx-Indecodex-Technology-main/Armx-Indecodex_/client/node_modules/html2pdf.js/dist/es6-promise.map'
 
 [eslint] 
 src/App.js
@@ -745,8 +745,8 @@ Find out more about deployment here:
 ️️️💬  console.log at /portfolio/crm: Failed to load resource: net::ERR_FAILED
 ️️️💬  console.log at /portfolio/crm: Failed to load resource: net::ERR_FAILED
 ✅  crawled 35 out of 47 (/portfolio/crm)
-️️️💬  console.log at /portfolio/traincape: Failed to load resource: net::ERR_FAILED
-️️️💬  console.log at /portfolio/traincape: Failed to load resource: net::ERR_FAILED
-✅  crawled 36 out of 47 (/portfolio/traincape)
+️️️💬  console.log at /portfolio/Armx-Indecodex: Failed to load resource: net::ERR_FAILED
+️️️💬  console.log at /portfolio/Armx-Indecodex: Failed to load resource: net::ERR_FAILED
+✅  crawled 36 out of 47 (/portfolio/Armx-Indecodex)
 ️️️💬  console.log at /portfolio/bold-india-group: Failed to load resource: net::ERR_FAILED
 ️️️💬  console.log at /portfolio/bold-india-group: Failed to load resource: net::ERR_FAILED

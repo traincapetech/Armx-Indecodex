@@ -113,12 +113,12 @@ const ComptiaNetworkPlus = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-green-50 to-teal-50">
       <SEOHead
-        title="CompTIA Network+ Certification Training | Networking Fundamentals - Traincape Technology"
+        title="CompTIA Network+ Certification Training | Networking Fundamentals - Armx-Indecodex"
         description="Get CompTIA Network+ certified. Master networking fundamentals, implementation, operations, and security. Exam N10-009."
-        canonical="https://www.traincapetech.in/comptia/specialist/network-plus"
+        canonical="https://www.Armx-Indecodextech.in/comptia/specialist/network-plus"
       />
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -128,7 +128,7 @@ const ComptiaNetworkPlus = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -136,7 +136,7 @@ const ComptiaNetworkPlus = () => {
               >
                 <span className="text-sm font-semibold">SPECIALIST LEVEL</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -144,7 +144,7 @@ const ComptiaNetworkPlus = () => {
               >
                 CompTIA Network+
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -152,7 +152,7 @@ const ComptiaNetworkPlus = () => {
               >
                 Master Network Infrastructure & Technologies
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -160,25 +160,25 @@ const ComptiaNetworkPlus = () => {
               >
                 CompTIA Network+ validates the essential knowledge and skills needed to confidently design, configure, manage, and troubleshoot wired and wireless networks.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-teal-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => window.open("https://drive.google.com/file/d/1STSS_glddrQljf4Ia6HeA_3WqgIf54Hp/view", "_blank")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-teal-600 transition"
                 >
                   Download Brochure
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetwork+", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -186,7 +186,7 @@ const ComptiaNetworkPlus = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -381,24 +381,24 @@ const ComptiaNetworkPlus = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Master Networking?</h2>
             <p className="text-xl mb-8">Build a strong foundation for your networking career</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-teal-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-teal-600 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetwork+", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetwork+", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

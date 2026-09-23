@@ -32,17 +32,17 @@ const ReviewPage = () => {
     <>
       {/* SEO */}
       <Helmet>
-        <title>Trusted by Clients Worldwide | Traincape Technology</title>
+        <title>Trusted by Clients Worldwide | Armx-Indecodex</title>
         <meta
           name="description"
           content="Discover what our clients say about us. Read how we help our clients achieve their goals with our expert IT Certifications."
         />
-        <link rel="canonical" href="https://www.traincapetech.in/review-page" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/review-page" />
       </Helmet>
 
       {/* Main Container: Added max-w-7xl for better structure on large screens */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 fade-in">
-        
+
         {/* Breadcrumb - Enhanced UI (from previous recommendation) */}
         <div className="flex items-center w-full py-3 bg-white border-b border-gray-200 mb-8">
           {/* Home Link - Clearer clickable color and focus state */}
@@ -79,7 +79,7 @@ const ReviewPage = () => {
             Real feedback from happy customers on Google, reflecting our commitment to expert IT Certifications.
           </p>
         </div>
-        
+
         {/* Write a Review Button - **Massively improved UI** */}
         <div className="flex justify-center mb-10">
           <a

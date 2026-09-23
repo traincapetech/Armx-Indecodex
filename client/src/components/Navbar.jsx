@@ -5,7 +5,7 @@ import { ImCross } from "react-icons/im";
 import { FaCopy, FaCheck } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { logoutUser } from "../slices/userSlice";
-import logo from "../assets/TT.png";
+import logo from "../assets/Armx-Indecodex-Logo.png";
 import DashboardHeader from "../pages/DashboardHeader";
 import ReactDOM from "react-dom";
 
@@ -42,7 +42,7 @@ const Navbar = () => {
   const accountNumber = "732205000345";
   const bankName = "ICICI Bank";
   const branchName = "Palam Colony";
-  const accountHolderName = "TRAINCAPE TECHNOLOGY (OPC) PRIVATE LIMITED";
+  const accountHolderName = "Armx-Indecodex (OPC) PRIVATE LIMITED";
   const ifscCode = "ICIC0007322";
   const Email = "sales@traincapetech.info";
 
@@ -258,19 +258,26 @@ const Navbar = () => {
       <nav className={navClass} aria-label="Main Navigation" style={{ fontFamily: 'Inter, sans-serif' }}>
         <div className="mx-auto flex items-center justify-between w-full">
           {/* Logo Section */}
-          <div className="flex items-center lg:w-[15%] justify-start">
+          <div className="flex items-center lg:w-[22%] justify-start">
             <div
-              className="flex items-center cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out"
+              className="flex items-center gap-2.5 cursor-pointer transform hover:scale-102 transition duration-300 ease-in-out"
               onClick={() => navigate("/")}
             >
               <img
                 src={logo}
-                alt="Traincape Technology"
-                className="w-auto h-20 md:h-24 lg:h-28 object-contain"
-                style={{ filter: useTransparentNav ? "none" : "brightness(0.12) contrast(1.5)" }}
-                width="130"
-                height="130"
+                alt="Armx-Indicodex"
+                className="w-auto h-14 md:h-16 lg:h-18 object-contain"
+                width="120"
+                height="120"
               />
+              <div className="hidden sm:flex flex-col border-l border-slate-400/30 pl-2.5 py-0.5 text-left">
+                <span className={`text-[10px] font-bold uppercase tracking-wider ${useTransparentNav ? "text-blue-300" : "text-blue-600"}`}>
+                  A Unit of Tax Bucket
+                </span>
+                <span className={`text-[9px] font-medium tracking-tight ${useTransparentNav ? "text-slate-200/90" : "text-slate-500"}`}>
+                  Enterprise Software & CRM
+                </span>
+              </div>
             </div>
           </div>
 
@@ -325,11 +332,10 @@ const Navbar = () => {
                   to="/login"
                   onClick={handleLogin}
                   aria-label="Login"
-                  className={`font-semibold border px-5 py-2 rounded-lg transition duration-300 shadow-sm ${
-                    useTransparentNav
+                  className={`font-semibold border px-5 py-2 rounded-lg transition duration-300 shadow-sm ${useTransparentNav
                       ? "text-white border-white/40 hover:bg-white/10 hover:border-white"
                       : "text-slate-700 border-slate-200 hover:bg-slate-50 hover:text-blue-600"
-                  }`}
+                    }`}
                 >
                   Login
                 </Link>

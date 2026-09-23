@@ -37,11 +37,11 @@ const IEC27701PrivacyInformationManagementSystem = () => {
         </title>
         <meta
           name="description"
-          content="Achieve ISO/IEC 27701 certification with expert training and certification from Traincape Technology. Learn how to implement and audit ISO/IEC 27701. Our certified training courses help you develop the skills to manage and protect personal data effectively."
+          content="Achieve ISO/IEC 27701 certification with expert training and certification from Armx-Indecodex. Learn how to implement and audit ISO/IEC 27701. Our certified training courses help you develop the skills to manage and protect personal data effectively."
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/privacy/iso-27701"
+          href="https://www.Armx-Indecodextech.in/pecb/privacy/iso-27701"
         />
       </Helmet>
 

@@ -4,9 +4,9 @@ import SEOHead from './SEOHead';
 // Course-specific SEO data
 const courseSEOData = {
   aws: {
-    title: "AWS Certification Training | Cloud Computing Courses | Traincape Technology",
+    title: "AWS Certification Training | Cloud Computing Courses | Armx-Indecodex",
     description: "Master AWS cloud computing with our comprehensive certification training. Learn AWS Solutions Architect, Developer, SysOps, and more. Expert-led online courses with hands-on practice.",
-    canonical: "https://www.traincapetech.in/aws",
+    canonical: "https://www.Armx-Indecodextech.in/aws",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -14,8 +14,8 @@ const courseSEOData = {
       "description": "Comprehensive Amazon Web Services cloud computing certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic IT knowledge",
       "educationalLevel": "Professional",
@@ -38,9 +38,9 @@ const courseSEOData = {
   },
 
   microsoft: {
-    title: "Microsoft Certification Training | Azure, Office 365, Security | Traincape Technology",
+    title: "Microsoft Certification Training | Azure, Office 365, Security | Armx-Indecodex",
     description: "Excel in Microsoft technologies with our certification training. Master Azure, Office 365, Microsoft 365, Security, and more. Expert-led courses for IT professionals.",
-    canonical: "https://www.traincapetech.in/microsoft",
+    canonical: "https://www.Armx-Indecodextech.in/microsoft",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -48,8 +48,8 @@ const courseSEOData = {
       "description": "Comprehensive Microsoft technology certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic IT knowledge",
       "educationalLevel": "Professional",
@@ -67,9 +67,9 @@ const courseSEOData = {
   },
 
   cisco: {
-    title: "Cisco Certification Training | CCNA, CCNP, CCIE | Traincape Technology",
+    title: "Cisco Certification Training | CCNA, CCNP, CCIE | Armx-Indecodex",
     description: "Master Cisco networking with our certification training. CCNA, CCNP, CCIE courses for networking professionals. Expert-led training with hands-on labs and real-world scenarios.",
-    canonical: "https://www.traincapetech.in/cisco",
+    canonical: "https://www.Armx-Indecodextech.in/cisco",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -77,8 +77,8 @@ const courseSEOData = {
       "description": "Comprehensive Cisco networking certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic networking knowledge",
       "educationalLevel": "Professional",
@@ -96,9 +96,9 @@ const courseSEOData = {
   },
 
   comptia: {
-    title: "CompTIA Certification Training | A+, Network+, Security+ | Traincape Technology",
+    title: "CompTIA Certification Training | A+, Network+, Security+ | Armx-Indecodex",
     description: "Build your IT foundation with CompTIA certifications. A+, Network+, Security+, Cloud+, and more. Expert-led training for IT professionals and beginners.",
-    canonical: "https://www.traincapetech.in/comptia",
+    canonical: "https://www.Armx-Indecodextech.in/comptia",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -106,8 +106,8 @@ const courseSEOData = {
       "description": "Comprehensive CompTIA IT certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic computer knowledge",
       "educationalLevel": "Beginner to Professional",
@@ -125,9 +125,9 @@ const courseSEOData = {
   },
 
   pecb: {
-    title: "PECB Certification Training | ISO Standards, Information Security | Traincape Technology",
+    title: "PECB Certification Training | ISO Standards, Information Security | Armx-Indecodex",
     description: "Master ISO standards and information security with PECB certifications. ISO 27001, ISO 9001, ISO 45001, and more. Expert-led training for compliance professionals.",
-    canonical: "https://www.traincapetech.in/pecb",
+    canonical: "https://www.Armx-Indecodextech.in/pecb",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -135,8 +135,8 @@ const courseSEOData = {
       "description": "Professional PECB ISO standards certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic business knowledge",
       "educationalLevel": "Professional",
@@ -154,9 +154,9 @@ const courseSEOData = {
   },
 
   ibm: {
-    title: "IBM Certification Training | Cloud, AI, Data Science | Traincape Technology",
+    title: "IBM Certification Training | Cloud, AI, Data Science | Armx-Indecodex",
     description: "Master IBM technologies with our certification training. IBM Cloud, Watson AI, Data Science, and more. Expert-led courses for enterprise IT professionals.",
-    canonical: "https://www.traincapetech.in/ibm",
+    canonical: "https://www.Armx-Indecodextech.in/ibm",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -164,8 +164,8 @@ const courseSEOData = {
       "description": "Comprehensive IBM technology certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic IT knowledge",
       "educationalLevel": "Professional",
@@ -183,9 +183,9 @@ const courseSEOData = {
   },
 
   adobe: {
-    title: "Adobe Certification Training | Creative Cloud, Digital Media | Traincape Technology",
+    title: "Adobe Certification Training | Creative Cloud, Digital Media | Armx-Indecodex",
     description: "Master Adobe Creative Cloud with our certification training. Photoshop, Illustrator, InDesign, Premiere Pro, and more. Expert-led courses for creative professionals.",
-    canonical: "https://www.traincapetech.in/adobe",
+    canonical: "https://www.Armx-Indecodextech.in/adobe",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -193,8 +193,8 @@ const courseSEOData = {
       "description": "Comprehensive Adobe Creative Cloud certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic computer skills",
       "educationalLevel": "Beginner to Professional",
@@ -212,9 +212,9 @@ const courseSEOData = {
   },
 
   autodesk: {
-    title: "Autodesk Certification Training | AutoCAD, Revit, 3D Design | Traincape Technology",
+    title: "Autodesk Certification Training | AutoCAD, Revit, 3D Design | Armx-Indecodex",
     description: "Master Autodesk software with our certification training. AutoCAD, Revit, 3ds Max, and more. Expert-led courses for architects, engineers, and designers.",
-    canonical: "https://www.traincapetech.in/autodesk",
+    canonical: "https://www.Armx-Indecodextech.in/autodesk",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -222,8 +222,8 @@ const courseSEOData = {
       "description": "Comprehensive Autodesk software certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic computer skills",
       "educationalLevel": "Beginner to Professional",
@@ -241,9 +241,9 @@ const courseSEOData = {
   },
 
   tally: {
-    title: "Tally Certification Training | Accounting Software | Traincape Technology",
+    title: "Tally Certification Training | Accounting Software | Armx-Indecodex",
     description: "Master Tally ERP 9 with our certification training. Learn accounting, inventory management, GST, and more. Expert-led courses for accounting professionals.",
-    canonical: "https://www.traincapetech.in/tally",
+    canonical: "https://www.Armx-Indecodextech.in/tally",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -251,8 +251,8 @@ const courseSEOData = {
       "description": "Comprehensive Tally ERP 9 accounting software training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic accounting knowledge",
       "educationalLevel": "Beginner to Professional",
@@ -270,9 +270,9 @@ const courseSEOData = {
   },
 
   unity: {
-    title: "Unity Certification Training | Game Development | Traincape Technology",
+    title: "Unity Certification Training | Game Development | Armx-Indecodex",
     description: "Master Unity game development with our certification training. Learn C#, 3D modeling, game design, and more. Expert-led courses for aspiring game developers.",
-    canonical: "https://www.traincapetech.in/unity",
+    canonical: "https://www.Armx-Indecodextech.in/unity",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -280,8 +280,8 @@ const courseSEOData = {
       "description": "Comprehensive Unity game development certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic programming knowledge",
       "educationalLevel": "Beginner to Professional",
@@ -299,9 +299,9 @@ const courseSEOData = {
   },
 
   meta: {
-    title: "Meta Certification Training | Digital Marketing, Social Media | Traincape Technology",
+    title: "Meta Certification Training | Digital Marketing, Social Media | Armx-Indecodex",
     description: "Master Meta platforms with our certification training. Facebook, Instagram, WhatsApp Business, and digital marketing. Expert-led courses for marketing professionals.",
-    canonical: "https://www.traincapetech.in/meta",
+    canonical: "https://www.Armx-Indecodextech.in/meta",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -309,8 +309,8 @@ const courseSEOData = {
       "description": "Comprehensive Meta platform certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic marketing knowledge",
       "educationalLevel": "Beginner to Professional",
@@ -328,9 +328,9 @@ const courseSEOData = {
   },
 
   pmi: {
-    title: "PMI Certification Training | Project Management | Traincape Technology",
+    title: "PMI Certification Training | Project Management | Armx-Indecodex",
     description: "Master project management with PMI certifications. PMP, CAPM, and more. Expert-led training for project managers and professionals seeking PMI credentials.",
-    canonical: "https://www.traincapetech.in/pmi",
+    canonical: "https://www.Armx-Indecodextech.in/pmi",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -338,8 +338,8 @@ const courseSEOData = {
       "description": "Comprehensive Project Management Institute certification training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Project management experience",
       "educationalLevel": "Professional",
@@ -357,9 +357,9 @@ const courseSEOData = {
   },
 
   swift: {
-    title: "Swift Certification Training | iOS Development | Traincape Technology",
+    title: "Swift Certification Training | iOS Development | Armx-Indecodex",
     description: "Master Swift programming and iOS development with our certification training. Learn mobile app development, SwiftUI, and more. Expert-led courses for iOS developers.",
-    canonical: "https://www.traincapetech.in/swift",
+    canonical: "https://www.Armx-Indecodextech.in/swift",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Course",
@@ -367,8 +367,8 @@ const courseSEOData = {
       "description": "Comprehensive Swift programming and iOS development training",
       "provider": {
         "@type": "Organization",
-        "name": "Traincape Technology",
-        "url": "https://www.traincapetech.in"
+        "name": "Armx-Indecodex",
+        "url": "https://www.Armx-Indecodextech.in"
       },
       "coursePrerequisites": "Basic programming knowledge",
       "educationalLevel": "Beginner to Professional",
@@ -388,13 +388,13 @@ const courseSEOData = {
 
 const CourseSEO = ({ courseType, customData = {} }) => {
   const seoData = courseSEOData[courseType] || {};
-  
+
   // Merge custom data with default data
   const finalData = {
     ...seoData,
     ...customData
   };
-  
+
   return <SEOHead {...finalData} />;
 };
 

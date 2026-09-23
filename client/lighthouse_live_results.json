@@ -1,13 +1,13 @@
 {
   "lighthouseVersion": "12.8.2",
-  "requestedUrl": "https://www.traincapetech.in/services",
-  "mainDocumentUrl": "https://www.traincapetech.in/our-services/",
-  "finalDisplayedUrl": "https://www.traincapetech.in/services",
-  "finalUrl": "https://www.traincapetech.in/our-services/",
+  "requestedUrl": "https://www.Armx-Indecodextech.in/services",
+  "mainDocumentUrl": "https://www.Armx-Indecodextech.in/our-services/",
+  "finalDisplayedUrl": "https://www.Armx-Indecodextech.in/services",
+  "finalUrl": "https://www.Armx-Indecodextech.in/our-services/",
   "fetchTime": "2026-07-14T10:24:10.966Z",
   "gatherMode": "navigation",
   "runWarnings": [
-    "The page may not be loading as expected because your test URL (https://www.traincapetech.in/services) was redirected to https://www.traincapetech.in/our-services/. Try testing the second URL directly."
+    "The page may not be loading as expected because your test URL (https://www.Armx-Indecodextech.in/services) was redirected to https://www.Armx-Indecodextech.in/our-services/. Try testing the second URL directly."
   ],
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
   "environment": {
@@ -228,7 +228,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "responseTime": 645.629
           }
         ],
@@ -294,7 +294,7 @@
         "chains": {
           "6F782F024531DB20D6B6B2A678159A71": {
             "request": {
-              "url": "https://www.traincapetech.in/services",
+              "url": "https://www.Armx-Indecodextech.in/services",
               "startTime": 290390.010194,
               "endTime": 290390.645692,
               "responseReceivedTime": 290390.64426599996,
@@ -303,7 +303,7 @@
             "children": {
               "6F782F024531DB20D6B6B2A678159A71:redirect": {
                 "request": {
-                  "url": "https://www.traincapetech.in/our-services",
+                  "url": "https://www.Armx-Indecodextech.in/our-services",
                   "startTime": 290390.64653,
                   "endTime": 290390.892781,
                   "responseReceivedTime": 290390.891896,
@@ -312,7 +312,7 @@
                 "children": {
                   "6F782F024531DB20D6B6B2A678159A71:redirect:redirect": {
                     "request": {
-                      "url": "https://www.traincapetech.in/our-services/",
+                      "url": "https://www.Armx-Indecodextech.in/our-services/",
                       "startTime": 290390.893095,
                       "endTime": 290391.567293,
                       "responseReceivedTime": 290391.539222,
@@ -321,7 +321,7 @@
                     "children": {
                       "30438.9": {
                         "request": {
-                          "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+                          "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
                           "startTime": 290391.563434,
                           "endTime": 290391.62744,
                           "responseReceivedTime": 290391.59787700005,
@@ -330,7 +330,7 @@
                       },
                       "30438.18": {
                         "request": {
-                          "url": "https://www.traincapetech.in/manifest.json",
+                          "url": "https://www.Armx-Indecodextech.in/manifest.json",
                           "startTime": 290391.676983,
                           "endTime": 290391.976989,
                           "responseReceivedTime": 290391.97651300003,
@@ -381,15 +381,15 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/services",
+            "url": "https://www.Armx-Indecodextech.in/services",
             "wastedMs": 995.157
           },
           {
-            "url": "https://www.traincapetech.in/our-services",
+            "url": "https://www.Armx-Indecodextech.in/our-services",
             "wastedMs": 0
           },
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "wastedMs": 0
           }
         ],
@@ -508,19 +508,19 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "total": 1169.0320000000006,
             "scripting": 411.8320000000016,
             "scriptParseCompile": 12.611999999999998
           },
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "total": 1055.4160000000034,
             "scripting": 103.00400000000006,
             "scriptParseCompile": 2.616
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "total": 523.5560000000005,
             "scripting": 444.1000000000005,
             "scriptParseCompile": 48.28
@@ -554,7 +554,7 @@
       "score": 1,
       "scoreDisplayMode": "metricSavings",
       "warnings": [
-        "A `<link rel=preconnect>` was found for \"https://traincape-backend-uwoa.onrender.com\" but was not used by the browser. Only use `preconnect` for important origins that the page will certainly request.",
+        "A `<link rel=preconnect>` was found for \"https://Armx-Indecodex-backend-uwoa.onrender.com\" but was not used by the browser. Only use `preconnect` for important origins that the page will certainly request.",
         "More than 2 `<link rel=preconnect>` connections were found. These should be used sparingly and only to the most important origins."
       ],
       "metricSavings": {
@@ -682,7 +682,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/services",
+            "url": "https://www.Armx-Indecodextech.in/services",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 0,
@@ -695,10 +695,10 @@
             "mimeType": "text/html",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/our-services",
+            "url": "https://www.Armx-Indecodextech.in/our-services",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 637.2089999914169,
@@ -711,10 +711,10 @@
             "mimeType": "text/html",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 884.2980000376701,
@@ -728,10 +728,10 @@
             "resourceType": "Document",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/styles.css",
+            "url": "https://www.Armx-Indecodextech.in/styles.css",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1543.7200000286102,
@@ -746,7 +746,7 @@
             "priority": "VeryHigh",
             "isLinkPreload": true,
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap",
@@ -767,7 +767,7 @@
             "entity": "Google Fonts"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/runtime.9410f425.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/runtime.9410f425.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.352999985218,
@@ -781,10 +781,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.432000041008,
@@ -798,10 +798,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.5210000276566,
@@ -815,10 +815,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.5860000252724,
@@ -832,10 +832,10 @@
             "resourceType": "Stylesheet",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.6770000457764,
@@ -849,10 +849,10 @@
             "resourceType": "Image",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1544.7670000195503,
@@ -866,7 +866,7 @@
             "resourceType": "Image",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
             "url": "https://www.coolseotools.com/website-visitor-counter/count/&style=style1&show=u&num=9&uid=Dr",
@@ -886,7 +886,7 @@
             "entity": "coolseotools.com"
           },
           {
-            "url": "https://www.traincapetech.in/manifest.json",
+            "url": "https://www.Armx-Indecodextech.in/manifest.json",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1550.8400000333786,
@@ -900,7 +900,7 @@
             "resourceType": "Manifest",
             "priority": "Medium",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
             "url": "https://www.googletagmanager.com/gtag/js?id=G-1416H96S6J",
@@ -920,7 +920,7 @@
             "entity": "Google Tag Manager"
           },
           {
-            "url": "https://www.traincapetech.in/static/media/logo.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/logo.png",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1667.0720000267029,
@@ -934,10 +934,10 @@
             "resourceType": "Other",
             "priority": "VeryLow",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.chunk.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.chunk.css",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1667.1790000200272,
@@ -951,7 +951,7 @@
             "resourceType": "Other",
             "priority": "VeryLow",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
             "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
@@ -988,7 +988,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
+            "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 2185.0050000548363,
@@ -1005,7 +1005,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 2906.481000006199,
@@ -1019,10 +1019,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7206.56943f9e.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7206.56943f9e.chunk.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 2915.0430000424385,
@@ -1036,10 +1036,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/css/6473.1ac6b9b4.chunk.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/6473.1ac6b9b4.chunk.css",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 2939.3830000162125,
@@ -1053,10 +1053,10 @@
             "resourceType": "Stylesheet",
             "priority": "VeryHigh",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/static/js/6473.0f18a73c.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/6473.0f18a73c.chunk.js",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 2939.7020000219345,
@@ -1070,10 +1070,10 @@
             "resourceType": "Script",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 3330.0530000329018,
@@ -1107,7 +1107,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+            "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3338.5669999718666,
@@ -1124,7 +1124,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
+            "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3339.3330000042915,
@@ -1158,7 +1158,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
+            "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3340.65600001812,
@@ -1175,7 +1175,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.traincapetech.in/favicon.ico",
+            "url": "https://www.Armx-Indecodextech.in/favicon.ico",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3347.247000038624,
@@ -1189,10 +1189,10 @@
             "resourceType": "Other",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.traincapetech.in/logo192.png",
+            "url": "https://www.Armx-Indecodextech.in/logo192.png",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3347.407000005245,
@@ -1206,10 +1206,10 @@
             "resourceType": "Other",
             "priority": "High",
             "experimentalFromMainFrame": true,
-            "entity": "traincapetech.in"
+            "entity": "Armx-Indecodextech.in"
           },
           {
-            "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
+            "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3449.6200000047684,
@@ -1226,7 +1226,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
+            "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 3449.7829999923706,
@@ -1243,7 +1243,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dr=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_et=578&tfd=3915",
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dr=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_et=578&tfd=3915",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 3914.1180000305176,
@@ -1266,73 +1266,73 @@
           "initiators": [
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 0,
               "columnNumber": 1772
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 0,
               "columnNumber": 2240
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 592
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 657
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 722
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 791
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 5179
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 8084
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 90551
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 533
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 1664
             },
             {
               "type": "parser",
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "lineNumber": 31,
               "columnNumber": 1719
             },
@@ -1406,7 +1406,7 @@
             "rtt": 4.446
           },
           {
-            "origin": "https://www.traincapetech.in",
+            "origin": "https://www.Armx-Indecodextech.in",
             "rtt": 0
           },
           {
@@ -1449,7 +1449,7 @@
             "serverResponseTime": 730.7800000000001
           },
           {
-            "origin": "https://www.traincapetech.in",
+            "origin": "https://www.Armx-Indecodextech.in",
             "serverResponseTime": 245.157
           },
           {
@@ -1826,7 +1826,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
                   "mainThreadTime": 5.8,
                   "blockingTime": 0,
                   "transferSize": 2696,
@@ -1878,14 +1878,14 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 552,
                   "tbtImpact": 0
                 },
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dr=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_et=578&tfd=3915",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dr=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_et=578&tfd=3915",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 48,
@@ -1904,14 +1904,14 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
+                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 64,
                   "tbtImpact": 0
                 },
                 {
-                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
+                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 64,
@@ -1925,21 +1925,21 @@
                   "tbtImpact": 0
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 21,
                   "tbtImpact": 0
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 21,
                   "tbtImpact": 0
                 },
                 {
-                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
+                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
                   "mainThreadTime": 0,
                   "blockingTime": 0,
                   "transferSize": 20,
@@ -2146,7 +2146,7 @@
                 "height": 1707
               },
               "snippet": "<footer class=\"bg-[#03050c] text-slate-300 font-sans border-t border-slate-900 relative o…\" role=\"contentinfo\" aria-label=\"Enterprise Footer\" itemscope=\"\" itemtype=\"http://schema.org/WPFooter\">",
-              "nodeLabel": "Traincape Technology's specific methodologies for measuring and prioritizing cu…"
+              "nodeLabel": "Armx-Indecodex's specific methodologies for measuring and prioritizing cu…"
             },
             "score": 0.6183408007777609
           },
@@ -2165,7 +2165,7 @@
                 "height": 1707
               },
               "snippet": "<footer class=\"bg-[#03050c] text-slate-300 font-sans border-t border-slate-900 relative o…\" role=\"contentinfo\" aria-label=\"Enterprise Footer\" itemscope=\"\" itemtype=\"http://schema.org/WPFooter\">",
-              "nodeLabel": "Traincape Technology's specific methodologies for measuring and prioritizing cu…"
+              "nodeLabel": "Armx-Indecodex's specific methodologies for measuring and prioritizing cu…"
             },
             "score": 0.1834750911300121
           }
@@ -2216,32 +2216,32 @@
             "startTime": 4228.743
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "duration": 124,
             "startTime": 5395.157000000001
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "duration": 118,
             "startTime": 6395.157000000001
           },
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "duration": 111,
             "startTime": 5795.157000000001
           },
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "duration": 102,
             "startTime": 1039.1570000000002
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "duration": 73,
             "startTime": 5965.157000000001
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "duration": 50,
             "startTime": 5345.157000000001
           }
@@ -2256,9 +2256,9 @@
           "type": "debugdata",
           "urls": [
             "https://www.googletagmanager.com/gtag/js?id=G-1416H96S6J",
-            "https://www.traincapetech.in/static/js/1886.f208747f.js",
-            "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
-            "https://www.traincapetech.in/our-services/"
+            "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
+            "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
+            "https://www.Armx-Indecodextech.in/our-services/"
           ],
           "tasks": [
             {
@@ -2456,7 +2456,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "node": {
               "type": "node",
               "lhId": "1-4-IMG",
@@ -2470,8 +2470,8 @@
                 "width": 64,
                 "height": 64
               },
-              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Traincape Technology Logo\" class=\"h-16 w-auto object-contain\">",
-              "nodeLabel": "Traincape Technology Logo"
+              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Armx-Indecodex Logo\" class=\"h-16 w-auto object-contain\">",
+              "nodeLabel": "Armx-Indecodex Logo"
             }
           },
           {
@@ -2521,11 +2521,11 @@
           "type": "debugdata",
           "initiatorPath": [
             {
-              "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+              "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
               "initiatorType": "parser"
             },
             {
-              "url": "https://www.traincapetech.in/our-services/",
+              "url": "https://www.Armx-Indecodextech.in/our-services/",
               "initiatorType": "redirect"
             }
           ],
@@ -2544,7 +2544,7 @@
         "type": "treemap-data",
         "nodes": [
           {
-            "name": "https://www.traincapetech.in/our-services/",
+            "name": "https://www.Armx-Indecodextech.in/our-services/",
             "resourceBytes": 1465,
             "encodedBytes": 177,
             "unusedBytes": 560,
@@ -2568,7 +2568,7 @@
             "unusedBytes": 162234
           },
           {
-            "name": "https://www.traincapetech.in/static/js/runtime.9410f425.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/runtime.9410f425.js",
             "resourceBytes": 6863,
             "encodedBytes": 3296,
             "children": [
@@ -2666,13 +2666,13 @@
             "unusedBytes": 96
           },
           {
-            "name": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "resourceBytes": 471926,
             "encodedBytes": 146597,
             "unusedBytes": 235050
           },
           {
-            "name": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "resourceBytes": 136705,
             "encodedBytes": 38038,
             "children": [
@@ -2812,7 +2812,7 @@
             "unusedBytes": 19363
           },
           {
-            "name": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
             "resourceBytes": 14259,
             "encodedBytes": 4269,
             "unusedBytes": 3848,
@@ -2829,7 +2829,7 @@
             ]
           },
           {
-            "name": "https://www.traincapetech.in/static/js/6473.0f18a73c.chunk.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/6473.0f18a73c.chunk.js",
             "resourceBytes": 193,
             "encodedBytes": 154,
             "children": [
@@ -2844,7 +2844,7 @@
             ]
           },
           {
-            "name": "https://www.traincapetech.in/static/js/7206.56943f9e.chunk.js",
+            "name": "https://www.Armx-Indecodextech.in/static/js/7206.56943f9e.chunk.js",
             "resourceBytes": 23423,
             "encodedBytes": 7317,
             "children": [
@@ -2881,7 +2881,7 @@
             ]
           },
           {
-            "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+            "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
             "resourceBytes": 6553,
             "encodedBytes": 2671,
             "unusedBytes": 1670
@@ -2922,7 +2922,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2934,7 +2934,7 @@
             "wastedBytes": 14698.499999999996
           },
           {
-            "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2946,7 +2946,7 @@
             "wastedBytes": 6913.799999999998
           },
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2958,7 +2958,7 @@
             "wastedBytes": 3843.7999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2970,7 +2970,7 @@
             "wastedBytes": 2319.7999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2982,7 +2982,7 @@
             "wastedBytes": 1437.3999999999996
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7206.56943f9e.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7206.56943f9e.chunk.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -2994,7 +2994,7 @@
             "wastedBytes": 771.3999999999999
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -3006,7 +3006,7 @@
             "wastedBytes": 465.1999999999999
           },
           {
-            "url": "https://www.traincapetech.in/static/js/runtime.9410f425.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/runtime.9410f425.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -3018,7 +3018,7 @@
             "wastedBytes": 369.19999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/css/6473.1ac6b9b4.chunk.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/6473.1ac6b9b4.chunk.css",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -3030,7 +3030,7 @@
             "wastedBytes": 198.49999999999994
           },
           {
-            "url": "https://www.traincapetech.in/styles.css",
+            "url": "https://www.Armx-Indecodextech.in/styles.css",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -3042,7 +3042,7 @@
             "wastedBytes": 81.09999999999998
           },
           {
-            "url": "https://www.traincapetech.in/static/js/6473.0f18a73c.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/6473.0f18a73c.chunk.js",
             "debugData": {
               "type": "debugdata",
               "public": true,
@@ -3095,15 +3095,15 @@
             "totalBytes": 186999
           },
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "totalBytes": 146985
           },
           {
-            "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
             "totalBytes": 69138
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.chunk.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.chunk.css",
             "totalBytes": 51861
           },
           {
@@ -3111,23 +3111,23 @@
             "totalBytes": 48464
           },
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "totalBytes": 38438
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "totalBytes": 23198
           },
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "totalBytes": 14374
           },
           {
-            "url": "https://www.traincapetech.in/our-services/",
+            "url": "https://www.Armx-Indecodextech.in/our-services/",
             "totalBytes": 12572
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7206.56943f9e.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7206.56943f9e.chunk.js",
             "totalBytes": 7714
           }
         ],
@@ -3204,7 +3204,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "totalBytes": 23198,
             "wastedMs": 300
           }
@@ -3312,7 +3312,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "wastedBytes": 20244,
             "wastedPercent": 88.7033911479269,
             "totalBytes": 22822
@@ -3377,7 +3377,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "totalBytes": 146597,
             "wastedBytes": 73015,
             "wastedPercent": 49.80653746561961
@@ -3554,10 +3554,10 @@
                 "width": 80,
                 "height": 80
               },
-              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Traincape Technology\" class=\"w-auto h-20 md:h-24 lg:h-28 object-contain\" width=\"130\" height=\"130\" style=\"filter: brightness(0.12) contrast(1.5);\">",
-              "nodeLabel": "Traincape Technology"
+              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Armx-Indecodex\" class=\"w-auto h-20 md:h-24 lg:h-28 object-contain\" width=\"130\" height=\"130\" style=\"filter: brightness(0.12) contrast(1.5);\">",
+              "nodeLabel": "Armx-Indecodex"
             },
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "totalBytes": 14156,
             "wastedBytes": 13046,
             "wastedPercent": 92.16
@@ -3684,7 +3684,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
             "wastedBytes": 294,
             "subItems": {
               "type": "subitems",
@@ -3693,7 +3693,7 @@
                   "signal": "@babel/plugin-transform-classes",
                   "location": {
                     "type": "source-location",
-                    "url": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+                    "url": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
                     "urlProvider": "network",
                     "line": 0,
                     "column": 7449,
@@ -3937,67 +3937,67 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/js/1886.f208747f.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/1886.f208747f.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 146985,
             "wastedBytes": 14698.499999999996
           },
           {
-            "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 69138,
             "wastedBytes": 6913.799999999998
           },
           {
-            "url": "https://www.traincapetech.in/static/js/main.a31bc0b7.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/main.a31bc0b7.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 38438,
             "wastedBytes": 3843.7999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 23198,
             "wastedBytes": 2319.7999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 14374,
             "wastedBytes": 1437.3999999999996
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7206.56943f9e.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7206.56943f9e.chunk.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 7714,
             "wastedBytes": 771.3999999999999
           },
           {
-            "url": "https://www.traincapetech.in/static/js/7115.af94ab93.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/7115.af94ab93.chunk.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 4652,
             "wastedBytes": 465.1999999999999
           },
           {
-            "url": "https://www.traincapetech.in/static/js/runtime.9410f425.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/runtime.9410f425.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 3692,
             "wastedBytes": 369.19999999999993
           },
           {
-            "url": "https://www.traincapetech.in/static/css/6473.1ac6b9b4.chunk.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/6473.1ac6b9b4.chunk.css",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 1985,
             "wastedBytes": 198.49999999999994
           },
           {
-            "url": "https://www.traincapetech.in/styles.css",
+            "url": "https://www.Armx-Indecodextech.in/styles.css",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 811,
             "wastedBytes": 81.09999999999998
           },
           {
-            "url": "https://www.traincapetech.in/static/js/6473.0f18a73c.chunk.js",
+            "url": "https://www.Armx-Indecodextech.in/static/js/6473.0f18a73c.chunk.js",
             "cacheLifetimeMs": 604800000,
             "totalBytes": 517,
             "wastedBytes": 51.69999999999999
@@ -4076,7 +4076,7 @@
                     "height": 1707
                   },
                   "snippet": "<footer class=\"bg-[#03050c] text-slate-300 font-sans border-t border-slate-900 relative o…\" role=\"contentinfo\" aria-label=\"Enterprise Footer\" itemscope=\"\" itemtype=\"http://schema.org/WPFooter\">",
-                  "nodeLabel": "Traincape Technology's specific methodologies for measuring and prioritizing cu…"
+                  "nodeLabel": "Armx-Indecodex's specific methodologies for measuring and prioritizing cu…"
                 },
                 "score": 0.6183408007777609
               },
@@ -4095,7 +4095,7 @@
                     "height": 1707
                   },
                   "snippet": "<footer class=\"bg-[#03050c] text-slate-300 font-sans border-t border-slate-900 relative o…\" role=\"contentinfo\" aria-label=\"Enterprise Footer\" itemscope=\"\" itemtype=\"http://schema.org/WPFooter\">",
-                  "nodeLabel": "Traincape Technology's specific methodologies for measuring and prioritizing cu…"
+                  "nodeLabel": "Armx-Indecodex's specific methodologies for measuring and prioritizing cu…"
                 },
                 "score": 0.1834750911300121
               }
@@ -4393,7 +4393,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/services-hero-bg.35b26b98daffdeb4090d.png",
             "totalBytes": 68920,
             "wastedBytes": 34452,
             "subItems": {
@@ -4407,7 +4407,7 @@
             }
           },
           {
-            "url": "https://www.traincapetech.in/static/media/TT.558783d2fc5ef9a5158d.png",
+            "url": "https://www.Armx-Indecodextech.in/static/media/TT.558783d2fc5ef9a5158d.png",
             "totalBytes": 14156,
             "wastedBytes": 13794,
             "subItems": {
@@ -4660,32 +4660,32 @@
               "type": "network-tree",
               "chains": {
                 "6F782F024531DB20D6B6B2A678159A71": {
-                  "url": "https://www.traincapetech.in/our-services/",
+                  "url": "https://www.Armx-Indecodextech.in/our-services/",
                   "navStartToEndTime": 1560,
                   "transferSize": 12572,
                   "isLongest": true,
                   "children": {
                     "6F782F024531DB20D6B6B2A678159A71": {
-                      "url": "https://www.traincapetech.in/our-services/",
+                      "url": "https://www.Armx-Indecodextech.in/our-services/",
                       "navStartToEndTime": 1560,
                       "transferSize": 12572,
                       "isLongest": true,
                       "children": {
                         "6F782F024531DB20D6B6B2A678159A71": {
-                          "url": "https://www.traincapetech.in/our-services/",
+                          "url": "https://www.Armx-Indecodextech.in/our-services/",
                           "navStartToEndTime": 1560,
                           "transferSize": 12572,
                           "isLongest": true,
                           "children": {
                             "30438.18": {
-                              "url": "https://www.traincapetech.in/manifest.json",
+                              "url": "https://www.Armx-Indecodextech.in/manifest.json",
                               "navStartToEndTime": 1969,
                               "transferSize": 539,
                               "isLongest": true,
                               "children": {}
                             },
                             "30438.9": {
-                              "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+                              "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
                               "navStartToEndTime": 1620,
                               "transferSize": 23198,
                               "children": {}
@@ -4725,7 +4725,7 @@
               ],
               "items": [
                 {
-                  "origin": "https://traincape-backend-uwoa.onrender.com/",
+                  "origin": "https://Armx-Indecodex-backend-uwoa.onrender.com/",
                   "source": {
                     "type": "node",
                     "lhId": "page-4-LINK",
@@ -4739,7 +4739,7 @@
                       "width": 0,
                       "height": 0
                     },
-                    "snippet": "<link rel=\"preconnect\" href=\"https://traincape-backend-uwoa.onrender.com\" crossorigin=\"\">",
+                    "snippet": "<link rel=\"preconnect\" href=\"https://Armx-Indecodex-backend-uwoa.onrender.com\" crossorigin=\"\">",
                     "nodeLabel": "head > link"
                   },
                   "subItems": {
@@ -4869,7 +4869,7 @@
         ],
         "items": [
           {
-            "url": "https://www.traincapetech.in/static/css/main.49eb9d3c.css",
+            "url": "https://www.Armx-Indecodextech.in/static/css/main.49eb9d3c.css",
             "totalBytes": 23198,
             "wastedMs": 845
           }
@@ -4941,7 +4941,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784024654582&cv=11&fst=1784024654582&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
                   "mainThreadTime": 0.6949999332427979,
                   "transferSize": 2696
                 },
@@ -4986,12 +4986,12 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
+                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=0&ipr=y",
                   "mainThreadTime": 0,
                   "transferSize": 64
                 },
                 {
-                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
+                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784024654582&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgSow4fhCJNHnNb_tZ2a3KEM3rjOcdrVmvlZGv9y2aKjkFSewKfPgzJ3aHnYhUhvc4C5PE40gwGQv_TMEuqdDiEDJUNsCw_6wA6SvO2yqk4dyHsGsD_Xmb9mCUHqn5bDhAQj5RHqOpVUFeu8TBXjPezUKIt_9xnJTEeuqCWaNIcto02lOXs_q3WltYmXgeJPMpOWACUd2FQz2m7vkhlG1WPvRk9VOVCKvvfPqf7ggXjKiWnT8v1KgO1jyzAO5XOnC57j9Df_Xil2W3H3BAgYa&random=1080631180&rmt_tld=1&ipr=y",
                   "mainThreadTime": 0,
                   "transferSize": 64
                 },
@@ -5001,17 +5001,17 @@
                   "transferSize": 63
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784024653435&tfd=2186&fmt=8",
                   "mainThreadTime": 0,
                   "transferSize": 21
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1234840221.1784024653&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&scrsrc=www.googletagmanager.com&rnd=1823598045.1784024653&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784024654591&tfd=3342&fmt=8",
                   "mainThreadTime": 0,
                   "transferSize": 21
                 },
                 {
-                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.traincapetech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
+                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784024654582&cv=11&fst=1784024654582&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&u_w=412&u_h=823&url=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&rcb=17&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1234840221.1784024653&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
                   "mainThreadTime": 0,
                   "transferSize": 20
                 }
@@ -5041,12 +5041,12 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AAAAAGAC&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&sid=1784024654&sct=1&seg=0&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3331",
                   "mainThreadTime": 0,
                   "transferSize": 552
                 },
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.traincapetech.in%2Fservices&dr=https%3A%2F%2Fwww.traincapetech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_et=578&tfd=3915",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784024652915&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=746246477&_eu=AEAAAGQC&ae=a&are=1&cid=1445989159.1784024655&ec_mode=a&frm=0&pscdl=noapi&rcb=17&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=115938466~115938469~118826210~118897920~118897930~119027224~119317811&dl=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Fservices&dr=https%3A%2F%2Fwww.Armx-Indecodextech.in%2Four-services%2F&sid=1784024654&sct=1&seg=1&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_et=578&tfd=3915",
                   "mainThreadTime": 0,
                   "transferSize": 48
                 }
@@ -5622,9 +5622,9 @@
   "stackPacks": [],
   "entities": [
     {
-      "name": "traincapetech.in",
+      "name": "Armx-Indecodextech.in",
       "origins": [
-        "https://www.traincapetech.in"
+        "https://www.Armx-Indecodextech.in"
       ],
       "isFirstParty": true,
       "isUnrecognized": true
@@ -7731,8 +7731,8 @@
       "core/gather/driver/navigation.js | warningRedirected": [
         {
           "values": {
-            "requested": "https://www.traincapetech.in/services",
-            "final": "https://www.traincapetech.in/our-services/"
+            "requested": "https://www.Armx-Indecodextech.in/services",
+            "final": "https://www.Armx-Indecodextech.in/our-services/"
           },
           "path": "runWarnings[0]"
         }
@@ -8001,7 +8001,7 @@
       "core/audits/uses-rel-preconnect.js | unusedWarning": [
         {
           "values": {
-            "securityOrigin": "https://traincape-backend-uwoa.onrender.com"
+            "securityOrigin": "https://Armx-Indecodex-backend-uwoa.onrender.com"
           },
           "path": "audits[uses-rel-preconnect].warnings[0]"
         }

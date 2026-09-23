@@ -30,11 +30,11 @@ const ISO37301ComplianceManagementSystem = () => {
     "@type": "Course",
     "name": "ISO 37301 Compliance Management System Training & Certification",
     "description":
-      "Master organizational compliance with PECB ISO 37301 Training & certification from Traincape Technology. Ensure regulatory compliance and ethical business conduct. Get in touch with us now.",
+      "Master organizational compliance with PECB ISO 37301 Training & certification from Armx-Indecodex. Ensure regulatory compliance and ethical business conduct. Get in touch with us now.",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -50,7 +50,7 @@ const ISO37301ComplianceManagementSystem = () => {
       <Helmet>
         {/* Title */}
         <title>
-        ISO 37301 Compliance Management System Certification | Traincape Technology
+          ISO 37301 Compliance Management System Certification | Armx-Indecodex
         </title>
 
         {/* Meta Description */}
@@ -62,13 +62,13 @@ const ISO37301ComplianceManagementSystem = () => {
         {/* Canonical URL */}
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/governance/iso-37301-training"
+          href="https://www.Armx-Indecodextech.in/pecb/governance/iso-37301-training"
         />
 
         {/* Keywords (Optional but useful for niche SEO) */}
         <meta
           name="keywords"
-          content="ISO 37301, Compliance Management System, PECB Certification, ISO Training, Compliance, Governance Training, Traincape Tech"
+          content="ISO 37301, Compliance Management System, PECB Certification, ISO Training, Compliance, Governance Training, Armx-Indecodex Tech"
         />
 
         {/* Open Graph (for social media previews) */}
@@ -78,17 +78,17 @@ const ISO37301ComplianceManagementSystem = () => {
         />
         <meta
           property="og:description"
-          content="Master organizational compliance with PECB ISO 37301 Training & certification from Traincape Technology. Ensure regulatory compliance and ethical business conduct. Get in touch with us now."
+          content="Master organizational compliance with PECB ISO 37301 Training & certification from Armx-Indecodex. Ensure regulatory compliance and ethical business conduct. Get in touch with us now."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/governance/iso-37301-training"
+          content="https://Armx-Indecodextech.in/pecb/governance/iso-37301-training"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Traincape Technology" />
+        <meta property="og:site_name" content="Armx-Indecodex" />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/iso37301-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/iso37301-banner.webp"
         />
 
         {/* Twitter Card */}
@@ -99,17 +99,17 @@ const ISO37301ComplianceManagementSystem = () => {
         />
         <meta
           name="twitter:description"
-          content="Master organizational compliance with PECB ISO 37301 Training & certification from Traincape Technology. Ensure regulatory compliance and ethical business conduct. Get in touch with us now."
+          content="Master organizational compliance with PECB ISO 37301 Training & certification from Armx-Indecodex. Ensure regulatory compliance and ethical business conduct. Get in touch with us now."
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/iso37301-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/iso37301-banner.webp"
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -119,7 +119,7 @@ const ISO37301ComplianceManagementSystem = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -127,7 +127,7 @@ const ISO37301ComplianceManagementSystem = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -135,7 +135,7 @@ const ISO37301ComplianceManagementSystem = () => {
               >
                 ISO 37301 Compliance Management System
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -143,7 +143,7 @@ const ISO37301ComplianceManagementSystem = () => {
               >
                 Master Organizational Compliance
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -151,25 +151,25 @@ const ISO37301ComplianceManagementSystem = () => {
               >
                 ISO 37301 provides guidance for establishing, implementing, and maintaining an effective compliance management system. Ensure regulatory compliance and ethical business conduct.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37301ComplianceManagement", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -177,7 +177,7 @@ const ISO37301ComplianceManagementSystem = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -226,7 +226,7 @@ const ISO37301ComplianceManagementSystem = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Professional Certification</h2>
             <p className="text-xl text-gray-600">Advance your career with globally recognized expertise</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div
               initial="hidden"
@@ -239,7 +239,7 @@ const ISO37301ComplianceManagementSystem = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Industry Recognition</h3>
               <p className="text-gray-600">Globally recognized professional certification</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -252,7 +252,7 @@ const ISO37301ComplianceManagementSystem = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Career Growth</h3>
               <p className="text-gray-600">Advance to senior management positions</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -280,24 +280,24 @@ const ISO37301ComplianceManagementSystem = () => {
             <h2 className="text-4xl font-bold mb-4">Start Your Professional Journey</h2>
             <p className="text-xl mb-8">Enroll now and advance your career with PECB certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37301ComplianceManagement", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO37301ComplianceManagement", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

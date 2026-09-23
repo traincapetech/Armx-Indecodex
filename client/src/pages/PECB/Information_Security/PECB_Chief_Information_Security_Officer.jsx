@@ -123,14 +123,14 @@ const PECBChiefInformationSecurityOfficer = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-purple-50 to-pink-50">
       <Helmet>
-        <title> Traning and Certifications|| PECB || PECB Chief Information Security Officer || Traincape Technology </title>
+        <title> Traning and Certifications|| PECB || PECB Chief Information Security Officer || Armx-Indecodex </title>
         <meta name="description" content="Become a certified Chief Information Security Officer with comprehensive training in strategic leadership, risk governance, and executive-level security management with the international standard for information security leadership and management." />
-        <meta name="keywords" content="Training and Certifications, PECB, PECB Chief Information Security Officer, Information Security Officer, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Chief Information Security Officer, Traincape Technology, PECB Chief Information Security Officer, Information Security Officer, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Chief Information Security Officer, Traincape Technology" />
+        <meta name="keywords" content="Training and Certifications, PECB, PECB Chief Information Security Officer, Information Security Officer, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Chief Information Security Officer, Armx-Indecodex, PECB Chief Information Security Officer, Information Security Officer, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Chief Information Security Officer, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/information-security/pecb_chief_information_security_officer" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/information-security/pecb_chief_information_security_officer" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -140,7 +140,7 @@ const PECBChiefInformationSecurityOfficer = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -148,7 +148,7 @@ const PECBChiefInformationSecurityOfficer = () => {
               >
                 <span className="text-sm font-semibold">PECB EXECUTIVE CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -156,7 +156,7 @@ const PECBChiefInformationSecurityOfficer = () => {
               >
                 PECB Chief Information Security Officer
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -164,7 +164,7 @@ const PECBChiefInformationSecurityOfficer = () => {
               >
                 Master Executive Information Security Leadership
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -172,25 +172,25 @@ const PECBChiefInformationSecurityOfficer = () => {
               >
                 Become a certified Chief Information Security Officer with comprehensive training in strategic leadership, risk governance, and executive-level security management.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-purple-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-purple-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "PECBChiefInformationSecurityOfficer", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -198,7 +198,7 @@ const PECBChiefInformationSecurityOfficer = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -439,24 +439,24 @@ const PECBChiefInformationSecurityOfficer = () => {
             <h2 className="text-4xl font-bold mb-4">Become a Certified CISO</h2>
             <p className="text-xl mb-8">Start your executive information security leadership journey</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-purple-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-purple-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "PECBChiefInformationSecurityOfficer", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "PECBChiefInformationSecurityOfficer", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

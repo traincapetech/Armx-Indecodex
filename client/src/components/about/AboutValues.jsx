@@ -16,7 +16,7 @@ export default function AboutValues({ values, globalReach }) {
   return (
     <section className="py-20 bg-slate-50/80 border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 space-y-16">
-        
+
         {/* Core Values grid */}
         <div className="space-y-8">
           <div className="text-center space-y-3">
@@ -48,17 +48,17 @@ export default function AboutValues({ values, globalReach }) {
           </div>
         </div>
 
-        {/* Why Choose Traincape + Global Reach split */}
+        {/* Why Choose Armx-Indecodex + Global Reach split */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-6 border-t border-slate-100 items-start">
           {/* Why Businesses Choose Us (7 cols) */}
           <div className="lg:col-span-7 space-y-6">
             <div className="flex items-center gap-2">
               <Star className="w-5 h-5 text-blue-600" />
               <h3 className="text-xl font-bold text-slate-900 font-display">
-                Why Businesses Choose Traincape
+                Why Businesses Choose Armx-Indecodex
               </h3>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {valueProps.map((prop, idx) => (
                 <div

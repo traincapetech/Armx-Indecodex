@@ -1,6 +1,6 @@
 # Redirect non-www to www (canonical domain)
-https://traincapetech.in/* https://www.traincapetech.in/:splat 301!
-http://traincapetech.in/* https://www.traincapetech.in/:splat 301!
+https://Armx-Indecodextech.in/* https://www.Armx-Indecodextech.in/:splat 301!
+http://Armx-Indecodextech.in/* https://www.Armx-Indecodextech.in/:splat 301!
 
 # Ensure static assets are served from root
 /static/* /static/:splat 200

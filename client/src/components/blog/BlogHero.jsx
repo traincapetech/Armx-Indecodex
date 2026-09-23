@@ -18,7 +18,7 @@ export default function BlogHero({ children }) {
         </div>
 
         <h1 className="text-4xl md:text-5.5xl font-extrabold tracking-tight font-display max-w-3xl mx-auto leading-[1.1] text-white">
-          Traincape{" "}
+          Armx-Indecodex{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
             Tech Blog
           </span>

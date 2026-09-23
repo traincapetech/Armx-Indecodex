@@ -20,7 +20,7 @@ export default function CTA({ client }) {
           <ArrowRight className="w-4 h-4" />
         </Link>
         <a
-          href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Traincape Team, I read your case study for " + (client || "your B2B projects") + " and I would like to discuss similar custom solutions for my company.")}`}
+          href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Armx-Indecodex Team, I read your case study for " + (client || "your B2B projects") + " and I would like to discuss similar custom solutions for my company.")}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-white border border-slate-250 text-slate-700 hover:text-slate-900 px-4 py-2.5 rounded text-xs md:text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 shadow-sm"

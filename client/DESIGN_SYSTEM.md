@@ -1,7 +1,7 @@
-# Traincape Technology Design System
+# Armx-Indecodex Design System
 ## Version 1.0.0 • Enterprise-Grade Design Language
 
-Welcome to the official Traincape Technology Design System. This document serves as the single source of truth for all digital products, websites, and interfaces. It is designed to emulate the aesthetics and engineering standards of leading enterprise software giants like **Stripe, Vercel, Linear, and HubSpot**.
+Welcome to the official Armx-Indecodex Design System. This document serves as the single source of truth for all digital products, websites, and interfaces. It is designed to emulate the aesthetics and engineering standards of leading enterprise software giants like **Stripe, Vercel, Linear, and HubSpot**.
 
 The core principles of this design language are: **Premium, Minimal, Corporate, Technical, and Human**.
 
@@ -317,9 +317,9 @@ Every page must compile and expose standard structured JSON-LD schemas inside `<
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "Traincape Technology",
-  "url": "https://traincapetech.in",
-  "logo": "https://traincapetech.in/assets/TT.png",
+  "name": "Armx-Indecodex",
+  "url": "https://Armx-Indecodextech.in",
+  "logo": "https://Armx-Indecodextech.in/assets/TT.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+441253928501",

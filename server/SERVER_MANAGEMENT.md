@@ -1,4 +1,4 @@
-# 🚀 Traincape Server Management Guide
+# 🚀 Armx-Indecodex Server Management Guide
 
 ## Quick Start
 
@@ -142,22 +142,22 @@ EMAIL_PASS=your-email-password
 npm install -g pm2
 
 # Start with PM2
-pm2 start index.js --name "traincape-server"
+pm2 start index.js --name "Armx-Indecodex-server"
 
 # Monitor
 pm2 monit
 
 # View logs
-pm2 logs traincape-server
+pm2 logs Armx-Indecodex-server
 ```
 
 ### Using Docker
 ```bash
 # Build image
-docker build -t traincape-server .
+docker build -t Armx-Indecodex-server .
 
 # Run container
-docker run -p 8080:8080 --env-file .env traincape-server
+docker run -p 8080:8080 --env-file .env Armx-Indecodex-server
 ```
 
 ## Quick Commands Reference

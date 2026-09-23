@@ -49,18 +49,18 @@ export default function ServiceDetail() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>{service.seo?.title || `${service.title} | Traincape Technology`}</title>
+        <title>{service.seo?.title || `${service.title} | Armx-Indecodex`}</title>
         <meta
           name="description"
           content={service.seo?.description || `Explore modules, tech stack and compliance features of ${service.title}.`}
         />
         <meta name="keywords" content={service.seo?.keywords || "IT service, software developer, enterprise database"} />
-        <link rel="canonical" href={`https://traincapetech.in/services/${service.slug}`} />
+        <link rel="canonical" href={`https://Armx-Indecodextech.in/services/${service.slug}`} />
         <meta property="og:title" content={service.seo?.title} />
         <meta property="og:description" content={service.seo?.description} />
-        <meta property="og:url" content={`https://traincapetech.in/services/${service.slug}`} />
+        <meta property="og:url" content={`https://Armx-Indecodextech.in/services/${service.slug}`} />
         <meta property="og:type" content="article" />
-        
+
         {/* Dynamic Service and FAQ JSON-LD Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
@@ -69,8 +69,8 @@ export default function ServiceDetail() {
             "serviceType": service.title,
             "provider": {
               "@type": "Organization",
-              "name": "Traincape Technology",
-              "logo": "https://traincapetech.in/assets/TT.png"
+              "name": "Armx-Indecodex",
+              "logo": "https://Armx-Indecodextech.in/assets/TT.png"
             },
             "description": service.shortDescription,
             "areaServed": "Global"
@@ -138,7 +138,7 @@ export default function ServiceDetail() {
       </div>
       <StickyCTA
         primaryLabel="Request Consult"
-        whatsappPrefill={`Hi Traincape Team, I'm viewing your "${service.title}" service page and I'd like to discuss how we can partner on this.`}
+        whatsappPrefill={`Hi Armx-Indecodex Team, I'm viewing your "${service.title}" service page and I'd like to discuss how we can partner on this.`}
       />
     </div>
   );

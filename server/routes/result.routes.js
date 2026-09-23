@@ -35,7 +35,7 @@ resultRouter.post("/add", async (req, res) => {
 
     const resultDoc = new ResultModel({
       name: name || 'Anonymous',
-      email: email || 'unknown@traincape',
+      email: email || 'unknown@Armx-Indecodex',
       course,
       subTopic,
       score,
@@ -76,7 +76,7 @@ resultRouter.post("/addResult", async (req, res) => {
 
     const newResult = new ResultModel({
       name: name || 'Anonymous',
-      email: email || 'unknown@traincape',
+      email: email || 'unknown@Armx-Indecodex',
       course,
       subTopic,
       score,
@@ -126,7 +126,7 @@ resultRouter.get('/verifyCertificate', async (req, res) => {
           certificate: true,
           createdAt: cert.issueDate,
           issueDate: cert.issueDate,
-          issuedBy: cert.issuedBy || 'Traincape Technology',
+          issuedBy: cert.issuedBy || 'Armx-Indecodex',
           certificateURL: cert.certificateURL || '',
           score: null,
           totalQuestions: null,

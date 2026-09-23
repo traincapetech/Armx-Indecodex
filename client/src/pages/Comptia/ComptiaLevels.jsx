@@ -61,9 +61,9 @@ const ComptiaLevels = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       <SEOHead
-        title="CompTIA Certifications | Specialist, Professional & Expert Levels - Traincape Technology"
+        title="CompTIA Certifications | Specialist, Professional & Expert Levels - Armx-Indecodex"
         description="Explore CompTIA certification paths: Specialist (A+, Network+, Security+), Professional (CySA+, PenTest+, Cloud+), and Expert (CASP+, CSAE). Vendor-neutral IT certifications."
-        canonical="https://www.traincapetech.in/comptia"
+        canonical="https://www.Armx-Indecodextech.in/comptia"
       />
       {/* Hero Section */}
       <motion.section

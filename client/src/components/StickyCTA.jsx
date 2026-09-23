@@ -7,7 +7,7 @@ export default function StickyCTA({
   primaryLabel = "Request Consultation",
   primaryLink = "/contact-us",
   whatsappNumber = "919911910793", // default India office
-  whatsappPrefill = "Hi Traincape Team, I'm interested in discussing a project.",
+  whatsappPrefill = "Hi Armx-Indecodex Team, I'm interested in discussing a project.",
 }) {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -29,9 +29,8 @@ export default function StickyCTA({
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-40 lg:hidden px-4 pb-5 pt-3.5 bg-white/95 backdrop-blur-md border-t border-slate-100 shadow-2xl flex gap-3 items-center transition-all duration-300 transform ${
-        isVisible ? "translate-y-0 opacity-100" : "translate-y-full opacity-0 pointer-events-none"
-      }`}
+      className={`fixed bottom-0 left-0 right-0 z-40 lg:hidden px-4 pb-5 pt-3.5 bg-white/95 backdrop-blur-md border-t border-slate-100 shadow-2xl flex gap-3 items-center transition-all duration-300 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-full opacity-0 pointer-events-none"
+        }`}
     >
       <Link
         to={primaryLink}

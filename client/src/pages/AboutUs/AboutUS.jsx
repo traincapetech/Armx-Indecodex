@@ -22,33 +22,33 @@ export default function AboutUS() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>Our Story &amp; Tech Philosophy | Traincape Technology</title>
+        <title>Our Story &amp; Tech Philosophy | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Traincape Technology is an enterprise software developer and professional upskilling partner. Learn our story, vision, core values, and engineering philosophies."
+          content="Armx-Indecodex is an enterprise software developer and professional upskilling partner. Learn our story, vision, core values, and engineering philosophies."
         />
-        <meta name="keywords" content="Traincape Technology story, custom software development company, professional upskilling, Parichay Rana CEO" />
-        <link rel="canonical" href="https://www.traincapetech.in/about-us" />
-        <meta property="og:title" content="Our Story &amp; Tech Philosophy | Traincape Technology" />
-        <meta property="og:description" content="Traincape Technology is an enterprise software developer and professional upskilling partner. Learn our story, vision, core values, and engineering philosophies." />
-        <meta property="og:url" content="https://traincapetech.in/about-us" />
+        <meta name="keywords" content="Armx-Indecodex story, custom software development company, professional upskilling, Parichay Rana CEO" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/about-us" />
+        <meta property="og:title" content="Our Story &amp; Tech Philosophy | Armx-Indecodex" />
+        <meta property="og:description" content="Armx-Indecodex is an enterprise software developer and professional upskilling partner. Learn our story, vision, core values, and engineering philosophies." />
+        <meta property="og:url" content="https://Armx-Indecodextech.in/about-us" />
         <meta property="og:type" content="website" />
-        
+
         {/* Organization JSON-LD Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "http://schema.org",
             "@type": "Organization",
-            "name": "Traincape Technology Pvt Ltd",
-            "url": "https://traincapetech.in",
-            "logo": "https://traincapetech.in/assets/TT.png",
+            "name": "Armx-Indecodex Pvt Ltd",
+            "url": "https://Armx-Indecodextech.in",
+            "logo": "https://Armx-Indecodextech.in/assets/TT.png",
             "founder": {
               "@type": "Person",
               "name": "Parichay Singh Rana"
             },
             "foundingDate": "2021",
             "sameAs": [
-              "https://www.linkedin.com/company/traincape-technology"
+              "https://www.linkedin.com/company/Armx-Indecodex-technology"
             ]
           })}
         </script>
@@ -61,7 +61,7 @@ export default function AboutUS() {
                 "@type": "ListItem",
                 "position": 1,
                 "item": {
-                  "@id": "https://traincapetech.in",
+                  "@id": "https://Armx-Indecodextech.in",
                   "name": "Home"
                 }
               },
@@ -69,7 +69,7 @@ export default function AboutUS() {
                 "@type": "ListItem",
                 "position": 2,
                 "item": {
-                  "@id": "https://traincapetech.in/about-us",
+                  "@id": "https://Armx-Indecodextech.in/about-us",
                   "name": "About Us"
                 }
               }

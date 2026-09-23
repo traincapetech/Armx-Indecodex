@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const dataPath = 'e:/Traincape_Website/Traincape_Website/server/data/course-questions.json';
+const dataPath = 'e:/Armx-Indecodex_Website/Armx-Indecodex_Website/server/data/course-questions.json';
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
 if (data['comptia_CompTIAA+']) {

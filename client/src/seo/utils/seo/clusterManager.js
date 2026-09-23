@@ -4,7 +4,7 @@ const TOPICS = {
     services: ["crm-development", "custom-software-development"],
     products: ["crm", "hrms", "payroll"],
     portfolio: ["crm"],
-    caseStudies: ["crm", "traincape"],
+    caseStudies: ["crm", "Armx-Indecodex"],
     faqs: ["Are these courses free or paid?", "Can we migrate data from Salesforce or HubSpot?"],
     tags: ["CRM", "HRMS", "ERP", "Salesforce Alternative", "B2B SaaS"]
   },
@@ -20,7 +20,7 @@ const TOPICS = {
   "mobile-apps": {
     title: "Mobile App Design & Engineering",
     services: ["mobile-app-development", "ui-ux-design"],
-    portfolio: ["traincape"],
+    portfolio: ["Armx-Indecodex"],
     caseStudies: ["dating-app"],
     tags: ["Swift", "Android CLI", "iOS development", "React Native", "Cross-Platform Apps"]
   },
@@ -29,7 +29,7 @@ const TOPICS = {
     services: ["cloud-services", "custom-software-development"],
     portfolio: ["verda-exports", "crm"],
     caseStudies: ["verda", "crm"],
-    faqs: ["Is it hosted on Traincape servers or our local cloud?"],
+    faqs: ["Is it hosted on Armx-Indecodex servers or our local cloud?"],
     tags: ["AWS ECS", "Amazon Web Services", "Microsoft Azure", "Cloud Migration", "Stateless API"]
   },
   ai: {
@@ -57,19 +57,19 @@ const TOPICS = {
  */
 export function getTopicCluster(topicKey) {
   const normalizedKey = topicKey ? topicKey.toLowerCase().trim() : "";
-  
+
   // Direct match
   if (TOPICS[normalizedKey]) {
     return { key: normalizedKey, ...TOPICS[normalizedKey] };
   }
-  
+
   // Fuzzy match
   for (const [key, cluster] of Object.entries(TOPICS)) {
     if (normalizedKey.includes(key) || key.includes(normalizedKey)) {
       return { key, ...cluster };
     }
   }
-  
+
   return null;
 }
 

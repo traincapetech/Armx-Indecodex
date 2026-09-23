@@ -16,7 +16,7 @@ if (!STRIPE_SECRET_KEY) {
 }
 
 // Get the frontend URL with better fallback handling
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://traincapetech.in";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://Armx-Indecodextech.in";
 
 console.log("Using FRONTEND_URL for payment redirects:", FRONTEND_URL);
 
@@ -266,21 +266,21 @@ const StripePaymentSuccess = async (req, res) => {
               await batch.save();
             }
 
-            const purchaseId = `PURCHASE_${Date.now()}_${Math.random().toString(36).slice(2,9)}`;
+            const purchaseId = `PURCHASE_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
             const vp = new VoucherPurchase({
               purchaseId,
               voucherCode: voucher.voucherCode,
               course,
               subCourse,
               customer: { name: user.username || email, email },
-              payment: { amount: Number(item.amount) || Number(session.amount_total/100) || 0, currency: (session.currency || 'usd').toUpperCase(), status: 'completed', stripePaymentIntentId: session.payment_intent }
+              payment: { amount: Number(item.amount) || Number(session.amount_total / 100) || 0, currency: (session.currency || 'usd').toUpperCase(), status: 'completed', stripePaymentIntentId: session.payment_intent }
             });
             await vp.save();
 
             try {
               await sendVoucherEmail(email, { name: user.username || email, voucherCode: voucher.voucherCode, course, subCourse, purchaseId });
               vp.emailSent = true; vp.emailSentAt = new Date(); await vp.save();
-            } catch (_) {}
+            } catch (_) { }
           }
         }
       }
@@ -352,7 +352,7 @@ const StripeWebhook = async (req, res) => {
             }
             await user.save();
           }
-        } catch (_) {}
+        } catch (_) { }
       }
 
       // If vouchers are bought via direct voucher API, finalize email sending here if metadata contains purchaseId
@@ -388,14 +388,14 @@ const StripeWebhook = async (req, res) => {
               }
 
               // Record voucher purchase
-              const purchaseId = `PURCHASE_${Date.now()}_${Math.random().toString(36).slice(2,9)}`;
+              const purchaseId = `PURCHASE_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
               const vp = new VoucherPurchase({
                 purchaseId,
                 voucherCode: voucher.voucherCode,
                 course,
                 subCourse,
                 customer: { name: session.customer_details?.name || email, email },
-                payment: { amount: Number(item.amount) || Number(session.amount_total/100) || 0, currency: (session.currency || 'usd').toUpperCase(), status: 'completed', stripePaymentIntentId: paymentIntentId }
+                payment: { amount: Number(item.amount) || Number(session.amount_total / 100) || 0, currency: (session.currency || 'usd').toUpperCase(), status: 'completed', stripePaymentIntentId: paymentIntentId }
               });
               await vp.save();
 

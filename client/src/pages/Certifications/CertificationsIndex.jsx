@@ -110,9 +110,9 @@ export default function CertificationsIndex() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title="Certifications| Traincape Technology"
+        title="Certifications| Armx-Indecodex"
         description="Explore certification and professional training programs across project management, agile, cybersecurity, cloud, AI, testing, business, and digital marketing. Browse categories and view course details."
-        canonical="https://www.traincapetech.in/certifications"
+        canonical="https://www.Armx-Indecodextech.in/certifications"
         ogType="website"
       />
 
@@ -121,7 +121,7 @@ export default function CertificationsIndex() {
         <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-blue-500/5 rounded-full blur-[120px] pointer-events-none z-[1]"></div>
         <div className="absolute bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] bg-purple-500/5 rounded-full blur-[140px] pointer-events-none z-[1]"></div>
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f080_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f080_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none z-[1]"></div>
-        
+
         <div className="relative max-w-7xl mx-auto px-6 z-10 text-slate-900">
           <p className="text-sm font-semibold tracking-widest uppercase text-blue-600">
             Certifications

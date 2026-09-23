@@ -39,7 +39,7 @@ Create a new certificate.
   "fullName": "John Doe",
   "courseName": "Advanced JavaScript",
   "issueDate": "31/03/2026",
-  "issuedBy": "TrainCape Technology",
+  "issuedBy": "Armx-Indecodex",
   "certificateURL": "https://example.com/cert.pdf"
 }
 ```
@@ -55,7 +55,7 @@ Create a new certificate.
     "fullName": "John Doe",
     "courseName": "Advanced JavaScript",
     "issueDate": "2026-03-31T00:00:00.000Z",
-    "issuedBy": "TrainCape Technology",
+    "issuedBy": "Armx-Indecodex",
     "certificateURL": "https://example.com/cert.pdf",
     "createdAt": "2024-01-15T10:30:00.000Z",
     "updatedAt": "2024-01-15T10:30:00.000Z"
@@ -81,7 +81,7 @@ GET /certificates/CERT-2024-001
     "fullName": "John Doe",
     "courseName": "Advanced JavaScript",
     "issueDate": "2026-03-31T00:00:00.000Z",
-    "issuedBy": "TrainCape Technology",
+    "issuedBy": "Armx-Indecodex",
     "certificateURL": "https://example.com/cert.pdf",
     "createdAt": "2024-01-15T10:30:00.000Z",
     "updatedAt": "2024-01-15T10:30:00.000Z"
@@ -103,7 +103,7 @@ Fetch all certificates (admin only).
       "fullName": "John Doe",
       "courseName": "Advanced JavaScript",
       "issueDate": "2026-03-31T00:00:00.000Z",
-      "issuedBy": "TrainCape Technology",
+      "issuedBy": "Armx-Indecodex",
       "certificateURL": "https://example.com/cert.pdf",
       "createdAt": "2024-01-15T10:30:00.000Z",
       "updatedAt": "2024-01-15T10:30:00.000Z"

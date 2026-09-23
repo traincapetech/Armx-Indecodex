@@ -1,6 +1,6 @@
 # Production Build Guide
 
-This guide explains how to properly build and deploy the Traincape Technology application to avoid chunk loading errors and other production issues.
+This guide explains how to properly build and deploy the Armx-Indecodex application to avoid chunk loading errors and other production issues.
 
 ## Quick Start
 

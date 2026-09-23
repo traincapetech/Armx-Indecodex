@@ -58,7 +58,7 @@ export const submitCareerApplication = async (req, res) => {
           ` : ''}
           
           <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;">
-            <p style="color: #999; font-size: 12px;">This application was submitted via Traincape Career Page</p>
+            <p style="color: #999; font-size: 12px;">This application was submitted via Armx-Indecodex Career Page</p>
             <p style="color: #999; font-size: 12px;">Received on: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}</p>
           </div>
         </div>
@@ -69,8 +69,8 @@ export const submitCareerApplication = async (req, res) => {
     const sendSmtpEmail = new brevo.SendSmtpEmail();
     sendSmtpEmail.subject = `🎯 New Career Application - ${role}`;
     sendSmtpEmail.htmlContent = htmlContent;
-    sendSmtpEmail.sender = { name: 'Traincape Career Portal', email: 'jhasonu136@gmail.com' };
-    sendSmtpEmail.to = [{ email: 'hr@traincapetech.in', name: 'HR Team' }];
+    sendSmtpEmail.sender = { name: 'Armx-Indecodex Career Portal', email: 'jhasonu136@gmail.com' };
+    sendSmtpEmail.to = [{ email: 'hr@Armx-Indecodextech.in', name: 'HR Team' }];
 
     // Only add replyTo if email is valid
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

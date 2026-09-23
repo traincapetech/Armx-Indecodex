@@ -24,7 +24,7 @@ import { useLanguage } from "../context/LanguageContext.jsx";
 import translations from "../pages/AboutUs/data.js";
 import { BsWhatsapp } from "react-icons/bs";
 import WebsiteCounter from "./WebsiteCounter";
-import logo from "../assets/TT.png";
+import logo from "../assets/Armx-Indecodex-Logo.png";
 import FooterBackground from "./footer/FooterBackground";
 
 export default function Footer() {
@@ -115,7 +115,7 @@ export default function Footer() {
         { label: "Project Scoping Wizard", path: "/requirement-wizard" },
         { label: t.policy || "Privacy Policy", path: "/Our-Policies" },
         { label: "Terms & Conditions", path: "/Terms-and-Conditions" },
-       
+
       ],
     },
     technologies: {
@@ -196,14 +196,14 @@ export default function Footer() {
               <Link to="/" className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-md">
                 <img
                   src={logo}
-                  alt="Traincape Technology Logo"
+                  alt="Armx-Indecodex Logo"
                   className="h-16 w-auto object-contain"
                 />
               </Link>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-lg">
               {t.aboutDesc ||
-                "Traincape Technology delivers smart, enterprise-level digital solutions—from custom software architectures to mobile apps. We empower organizations and professionals to lead in the digital era."}
+                "Armx-Indicodex (A Unit of Tax Bucket) delivers high-performance enterprise software solutions, tailored CRM platforms, and intelligent business automation. We empower modern organizations to innovate and scale with certainty."}
             </p>
 
             {/* Social Links with magnet-style hover & WhatsApp Direct */}
@@ -216,13 +216,13 @@ export default function Footer() {
                   hoverColor: "hover:text-blue-500 hover:border-blue-500/40 hover:shadow-blue-500/10",
                 },
                 {
-                  href: "https://www.instagram.com/traincape_technology?igsh=MWR5c3EyOTI4dHJ5eg==",
+                  href: "https://www.instagram.com/Armx-Indecodex_technology?igsh=MWR5c3EyOTI4dHJ5eg==",
                   Icon: Instagram,
                   label: "Instagram",
                   hoverColor: "hover:text-pink-500 hover:border-pink-500/40 hover:shadow-pink-500/10",
                 },
                 {
-                  href: "https://in.linkedin.com/company/traincape-technology",
+                  href: "https://in.linkedin.com/company/Armx-Indecodex-technology",
                   Icon: Linkedin,
                   label: "LinkedIn",
                   hoverColor: "hover:text-blue-400 hover:border-blue-400/40 hover:shadow-blue-400/10",
@@ -241,7 +241,7 @@ export default function Footer() {
               ))}
 
               <a
-                href={`https://wa.me/441253928501?text=${encodeURIComponent("Hi Traincape Support, I have an inquiry about custom software solutions / IT training services.")}`}
+                href={`https://wa.me/441253928501?text=${encodeURIComponent("Hi Armx-Indecodex Support, I have an inquiry about custom software solutions / IT training services.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat on WhatsApp"
@@ -262,13 +262,13 @@ export default function Footer() {
               {/* <li className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
                 <span className="leading-relaxed">
-                  Traincape Technology, Sector 7, Dwarka, New Delhi, Delhi 110077, India
+                  Armx-Indecodex, Sector 7, Dwarka, New Delhi, Delhi 110077, India
                 </span>
               </li> */}
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-blue-500 flex-shrink-0" />
-                <a href="mailto:sales@traincapetech.info" className="hover:text-cyan-400 hover:underline transition-colors">
-                  sales@traincapetech.in
+                <a href="mailto:sales@Armx-Indecodextech.info" className="hover:text-cyan-400 hover:underline transition-colors">
+                  sales@Armx-Indecodextech.in
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -303,18 +303,16 @@ export default function Footer() {
                     {section.title}
                   </h4>
                   <ChevronDown
-                    className={`w-4 h-4 text-slate-500 transition-transform md:hidden ${
-                      openSection === key ? "transform rotate-180" : ""
-                    }`}
+                    className={`w-4 h-4 text-slate-500 transition-transform md:hidden ${openSection === key ? "transform rotate-180" : ""
+                      }`}
                   />
                 </button>
 
                 {/* Collapsible Link list container */}
                 <div
                   id={`footer-section-${key}`}
-                  className={`md:block transition-all duration-300 overflow-hidden ${
-                    openSection === key ? "max-h-[500px] opacity-100 mt-2" : "max-h-0 md:max-h-[500px] opacity-0 md:opacity-100"
-                  }`}
+                  className={`md:block transition-all duration-300 overflow-hidden ${openSection === key ? "max-h-[500px] opacity-100 mt-2" : "max-h-0 md:max-h-[500px] opacity-0 md:opacity-100"
+                    }`}
                 >
                   <nav aria-label={`${section.title} Navigation`}>
                     <ul className="space-y-2.5 text-sm">
@@ -394,8 +392,9 @@ export default function Footer() {
             <p className="font-light">
               {t.copyRight || `Copyright © ${new Date().getFullYear()} `}
               <span className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
-                Traincape Technology
-              </span>
+                Armx-Indicodex
+              </span>{" "}
+              <span className="text-slate-400 font-normal">(A Unit of Tax Bucket)</span>
               . {t.allRightsReserved || "All rights reserved."}
             </p>
             <span className="hidden md:inline text-slate-800">|</span>
@@ -404,7 +403,7 @@ export default function Footer() {
               <span>ISO 9001 & ISO 27001 Certified Partner</span>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-4">
             <WebsiteCounter />
           </div>

@@ -42,9 +42,9 @@ export default function ProjectDetail() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Dynamic SEO Meta Configurations */}
       <SEOHead
-        title={project.seo?.title || `${project.title} Case Study | Traincape Technology`}
-        description={project.seo?.description || `Explore the technical details and solution architecture of the ${project.title} custom software development project by Traincape Technology.`}
-        canonical={`https://www.traincapetech.in/portfolio/${project.slug}`}
+        title={project.seo?.title || `${project.title} Case Study | Armx-Indecodex`}
+        description={project.seo?.description || `Explore the technical details and solution architecture of the ${project.title} custom software development project by Armx-Indecodex.`}
+        canonical={`https://www.Armx-Indecodextech.in/portfolio/${project.slug}`}
         structuredData={{
           "@context": "http://schema.org",
           "@type": "NewsArticle",
@@ -52,14 +52,14 @@ export default function ProjectDetail() {
           "description": project.description,
           "author": {
             "@type": "Organization",
-            "name": "Traincape Technology"
+            "name": "Armx-Indecodex"
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Traincape Technology",
+            "name": "Armx-Indecodex",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.traincapetech.in/assets/TT.png"
+              "url": "https://www.Armx-Indecodextech.in/assets/TT.png"
             }
           }
         }}
@@ -125,7 +125,7 @@ export default function ProjectDetail() {
               {project.challenge || "Our client faced key architectural limitations with legacy data speeds, security baselines, and performance optimization."}
             </p>
           </div>
-          
+
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-slate-900 font-display flex items-center gap-2">
               <span className="w-1.5 h-6 rounded bg-emerald-500"></span>
@@ -216,7 +216,7 @@ export default function ProjectDetail() {
               <span>Get in Touch</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
-            
+
             {project.website && project.website !== "#" && (
               <a
                 href={project.website}

@@ -42,7 +42,7 @@
   <text x="140" y="150" text-anchor="middle" fill="#152B54" font-family="Arial, sans-serif" font-size="24" font-weight="bold">TC</text>
   
   <!-- Company Name and Tagline -->
-  <text x="200" y="130" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">TRAINCAPE</text>
+  <text x="200" y="130" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Armx-Indecodex</text>
   <text x="200" y="160" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">TECHNOLOGY</text>
   <text x="200" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Elevating Your Career with Expert IT Training</text>
   
@@ -139,7 +139,7 @@
   <!-- Contact Information -->
   <rect x="100" y="480" width="500" height="60" rx="8" fill="#152B54" opacity="0.9"/>
   <text x="120" y="505" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Get Started Today!</text>
-  <text x="120" y="525" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">📧 sales@traincapetech.info  📞 +91 6280281505  🌐 www.traincapetech.in</text>
+  <text x="120" y="525" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">📧 sales@Armx-Indecodextech.info  📞 +91 6280281505  🌐 www.Armx-Indecodextech.in</text>
   
   <!-- Call to Action Button -->
   <rect x="620" y="485" width="120" height="50" rx="25" fill="#10B981"/>

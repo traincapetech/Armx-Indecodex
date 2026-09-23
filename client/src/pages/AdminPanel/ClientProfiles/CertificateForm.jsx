@@ -22,7 +22,7 @@ const CertificateForm = () => {
   // Helper function to format date for backend
   const formatDateForBackend = (dateString) => {
     if (!dateString) return "";
-    
+
     // If it's already in YYYY-MM-DD format (from date input), convert to DD/MM/YYYY
     const dateObj = new Date(dateString);
     if (!isNaN(dateObj.getTime())) {
@@ -31,24 +31,24 @@ const CertificateForm = () => {
       const year = dateObj.getFullYear();
       return `${day}/${month}/${year}`;
     }
-    
+
     return dateString; // Return as-is if not a valid date
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Validate required fields
     const requiredFields = ['certificateId', 'fullName', 'courseName', 'issueDate', 'issuedBy'];
     const missingFields = requiredFields.filter(field => !form[field]);
-    
+
     if (missingFields.length > 0) {
       alert(`Please fill in all required fields: ${missingFields.join(', ')}`);
       return;
     }
-    
+
     setLoading(true);
-    
+
     try {
       const payload = {
         certificateId: form.certificateId,
@@ -62,7 +62,7 @@ const CertificateForm = () => {
       console.log("Sending payload:", payload); // Debug log
 
       // Use the full URL to ensure we're hitting the right endpoint
-      const response = await axios.post("https://traincape-backend-uwoa.onrender.com/certificates", payload, {
+      const response = await axios.post("https://Armx-Indecodex-backend-uwoa.onrender.com/certificates", payload, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
@@ -70,12 +70,12 @@ const CertificateForm = () => {
         timeout: 30000, // 30 second timeout
         withCredentials: false // Disable sending cookies
       });
-      
+
       console.log("Response:", response.data); // Debug log
-      
+
       if (response.data.success) {
         alert("✅ Certificate saved successfully!");
-        
+
         // Reset form
         setForm({
           certificateId: "",
@@ -95,9 +95,9 @@ const CertificateForm = () => {
       console.error("Error response:", err.response);
       console.error("Error request:", err.request);
       console.error("Error message:", err.message);
-      
+
       let errorMessage = "Unknown error occurred";
-      
+
       if (err.response) {
         // Server responded with error status
         console.error("Server error response:", err.response.data);
@@ -110,7 +110,7 @@ const CertificateForm = () => {
         // Something else happened
         errorMessage = err.message || "Request setup error";
       }
-      
+
       alert("❌ Error saving certificate: " + errorMessage);
     } finally {
       setLoading(false);
@@ -119,9 +119,9 @@ const CertificateForm = () => {
 
   return (
     <div className="max-w-2xl mx-auto">
-    <form onSubmit={handleSubmit} className="space-y-4 bg-white p-6 rounded shadow-md">
-      <h2 className="text-xl font-bold">Add Certificate</h2>
-        
+      <form onSubmit={handleSubmit} className="space-y-4 bg-white p-6 rounded shadow-md">
+        <h2 className="text-xl font-bold">Add Certificate</h2>
+
         <input
           name="certificateId"
           placeholder="Certificate ID"
@@ -130,7 +130,7 @@ const CertificateForm = () => {
           onChange={handleChange}
           required
         />
-        
+
         <input
           name="fullName"
           placeholder="Full Name"
@@ -139,7 +139,7 @@ const CertificateForm = () => {
           onChange={handleChange}
           required
         />
-        
+
         <input
           name="courseName"
           placeholder="Course Name"
@@ -148,7 +148,7 @@ const CertificateForm = () => {
           onChange={handleChange}
           required
         />
-        
+
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Issue Date
@@ -162,7 +162,7 @@ const CertificateForm = () => {
             required
           />
         </div>
-        
+
         <input
           name="issuedBy"
           placeholder="Issued By"
@@ -171,7 +171,7 @@ const CertificateForm = () => {
           onChange={handleChange}
           required
         />
-        
+
         <input
           name="certificateURL"
           placeholder="Certificate URL (optional)"
@@ -180,24 +180,23 @@ const CertificateForm = () => {
           value={form.certificateURL}
           onChange={handleChange}
         />
-        
-        <button 
-          type="submit" 
+
+        <button
+          type="submit"
           disabled={loading}
-          className={`w-full px-4 py-2 rounded text-white font-medium ${
-            loading 
-              ? 'bg-gray-400 cursor-not-allowed' 
+          className={`w-full px-4 py-2 rounded text-white font-medium ${loading
+              ? 'bg-gray-400 cursor-not-allowed'
               : 'bg-blue-500 hover:bg-blue-600'
-          }`}
+            }`}
         >
           {loading ? 'Saving...' : 'Save Certificate'}
-      </button>
-    </form>
-      
+        </button>
+      </form>
+
       {/* Debug Information */}
       <div className="mt-4 p-4 bg-gray-100 rounded text-sm">
         <h3 className="font-bold mb-2">Debug Info:</h3>
-        <p><strong>API Endpoint:</strong> https://traincape-backend-uwoa.onrender.com/certificates</p>
+        <p><strong>API Endpoint:</strong> https://Armx-Indecodex-backend-uwoa.onrender.com/certificates</p>
         <p><strong>Current Form Data:</strong></p>
         <pre className="bg-white p-2 rounded mt-1 text-xs overflow-auto">
           {JSON.stringify(form, null, 2)}

@@ -38,8 +38,8 @@ const ComptiaCNVP = () => {
       "Master Cloud Networking & Virtualization with CompTIA Cloud Network Virtualization Professional Certification. Learn to design, implement, and manage cloud-based network infrastructures. Contact us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -129,23 +129,23 @@ const ComptiaCNVP = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
-{/* ✅ SEO Helmet */}
-<Helmet>
+      {/* ✅ SEO Helmet */}
+      <Helmet>
         <title>
           CompTIA Cloud Network Virtualization Professional Training & Certification
         </title>
         <meta
           name="description"
-          content="Earn your CompTIA Cloud Network Virtualization Professional (CNVP) certification. Step up your IT career with CompTIA CNVP Certification from Traincape Technology. Gain expertise in cloud networking and virtualization with Network+ (N10-009) and Cloud+ (CV0-004) certification path."
+          content="Earn your CompTIA Cloud Network Virtualization Professional (CNVP) certification. Step up your IT career with CompTIA CNVP Certification from Armx-Indecodex. Gain expertise in cloud networking and virtualization with Network+ (N10-009) and Cloud+ (CV0-004) certification path."
         />
         <meta
           name="keywords"
-          content="CompTIA Cloud Network Virtualization Professional, CompTIA CNVP Certification, Cloud Networking Training, Network+ N10-009, Cloud+ CV0-004, Traincape Technology"
+          content="CompTIA Cloud Network Virtualization Professional, CompTIA CNVP Certification, Cloud Networking Training, Network+ N10-009, Cloud+ CV0-004, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/comptia/professional/cnvp-certification"
+          href="https://www.Armx-Indecodextech.in/comptia/professional/cnvp-certification"
         />
 
         {/* ✅ Open Graph */}
@@ -155,15 +155,15 @@ const ComptiaCNVP = () => {
         />
         <meta
           property="og:description"
-          content="Earn your CompTIA Cloud Network Virtualization Professional (CNVP) certification. Gain expertise in cloud networking and virtualization with Network+ and Cloud+ from Traincape Technology."
+          content="Earn your CompTIA Cloud Network Virtualization Professional (CNVP) certification. Gain expertise in cloud networking and virtualization with Network+ and Cloud+ from Armx-Indecodex."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/cnvp-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/cnvp-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/cnvp-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/cnvp-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -175,11 +175,11 @@ const ComptiaCNVP = () => {
         />
         <meta
           name="twitter:description"
-          content="Step up your IT career with CompTIA CNVP Certification from Traincape Technology. Master cloud networking and virtualization with Network+ and Cloud+ certification path."
+          content="Step up your IT career with CompTIA CNVP Certification from Armx-Indecodex. Master cloud networking and virtualization with Network+ and Cloud+ certification path."
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/cnvp-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/cnvp-banner.webp"
         />
 
         {/* ✅ Schema */}
@@ -189,7 +189,7 @@ const ComptiaCNVP = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -199,7 +199,7 @@ const ComptiaCNVP = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -207,7 +207,7 @@ const ComptiaCNVP = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL • STACKABLE</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -215,7 +215,7 @@ const ComptiaCNVP = () => {
               >
                 CompTIA Cloud Network Virtualization Professional (CNVP)
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -223,7 +223,7 @@ const ComptiaCNVP = () => {
               >
                 Master Cloud Networking & Virtualization
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -231,25 +231,25 @@ const ComptiaCNVP = () => {
               >
                 The CompTIA Cloud Network Virtualization Professional (CNVP) stackable certification validates your ability to design, implement, and manage cloud-based network infrastructures. Earn it by completing Network+ and Cloud+ certifications.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Start Your Journey
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/comptia/professional")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition"
                 >
                   View All Professional Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACNVP", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -257,7 +257,7 @@ const ComptiaCNVP = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -518,24 +518,24 @@ const ComptiaCNVP = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Master Cloud Networking?</h2>
             <p className="text-xl mb-8">Start with Network+ and build your way to CNVP certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Start Your Journey
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACNVP", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACNVP", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

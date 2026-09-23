@@ -44,8 +44,8 @@ const IEC17025LaboratoryManagementSystem = () => {
       "Ensure laboratory competence and accreditation with PECB ISO/IEC 17025 Certification. Master technical competence, measurement uncertainty, and quality assurance for accredited laboratory operations. Contact us now!",
     provider: {
       "@type": "Organization",
-      name: "Traincape Technology",
-      url: "https://www.traincapetech.in",
+      name: "Armx-Indecodex",
+      url: "https://www.Armx-Indecodextech.in",
     },
     hasCourseInstance: {
       "@type": "CourseInstance",
@@ -156,21 +156,21 @@ const IEC17025LaboratoryManagementSystem = () => {
         </title>
         <meta
           name="description"
-          content="Get PECB ISO/IEC 17025 certified accreditation with a straightforward Laboratory Management System designed for accuracy and ongoing enhancement. Streamline your lab operations with our ISO 17025 from Traincape Technology LIMS software - manage testing and quality with full compliance."
+          content="Get PECB ISO/IEC 17025 certified accreditation with a straightforward Laboratory Management System designed for accuracy and ongoing enhancement. Streamline your lab operations with our ISO 17025 from Armx-Indecodex LIMS software - manage testing and quality with full compliance."
         />
         <meta
           name="keywords"
-          content="ISO/IEC 17025 training, laboratory management certification, PECB ISO/IEC 17025, Traincape Technology, technical competence, measurement uncertainty, quality assurance"
+          content="ISO/IEC 17025 training, laboratory management certification, PECB ISO/IEC 17025, Armx-Indecodex, technical competence, measurement uncertainty, quality assurance"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/quality/iso-iec-17025-laboratory-management-system"
+          href="https://www.Armx-Indecodextech.in/pecb/quality/iso-iec-17025-laboratory-management-system"
         />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="ISO/IEC 17025 Laboratory Management System Certification | Traincape Technology"
+          content="ISO/IEC 17025 Laboratory Management System Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -178,7 +178,7 @@ const IEC17025LaboratoryManagementSystem = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/quality/iso-iec-17025-laboratory-management-system"
+          content="https://Armx-Indecodextech.in/pecb/quality/iso-iec-17025-laboratory-management-system"
         />
         <meta property="og:type" content="website" />
 
@@ -186,7 +186,7 @@ const IEC17025LaboratoryManagementSystem = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ISO/IEC 17025 Laboratory Management System Certification | Traincape Technology"
+          content="ISO/IEC 17025 Laboratory Management System Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"

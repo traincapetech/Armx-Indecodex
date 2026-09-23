@@ -284,12 +284,12 @@ const ISO31000RiskManagement = () => {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "PECB ISO 31000:2018 Risk Management Certification",
-    "description": "Master PECB's ISO 31000 Certification with Traincape Technology's 5-Day Training. Master risk management and boost your career with our Training Programme. Join us and get started with us.",
+    "description": "Master PECB's ISO 31000 Certification with Armx-Indecodex's 5-Day Training. Master risk management and boost your career with our Training Programme. Join us and get started with us.",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
-      "logo": "https://traincapetech.in/assets/logo.webp"
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
+      "logo": "https://Armx-Indecodextech.in/assets/logo.webp"
     },
     "courseCode": "ISO 31000:2018",
     "hasCourseInstance": {
@@ -305,7 +305,7 @@ const ISO31000RiskManagement = () => {
       "endDate": "2025-12-01",
       "location": {
         "@type": "Place",
-        "name": "Traincape Technology",
+        "name": "Armx-Indecodex",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "New Delhi, India",
@@ -319,7 +319,7 @@ const ISO31000RiskManagement = () => {
         "price": "400",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://traincapetech.in/pecb/governance/iso-31000-training"
+        "url": "https://Armx-Indecodextech.in/pecb/governance/iso-31000-training"
       }
     },
     "educationalCredentialAwarded": "PECB Certified ISO 31000 Lead Risk Manager",
@@ -328,44 +328,44 @@ const ISO31000RiskManagement = () => {
       "audienceType": "Professionals seeking Risk Management certification"
     },
     "learningResourceType": "Professional Certification Course",
-    "keywords": ["ISO 31000", "Risk Management", "PECB Certification", "Enterprise Risk Management", "Risk Assessment", "Traincape Technology"]
+    "keywords": ["ISO 31000", "Risk Management", "PECB Certification", "Enterprise Risk Management", "Risk Assessment", "Armx-Indecodex"]
   }), []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-orange-50 to-red-50">
       <Helmet>
-        <title>ISO 31000:2018 Risk Management Training | Traincape Technology</title>
+        <title>ISO 31000:2018 Risk Management Training | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Master PECB's ISO 31000 Certification with Traincape Technology's 5-Day Training. Master risk management and boost your career with our Training Programme. Join us and get started with us."
+          content="Master PECB's ISO 31000 Certification with Armx-Indecodex's 5-Day Training. Master risk management and boost your career with our Training Programme. Join us and get started with us."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="ISO 31000 Training, Risk Management Certification, PECB ISO 31000, Enterprise Risk Management Course, Traincape Technology"
+          content="ISO 31000 Training, Risk Management Certification, PECB ISO 31000, Enterprise Risk Management Course, Armx-Indecodex"
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/governance/iso-31000-training"
+          href="https://www.Armx-Indecodextech.in/pecb/governance/iso-31000-training"
         />
         <meta property="og:title" content="ISO 31000:2018 Risk Management Training" />
         <meta
           property="og:description"
-          content="Master risk management with PECB’s ISO 31000 Certification through Traincape Technology's expert 5-Day Training."
+          content="Master risk management with PECB’s ISO 31000 Certification through Armx-Indecodex's expert 5-Day Training."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/governance/iso-31000-training"
+          content="https://Armx-Indecodextech.in/pecb/governance/iso-31000-training"
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ISO 31000:2018 Risk Management Training | Traincape Technology"
+          content="ISO 31000:2018 Risk Management Training | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
-          content="Enhance your career with Traincape Technology’s ISO 31000:2018 Certification Course."
+          content="Enhance your career with Armx-Indecodex’s ISO 31000:2018 Certification Course."
         />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
@@ -388,13 +388,13 @@ const ISO31000RiskManagement = () => {
                 ISO 31000:2018 is the international standard for Risk Management. This comprehensive certification covers risk management principles, framework, and process implementation.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-orange-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition"
                 >
@@ -447,7 +447,7 @@ const ISO31000RiskManagement = () => {
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-4">What You'll Learn</h2>
             <p className="text-xl text-gray-600">Comprehensive risk management training</p>
-            <button 
+            <button
               onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO31000RiskManagement", level: "easy" } })}
               className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
@@ -597,24 +597,24 @@ const ISO31000RiskManagement = () => {
             <h2 className="text-4xl font-bold mb-4">Master Enterprise Risk Management</h2>
             <p className="text-xl mb-8">Start your journey to becoming a risk management expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO31000RiskManagement", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO31000RiskManagement", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

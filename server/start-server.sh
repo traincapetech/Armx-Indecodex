@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Starting Traincape Technology Server..."
+echo "🚀 Starting Armx-Indecodex Server..."
 
 # Check if server is already running
 if curl -s http://localhost:8080 > /dev/null 2>&1; then

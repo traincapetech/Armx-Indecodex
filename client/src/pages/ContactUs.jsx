@@ -52,7 +52,7 @@ const ContactUs = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  
+
   // Validation errors
   const [errors, setErrors] = useState({});
   const [touched, setTouched] = useState({});
@@ -425,20 +425,20 @@ Action Required: Please send calendar invite or call client at the scheduled hou
   return (
     <div className="bg-[#f8fafc] text-slate-900 min-h-screen pb-20 relative" style={{ fontFamily: "Inter, sans-serif" }}>
       <SEOHead
-        title="Consultation & Enterprise RFP Portal | Traincape Technology"
-        description="Discuss your enterprise requirements with Traincape's engineering architects. Submit your RFP or request a secure 1-on-1 technical discovery call."
-        canonical="https://www.traincapetech.in/contact-us"
+        title="Consultation & Enterprise RFP Portal | Armx-Indecodex"
+        description="Discuss your enterprise requirements with Armx-Indecodex's engineering architects. Submit your RFP or request a secure 1-on-1 technical discovery call."
+        canonical="https://www.Armx-Indecodextech.in/contact-us"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "ContactPage",
-          "name": "Traincape Consultation & RFP Portal",
+          "name": "Armx-Indecodex Consultation & RFP Portal",
           "description": "Enterprise-grade IT Solutions discovery call and lead validation form.",
-          "url": "https://www.traincapetech.in/contact-us",
+          "url": "https://www.Armx-Indecodextech.in/contact-us",
           "mainEntity": {
             "@type": "Organization",
-            "name": "Traincape Technology (OPC) Private Limited",
+            "name": "Armx-Indecodex (OPC) Private Limited",
             "telephone": "+91-9911910793",
-            "email": "sales@traincapetech.info",
+            "email": "sales@Armx-Indecodextech.info",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Sector 7, Dwarka",
@@ -499,15 +499,15 @@ Action Required: Please send calendar invite or call client at the scheduled hou
       {/* Main Grid Structure */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 mt-[-60px] relative z-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* Left Column: Why Partner + Scheduler + Contacts */}
           <div className="lg:col-span-5 space-y-8">
-            
+
             {/* Why Contact Card */}
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-slate-200/60 hover:shadow-lg transition-all duration-300">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2.5">
                 <Sparkles className="h-5.5 w-5.5 text-blue-600" />
-                <span>The Traincape Standard</span>
+                <span>The Armx-Indecodex Standard</span>
               </h2>
 
               <ul className="space-y-6">
@@ -585,11 +585,10 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           key={d.raw}
                           type="button"
                           onClick={() => setSelectedDate(d.raw)}
-                          className={`py-2 px-1 rounded-lg text-center border transition-all text-xs font-semibold flex flex-col items-center justify-center ${
-                            selectedDate === d.raw
+                          className={`py-2 px-1 rounded-lg text-center border transition-all text-xs font-semibold flex flex-col items-center justify-center ${selectedDate === d.raw
                               ? "bg-blue-600 border-blue-600 text-white shadow-md shadow-blue-500/20"
                               : "border-slate-200 hover:border-slate-350 bg-slate-50 text-slate-700"
-                          }`}
+                            }`}
                         >
                           <span className="text-[10px] uppercase opacity-75">{d.formatted.split(" ")[0]}</span>
                           <span className="text-sm font-extrabold mt-0.5">{d.formatted.split(" ")[2]}</span>
@@ -609,11 +608,10 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           key={slot}
                           type="button"
                           onClick={() => setSelectedTime(slot)}
-                          className={`py-2 rounded-lg border text-xs font-medium transition-all ${
-                            selectedTime === slot
+                          className={`py-2 rounded-lg border text-xs font-medium transition-all ${selectedTime === slot
                               ? "bg-blue-600 border-blue-600 text-white shadow-md shadow-blue-500/20"
                               : "border-slate-200 hover:border-slate-350 bg-slate-50 text-slate-700"
-                          }`}
+                            }`}
                         >
                           {slot}
                         </button>
@@ -691,8 +689,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="h-4 w-4 text-blue-600 flex-shrink-0" />
-                  <a href="mailto:sales@traincapetech.info" className="hover:text-blue-600 hover:underline transition-colors font-semibold">
-                    sales@traincapetech.info
+                  <a href="mailto:sales@Armx-Indecodextech.info" className="hover:text-blue-600 hover:underline transition-colors font-semibold">
+                    sales@Armx-Indecodextech.info
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
@@ -715,7 +713,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
           {/* Right Column: 2-Step Lead Form */}
           <div className="lg:col-span-7">
             <div className="bg-white rounded-3xl p-6 md:p-10 shadow-md border border-slate-200/60 relative">
-              
+
               {/* Form Step Banner */}
               <div className="flex items-center justify-between mb-8 pb-4 border-b border-slate-100">
                 <div>
@@ -723,13 +721,11 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                   <p className="text-xs text-slate-500 mt-0.5">Please provide project parameters for engineering sizing.</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className={`px-2.5 py-1 rounded text-xs font-bold transition-all ${
-                    currentStep === 1 ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-500"
-                  }`}>Step 1</div>
+                  <div className={`px-2.5 py-1 rounded text-xs font-bold transition-all ${currentStep === 1 ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-500"
+                    }`}>Step 1</div>
                   <ChevronRight className="h-3.5 w-3.5 text-slate-350" />
-                  <div className={`px-2.5 py-1 rounded text-xs font-bold transition-all ${
-                    currentStep === 2 ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-500"
-                  }`}>Step 2</div>
+                  <div className={`px-2.5 py-1 rounded text-xs font-bold transition-all ${currentStep === 2 ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-500"
+                    }`}>Step 2</div>
                 </div>
               </div>
 
@@ -746,7 +742,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                   <p className="text-sm text-slate-500 mb-8 leading-relaxed">
                     Thank you for submitting your brief. An Enterprise Solution Architect is compiling initial estimates. We will reach out within 4 hours.
                   </p>
-                  
+
                   <div className="bg-slate-50 rounded-xl p-4 border border-slate-100 text-left space-y-2 mb-8">
                     <div className="text-xs text-slate-400 font-bold uppercase tracking-wider">Estimated Callback Slot</div>
                     <div className="text-sm font-bold text-slate-800 flex items-center gap-2">
@@ -782,7 +778,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6" noValidate>
-                  
+
                   {/* Skip to Scoping Wizard Banner */}
                   <div className="bg-blue-50/50 border border-blue-100 rounded-xl p-4 text-xs text-slate-600 flex items-center justify-between gap-3 mb-4">
                     <div className="flex items-start gap-2.5">
@@ -799,7 +795,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                       Start Wizard
                     </Link>
                   </div>
-                  
+
                   {/* Step 1: Corporate Profile */}
                   {currentStep === 1 && (
                     <motion.div
@@ -826,9 +822,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           aria-required="true"
                           aria-invalid={!!errors.name}
                           aria-describedby={errors.name ? "name-error" : undefined}
-                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                            errors.name ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                          }`}
+                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.name ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                            }`}
                         />
                         {errors.name && (
                           <div id="name-error" className="text-xs text-red-500 font-semibold flex items-center gap-1">
@@ -856,9 +851,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           aria-required="true"
                           aria-invalid={!!errors.email}
                           aria-describedby={errors.email ? "email-error" : undefined}
-                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                            errors.email ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                          }`}
+                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.email ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                            }`}
                         />
                         {errors.email && (
                           <div id="email-error" className="text-xs text-red-500 font-semibold flex items-center gap-1">
@@ -904,9 +898,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                             aria-required="true"
                             aria-invalid={!!errors.phoneNumber}
                             aria-describedby={errors.phoneNumber ? "phone-error" : undefined}
-                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                              errors.phoneNumber ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                            }`}
+                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.phoneNumber ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                              }`}
                           />
                           {errors.phoneNumber && (
                             <div id="phone-error" className="text-xs text-red-500 font-semibold flex items-center gap-1">
@@ -934,9 +927,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                             aria-required="true"
                             aria-invalid={!!errors.location}
                             aria-describedby={errors.location ? "location-error" : undefined}
-                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                              errors.location ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                            }`}
+                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.location ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                              }`}
                           />
                           {errors.location && (
                             <div id="location-error" className="text-xs text-red-500 font-semibold flex items-center gap-1">
@@ -989,7 +981,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           <ArrowRight className="h-4 w-4" />
                         </button>
                       </div>
-                      
+
                       <div className="text-center mt-2">
                         <p className="text-[11px] text-slate-450 font-medium">
                           🔒 Your details are 100% confidential. We never spam.
@@ -1020,9 +1012,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                             onBlur={handleBlur}
                             required
                             aria-invalid={!!errors.subject}
-                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                              errors.subject ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                            }`}
+                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.subject ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                              }`}
                           >
                             <option value="" disabled>Select Service...</option>
                             {servicesList.map((service) => (
@@ -1070,9 +1061,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                             onBlur={handleBlur}
                             required
                             aria-invalid={!!errors.budget}
-                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                              errors.budget ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                            }`}
+                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.budget ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                              }`}
                           >
                             <option value="" disabled>Select Budget...</option>
                             {budgetsList.map((b) => (
@@ -1100,9 +1090,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                             onBlur={handleBlur}
                             required
                             aria-invalid={!!errors.timeline}
-                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                              errors.timeline ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                            }`}
+                            className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.timeline ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                              }`}
                           >
                             <option value="" disabled>Select Timeline...</option>
                             {timelinesList.map((t) => (
@@ -1136,9 +1125,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           aria-required="true"
                           aria-invalid={!!errors.message}
                           aria-describedby={errors.message ? "message-error" : undefined}
-                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
-                            errors.message ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
-                          }`}
+                          className={`w-full px-4 py-3 border rounded-xl bg-slate-50/50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${errors.message ? "border-red-500 focus:ring-red-400" : "border-slate-200 focus:border-slate-350"
+                            }`}
                         ></textarea>
                         {errors.message && (
                           <div id="message-error" className="text-xs text-red-500 font-semibold flex items-center gap-1">
@@ -1158,11 +1146,10 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                           onDragLeave={handleDragLeave}
                           onDrop={handleDrop}
                           onClick={() => fileInputRef.current?.click()}
-                          className={`border-2 border-dashed rounded-2xl p-6 text-center cursor-pointer transition-all ${
-                            isDragging
+                          className={`border-2 border-dashed rounded-2xl p-6 text-center cursor-pointer transition-all ${isDragging
                               ? "border-blue-600 bg-blue-50/40"
                               : "border-slate-200 hover:border-blue-500 hover:bg-slate-50/50"
-                          }`}
+                            }`}
                         >
                           <input
                             type="file"
@@ -1238,7 +1225,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
         </div>
       </section>
 
-      
+
       {/* Accordion FAQ Section */}
       <section className="max-w-4xl mx-auto px-6 lg:px-8 mt-24">
         <div className="text-center mb-12">
@@ -1269,9 +1256,8 @@ Action Required: Please send calendar invite or call client at the scheduled hou
                     {faq.q}
                   </span>
                   <ChevronDown
-                    className={`h-5 w-5 text-slate-450 transition-transform flex-shrink-0 ${
-                      isExpanded ? "transform rotate-180" : ""
-                    }`}
+                    className={`h-5 w-5 text-slate-450 transition-transform flex-shrink-0 ${isExpanded ? "transform rotate-180" : ""
+                      }`}
                   />
                 </button>
 
@@ -1314,7 +1300,7 @@ Action Required: Please send calendar invite or call client at the scheduled hou
             </p>
             <div className="pt-2 flex flex-wrap gap-4">
               <a
-                href="mailto:sales@traincapetech.info"
+                href="mailto:sales@Armx-Indecodextech.info"
                 className="bg-white hover:bg-slate-100 text-slate-900 font-bold px-6 py-2.5 rounded-xl transition text-xs shadow-md shadow-white/10"
               >
                 Request Technical SLA Proposal

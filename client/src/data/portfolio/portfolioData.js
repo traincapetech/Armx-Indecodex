@@ -22,9 +22,9 @@ import datingAppProfile from "../../assets/portfolio/dating-app/profile.webp";
 import datingAppChat from "../../assets/portfolio/dating-app/chat.webp";
 import datingAppLogo from "../../assets/portfolio/dating-app/logo.svg";
 
-import traincapeDesktop from "../../assets/portfolio/traincape/desktop.png";
-import traincapeMobile from "../../assets/portfolio/traincape/mobile.png";
-import traincapeLogo from "../../assets/portfolio/traincape/logo.png";
+import armxIndecodexDesktop from "../../assets/portfolio/traincape/desktop.png";
+import armxIndecodexMobile from "../../assets/portfolio/traincape/mobile.png";
+import armxIndecodexLogo from "../../assets/portfolio/traincape/logo.png";
 
 import boldIndiaDesktop from "../../assets/portfolio/bold-india-group/desktop.png";
 import boldIndiaMobile from "../../assets/portfolio/bold-india-group/mobile.png";
@@ -61,7 +61,7 @@ export const portfolioData = [
     featured: true,
     seo: {
       title: "NK Luxe Case Study | Premium Luxury E-commerce Platform",
-      description: "Discover how Traincape designed and built the flagship luxury storefront for NK Luxe. Achieving sub-second loads and premium aesthetics.",
+      description: "Discover how Armx-Indecodex designed and built the flagship luxury storefront for NK Luxe. Achieving sub-second loads and premium aesthetics.",
       keywords: "luxury ecommerce, online storefront, custom React web app, stripe integration"
     }
   },
@@ -102,8 +102,8 @@ export const portfolioData = [
   {
     id: "crm",
     slug: "crm",
-    title: "Traincape Enterprise CRM & HRMS Suites",
-    client: "Traincape Corporate Services",
+    title: "Armx-Indecodex Enterprise CRM & HRMS Suites",
+    client: "Armx-Indecodex Corporate Services",
     industry: "Enterprise Software",
     country: "United Kingdom",
     description: "An all-in-one customized enterprise management ecosystem integrating CRM, HRMS, Payroll administration, Attendance tracking, Inventory control, and a unified Employee Portal.",
@@ -133,19 +133,19 @@ export const portfolioData = [
     projectType: "Enterprise Software",
     featured: true,
     seo: {
-      title: "Enterprise CRM & HRMS Custom Build | Traincape Technology",
-      description: "An in-depth look at Traincape's custom enterprise software suites. How we integrated CRM, HRMS, and inventory into one cohesive platform.",
+      title: "Enterprise CRM & HRMS Custom Build | Armx-Indecodex",
+      description: "An in-depth look at Armx-Indecodex's custom enterprise software suites. How we integrated CRM, HRMS, and inventory into one cohesive platform.",
       keywords: "custom CRM, HRMS platform, automated payroll systems, enterprise SaaS software"
     }
   },
   {
-    id: "traincape",
-    slug: "traincape",
-    title: "Traincape Technology Pvt Ltd",
-    client: "Traincape Education & Software Services",
+    id: "Armx-Indecodex",
+    slug: "Armx-Indecodex",
+    title: "Armx-Indecodex Pvt Ltd",
+    client: "Armx-Indecodex Education & Software Services",
     industry: "Software Design & EdTech",
     country: "India",
-    description: "Enterprise software design and development suite for Traincape. Builds custom scalable CRM, ERP, custom LMS, mobile apps, and real estate portals optimized for search engine ranks (SEO).",
+    description: "Enterprise software design and development suite for Armx-Indecodex. Builds custom scalable CRM, ERP, custom LMS, mobile apps, and real estate portals optimized for search engine ranks (SEO).",
     challenge: "Developing scalable internal administration suites (ERP, CRM) and modular LMS paths with pre-rendered SEO performance while maintaining brand alignment.",
     solution: "Engineered a fast frontend utilizing custom design tokens, responsive CSS grids, schema markups, and code split components to maximize organic visibility.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP", "Lenis Scroll", "React Helmet Async", "SEO Schema"],
@@ -158,17 +158,17 @@ export const portfolioData = [
     ],
     duration: "3 Months",
     teamSize: "4 Members",
-    images: {
-      desktop: traincapeDesktop,
-      mobile: traincapeMobile
+    gallery: {
+      desktop: armxIndecodexDesktop,
+      mobile: armxIndecodexMobile
     },
-    logo: traincapeLogo,
-    website: "https://traincapetech.in",
+    logo: armxIndecodexLogo,
+    website: "https://Armx-Indecodextech.in",
     projectType: "Web Development",
     featured: false,
     seo: {
-      title: "Traincape Custom Software Development & SEO case study",
-      description: "Explore how Traincape designs and develops enterprise CRM, ERP, custom LMS, real estate portals, mobile apps, and maximizes web SEO crawl scores.",
+      title: "Armx-Indecodex Custom Software Development & SEO case study",
+      description: "Explore how Armx-Indecodex designs and develops enterprise CRM, ERP, custom LMS, real estate portals, mobile apps, and maximizes web SEO crawl scores.",
       keywords: "CRM developers, ERP custom software, LMS development, Real Estate portals, web development company India"
     }
   },
@@ -200,8 +200,8 @@ export const portfolioData = [
     projectType: "Web Development",
     featured: false,
     seo: {
-      title: "Bold India Group Web Portal Case Study | Traincape Technology",
-      description: "How Traincape developed the high-performance B2B portal for Bold India Group, maximizing local SEO rankings and loading efficiency.",
+      title: "Bold India Group Web Portal Case Study | Armx-Indecodex",
+      description: "How Armx-Indecodex developed the high-performance B2B portal for Bold India Group, maximizing local SEO rankings and loading efficiency.",
       keywords: "Bold India Group B2B website, logistics portal developers, custom industrial web design India"
     }
   }

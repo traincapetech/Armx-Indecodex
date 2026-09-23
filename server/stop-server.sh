@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🛑 Stopping Traincape Technology Server..."
+echo "🛑 Stopping Armx-Indecodex Server..."
 
 # Find and kill the node process running on port 8080
 PID=$(lsof -ti:8080)

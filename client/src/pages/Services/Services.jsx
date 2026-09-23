@@ -9,16 +9,16 @@ export default function Services() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>B2B IT Solutions &amp; Custom Software Services | Traincape Technology</title>
+        <title>B2B IT Solutions &amp; Custom Software Services | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Explore Traincape software engineering services: custom CRM systems, high-speed React storefronts, cross-platform mobile apps, cloud computing, and AI integrations."
+          content="Explore Armx-Indecodex software engineering services: custom CRM systems, high-speed React storefronts, cross-platform mobile apps, cloud computing, and AI integrations."
         />
         <meta name="keywords" content="custom software development, CRM build, React web design, AWS DevOps, Mobile app build" />
-        <link rel="canonical" href="https://www.traincapetech.in/services" />
-        <meta property="og:title" content="B2B IT Solutions &amp; Custom Software Services | Traincape Technology" />
-        <meta property="og:description" content="Explore Traincape software engineering services: custom CRM, high-speed React storefronts, cloud databases, and AI solutions." />
-        <meta property="og:url" content="https://traincapetech.in/services" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/services" />
+        <meta property="og:title" content="B2B IT Solutions &amp; Custom Software Services | Armx-Indecodex" />
+        <meta property="og:description" content="Explore Armx-Indecodex software engineering services: custom CRM, high-speed React storefronts, cloud databases, and AI solutions." />
+        <meta property="og:url" content="https://Armx-Indecodextech.in/services" />
         <meta property="og:type" content="website" />
         <link rel="preload" as="image" href={require("../../assets/services-hero-bg.webp")} />
         <script type="application/ld+json">
@@ -30,7 +30,7 @@ export default function Services() {
                 "@type": "ListItem",
                 "position": 1,
                 "item": {
-                  "@id": "https://traincapetech.in",
+                  "@id": "https://Armx-Indecodextech.in",
                   "name": "Home"
                 }
               },
@@ -38,7 +38,7 @@ export default function Services() {
                 "@type": "ListItem",
                 "position": 2,
                 "item": {
-                  "@id": "https://traincapetech.in/services",
+                  "@id": "https://Armx-Indecodextech.in/services",
                   "name": "Services"
                 }
               }

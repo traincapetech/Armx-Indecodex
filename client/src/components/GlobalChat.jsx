@@ -122,7 +122,7 @@ const GlobalChat = () => {
             setCurrentFlow(chatbotData.flows[flowId]);
         } else {
             setCurrentFlow({
-                title: "Traincape Support",
+                title: "Armx-Indecodex Support",
                 options: [
                     { label: "What services do you provide?", answer: "We provide IT training, certifications, and consultancy services." },
                     { label: "Where are you located?", answer: "We have a global presence. Check our Contact Us page." },
@@ -201,7 +201,7 @@ const GlobalChat = () => {
             setTimeout(() => {
                 setMessages(prev => [...prev, {
                     sender: 'System',
-                    text: "🎉 That's wonderful to hear! We're glad our expert could help you out. Thank you for choosing Traincape — have a great day!"
+                    text: "🎉 That's wonderful to hear! We're glad our expert could help you out. Thank you for choosing Armx-Indecodex — have a great day!"
                 }]);
                 // Reset to chatbot mode after a short delay
                 setTimeout(() => {

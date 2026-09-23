@@ -12,7 +12,7 @@ const VENDORS = {
     name: "AWS Training",
     short: "Build cloud fundamentals to architect-level capability with AWS-aligned learning paths.",
     image: AWS,
-    seoTitle: "AWS Training | Cloud Learning Paths | Traincape Technology",
+    seoTitle: "AWS Training | Cloud Learning Paths | Armx-Indecodex",
     seoDescription:
       "Explore AWS training with role-based learning paths, hands-on labs, and advisor support. Build cloud fundamentals, architecture skills, and job-ready capability.",
     highlights: [
@@ -35,7 +35,7 @@ const VENDORS = {
     name: "Cisco Training",
     short: "Master networking fundamentals and enterprise networking skills with Cisco-aligned training paths.",
     image: Cisco,
-    seoTitle: "Cisco Training | Networking Learning Paths | Traincape Technology",
+    seoTitle: "Cisco Training | Networking Learning Paths | Armx-Indecodex",
     seoDescription:
       "Explore Cisco networking training with practical labs, guided learning paths, and advisor support. Build routing, switching, and security fundamentals for IT roles.",
     highlights: [
@@ -58,7 +58,7 @@ const VENDORS = {
     name: "Microsoft Training",
     short: "Grow in Microsoft cloud and security with role-based learning paths and practical, job-ready training.",
     image: microsoft,
-    seoTitle: "Microsoft Training | Azure & Security Learning Paths | Traincape Technology",
+    seoTitle: "Microsoft Training | Azure & Security Learning Paths | Armx-Indecodex",
     seoDescription:
       "Explore Microsoft training (Azure, security, productivity) with practical learning paths, hands-on sessions, and advisor support to accelerate your IT career.",
     highlights: [
@@ -91,9 +91,9 @@ export default function TrainingVendor() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
         <SEOHead
-          title="Training | Traincape Technology"
-          description="Explore Traincape Technology training programs and certification learning paths."
-          canonical="https://www.traincapetech.in/training"
+          title="Training | Armx-Indecodex"
+          description="Explore Armx-Indecodex training programs and certification learning paths."
+          canonical="https://www.Armx-Indecodextech.in/training"
           ogType="website"
         />
         <div className="max-w-7xl mx-auto px-6 py-14">
@@ -110,7 +110,7 @@ export default function TrainingVendor() {
     );
   }
 
-  const canonical = `https://www.traincapetech.in/training/${vendorSlug}`;
+  const canonical = `https://www.Armx-Indecodextech.in/training/${vendorSlug}`;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">

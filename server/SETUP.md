@@ -21,7 +21,7 @@ EMAIL_PASS=your-email-password
 
 # Server Configuration
 PORT=8080
-FRONTEND_URL=https://traincapetech.in
+FRONTEND_URL=https://Armx-Indecodextech.in
 ```
 
 ### For Render Deployment
@@ -31,7 +31,7 @@ When deploying to Render, you need to set environment variables through the Rend
 #### Steps to Set Environment Variables on Render:
 
 1. **Go to your Render Dashboard**
-2. **Select your service** (traincape-backend-1)
+2. **Select your service** (Armx-Indecodex-backend-1)
 3. **Go to Environment tab**
 4. **Add the following environment variables:**
 
@@ -41,7 +41,7 @@ When deploying to Render, you need to set environment variables through the Rend
 | `MongoDBURI` | `your-mongodb-connection-string` | ✅ Required |
 | `EMAIL_USER` | `your-email@example.com` | ✅ Required |
 | `EMAIL_PASS` | `your-email-password` | ✅ Required |
-| `FRONTEND_URL` | `https://traincapetech.in` | ✅ Required |
+| `FRONTEND_URL` | `https://Armx-Indecodextech.in` | ✅ Required |
 | `PORT` | `8080` | Optional (Render sets this) |
 
 #### How to Add Environment Variables on Render:
@@ -73,12 +73,12 @@ When deploying to Render, you need to set environment variables through the Rend
 ### Example .env file (Local Development Only)
 
 ```env
-SECRET_KEY=my-super-secret-jwt-key-for-traincape-technology-2024-secure
-MongoDBURI=mongodb+srv://username:password@cluster.mongodb.net/traincape
-EMAIL_USER=noreply@traincapetech.in
+SECRET_KEY=my-super-secret-jwt-key-for-Armx-Indecodex-technology-2024-secure
+MongoDBURI=mongodb+srv://username:password@cluster.mongodb.net/Armx-Indecodex
+EMAIL_USER=noreply@Armx-Indecodextech.in
 EMAIL_PASS=your-email-app-password
 PORT=8080
-FRONTEND_URL=https://traincapetech.in
+FRONTEND_URL=https://Armx-Indecodextech.in
 ```
 
 ### Security Notes
@@ -132,7 +132,7 @@ If deployment fails:
 
 **Immediate Action Required:**
 1. Go to [Render Dashboard](https://dashboard.render.com)
-2. Select your `traincape-backend-1` service
+2. Select your `Armx-Indecodex-backend-1` service
 3. Go to **Environment** tab
 4. Add `SECRET_KEY` with a secure value
 5. Click **Save Changes**

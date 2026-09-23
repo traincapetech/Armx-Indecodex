@@ -49,4 +49,4 @@ Disallow: /admin-panel/
 Disallow: /private/
 Disallow: /api/
 
-Sitemap: https://www.traincapetech.in/sitemap.xml
+Sitemap: https://www.Armx-Indecodextech.in/sitemap.xml

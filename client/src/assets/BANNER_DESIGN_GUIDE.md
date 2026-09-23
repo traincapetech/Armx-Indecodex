@@ -1,4 +1,4 @@
-# Traincape Technology - New Banner Design Guide
+# Armx-Indecodex - New Banner Design Guide
 
 ## Overview
 I've created two modern, professional banner designs that align with your current website branding and incorporate all the services and partnerships from your original banner.
@@ -16,13 +16,13 @@ I've created two modern, professional banner designs that align with your curren
   - `#8B5CF6` (Purple for innovation)
 
 ### Typography
-- **Main Heading**: Bold, large font for "TRAINCAPE TECHNOLOGY"
+- **Main Heading**: Bold, large font for "Armx-Indecodex"
 - **Tagline**: "Elevating Your Career with Expert IT Training"
 - **Consistent Font**: Arial/Sans-serif for web compatibility
 
 ## Banner Designs
 
-### Design 1: `traincape-banner-design.svg`
+### Design 1: `Armx-Indecodex-banner-design.svg`
 **Dimensions**: 1200x600px
 **Style**: Clean, corporate layout
 
@@ -44,7 +44,7 @@ I've created two modern, professional banner designs that align with your curren
 - Website Development (Custom Website Development)
 - Software Development (Enterprise Software Solutions)
 
-### Design 2: `traincape-banner-modern.svg`
+### Design 2: `Armx-Indecodex-banner-modern.svg`
 **Dimensions**: 1400x700px
 **Style**: Modern, tech-focused design
 
@@ -70,7 +70,7 @@ I've created two modern, professional banner designs that align with your curren
 ### Option 1: Direct SVG Usage
 ```html
 <!-- In your React component -->
-<img src="/assets/traincape-banner-modern.svg" alt="Traincape Technology Banner" className="w-full h-auto" />
+<img src="/assets/Armx-Indecodex-banner-modern.svg" alt="Armx-Indecodex Banner" className="w-full h-auto" />
 ```
 
 ### Option 2: Convert to React Component
@@ -78,7 +78,7 @@ I've created two modern, professional banner designs that align with your curren
 // Create a BannerSVG component
 import React from 'react';
 
-const TraincapeBanner = () => {
+const Armx-IndecodexBanner = () => {
   return (
     <div className="w-full">
       {/* SVG content here */}
@@ -86,13 +86,13 @@ const TraincapeBanner = () => {
   );
 };
 
-export default TraincapeBanner;
+export default Armx-IndecodexBanner;
 ```
 
 ### Option 3: Use as Background
 ```css
 .hero-banner {
-  background-image: url('/assets/traincape-banner-modern.svg');
+  background-image: url('/assets/Armx-Indecodex-banner-modern.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,11 +165,11 @@ Replace or supplement the current `HomeBanner` component:
 
 ```jsx
 // In pages/Home.jsx
-import TraincapeBanner from '../components/TraincapeBanner';
+import Armx-IndecodexBanner from '../components/Armx-IndecodexBanner';
 
 // Replace the existing banner section
 <div className="relative bg-gradient-to-b from-[#1e3a76] to-[#152B54]">
-  <TraincapeBanner />
+  <Armx-IndecodexBanner />
 </div>
 ```
 
@@ -191,8 +191,8 @@ Consider updating the navbar logo to match the banner design:
 6. **Optimization**: Fine-tune colors and spacing if needed
 
 ## Files Created
-- `traincape-banner-design.svg` - Clean corporate design
-- `traincape-banner-modern.svg` - Modern tech-focused design
+- `Armx-Indecodex-banner-design.svg` - Clean corporate design
+- `Armx-Indecodex-banner-modern.svg` - Modern tech-focused design
 - `BANNER_DESIGN_GUIDE.md` - This documentation
 
 Both designs maintain your brand identity while providing a modern, professional appearance that will enhance your company's visual presence across all platforms. 

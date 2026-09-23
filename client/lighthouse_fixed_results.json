@@ -989,7 +989,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784023785904&tfd=616&fmt=8",
+            "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784023785904&tfd=616&fmt=8",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 615.2070000171661,
@@ -1006,7 +1006,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784023785543&em=tv.1~ec.e3&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1141272416&_eu=AAAAAGAC&are=1&cid=2113627652.1784023786&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&sid=1784023786&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=947",
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784023785543&em=tv.1~ec.e3&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1141272416&_eu=AAAAAGAC&are=1&cid=2113627652.1784023786&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&sid=1784023786&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=947",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 945.7610000371933,
@@ -1040,7 +1040,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+            "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 956.6180000305176,
@@ -1057,7 +1057,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784023786236&cv=11&fst=1784023786236&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
+            "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784023786236&cv=11&fst=1784023786236&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 957.5509999990463,
@@ -1091,7 +1091,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784023786248&tfd=960&fmt=8",
+            "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784023786248&tfd=960&fmt=8",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 959.2630000114441,
@@ -1142,7 +1142,7 @@
             "entity": "localhost"
           },
           {
-            "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=0&ipr=y",
+            "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=0&ipr=y",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1083.939000070095,
@@ -1159,7 +1159,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=1&ipr=y",
+            "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=1&ipr=y",
             "sessionTargetType": "page",
             "protocol": "h3",
             "rendererStartTime": 1084.2930000424385,
@@ -1810,8 +1810,8 @@
                 "width": 64,
                 "height": 64
               },
-              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Traincape Technology Logo\" class=\"h-16 w-auto object-contain\">",
-              "nodeLabel": "Traincape Technology Logo"
+              "snippet": "<img src=\"/static/media/TT.558783d2fc5ef9a5158d.png\" alt=\"Armx-Indecodex Logo\" class=\"h-16 w-auto object-contain\">",
+              "nodeLabel": "Armx-Indecodex Logo"
             }
           },
           {
@@ -5020,7 +5020,7 @@
             "unusedBytes": 166364
           },
           {
-            "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+            "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
             "resourceBytes": 6561,
             "encodedBytes": 2684,
             "unusedBytes": 1670
@@ -6159,7 +6159,7 @@
               ],
               "items": [
                 {
-                  "origin": "https://traincape-backend-uwoa.onrender.com/",
+                  "origin": "https://Armx-Indecodex-backend-uwoa.onrender.com/",
                   "source": {
                     "type": "node",
                     "lhId": "page-0-LINK",
@@ -6173,7 +6173,7 @@
                       "width": 0,
                       "height": 0
                     },
-                    "snippet": "<link rel=\"preconnect\" href=\"https://traincape-backend-uwoa.onrender.com\" crossorigin=\"\">",
+                    "snippet": "<link rel=\"preconnect\" href=\"https://Armx-Indecodex-backend-uwoa.onrender.com\" crossorigin=\"\">",
                     "nodeLabel": "head > link"
                   },
                   "subItems": {
@@ -6352,7 +6352,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
+                  "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11317195509/?random=1784023786236&cv=11&fst=1784023786236&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=4",
                   "mainThreadTime": 0.8520001173019409,
                   "transferSize": 2709
                 },
@@ -6397,12 +6397,12 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=0&ipr=y",
+                  "url": "https://www.google.com/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=0&ipr=y",
                   "mainThreadTime": 0,
                   "transferSize": 64
                 },
                 {
-                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=1&ipr=y",
+                  "url": "https://www.google.co.in/pagead/1p-user-list/11317195509/?random=1784023786236&cv=11&fst=1784023200000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgT_ZKrBjyDig6DZd42oLO-HdSOJW1bYYhgaBz1HtLH_TiYhpipKEu5LOA0WWMRjPsBSwHsx-1NCf_rKh3iaieth7FGjVM2UPd6aRjPfOQ-_TDc6KVqx6XbIlp6VcykWQdIAl7pj38_y4TFbb3ReSsnYULFwMqKFQpP1KOX9Bxr83m-RnU7Diwp2mZTlQUmrRCfTUgp7yf5Q-GpikT7pZrNi3sHz1kubqSPjmEne0uJ6cFN_VxXTYGvKrzbIABA54iU-UGUjmj5CKOYxUtJHm&random=2894981840&rmt_tld=1&ipr=y",
                   "mainThreadTime": 0,
                   "transferSize": 64
                 },
@@ -6412,17 +6412,17 @@
                   "transferSize": 63
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784023785904&tfd=616&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=1&tids=AW-11317195509&tid=AW-11317195509&tft=1784023785904&tfd=616&fmt=8",
                   "mainThreadTime": 0,
                   "transferSize": 21
                 },
                 {
-                  "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784023786248&tfd=960&fmt=8",
+                  "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&auid=136843166.1784023786&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&dl=http%3A%2F%2Flocalhost%3A3001%2Fservices&scrsrc=www.googletagmanager.com&rnd=426008129.1784023786&navt=n&npa=0&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&apve=1&apvf=f&apvc=0&tids=AW-11317195509&tid=AW-11317195509&tft=1784023786248&tfd=960&fmt=8",
                   "mainThreadTime": 0,
                   "transferSize": 21
                 },
                 {
-                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784023786236&cv=11&fst=1784023786236&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
+                  "url": "https://www.google.com/rmkt/collect/11317195509/?random=1784023786236&cv=11&fst=1784023786236&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je67a1v9188249652za200zd9188249652xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&u_w=412&u_h=823&url=http%3A%2F%2Flocalhost%3A3001%2Fservices&rcb=14&frm=0&tiba=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=136843166.1784023786&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uamb=1&uam=moto%20g%20power%20(2022)&uap=Android&uapv=11.0&uaw=0&data=event%3Dpage_view&ept=68&gcp=5",
                   "mainThreadTime": 0,
                   "transferSize": 20
                 }
@@ -6452,7 +6452,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784023785543&em=tv.1~ec.e3&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1141272416&_eu=AAAAAGAC&are=1&cid=2113627652.1784023786&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&sid=1784023786&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Traincape%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=947",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-1416H96S6J&gtm=45je67a1v9188249652za200zd9188249652&_p=1784023785543&em=tv.1~ec.e3&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1141272416&_eu=AAAAAGAC&are=1&cid=2113627652.1784023786&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=412x823&uaa=&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CGoogle%2520Chrome%3B150.0.7871.115&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118826210~118897920~118897930~119027224~119527020&sid=1784023786&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=B2B%20IT%20Solutions%20%26%20Custom%20Software%20Services%20%7C%20Armx-Indecodex%20Technology&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=947",
                   "mainThreadTime": 0,
                   "transferSize": 547
                 }

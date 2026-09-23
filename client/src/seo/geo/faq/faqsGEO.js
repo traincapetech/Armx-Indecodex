@@ -6,7 +6,7 @@ export const faqsGEO = {
   questions: [
     {
       q: "Are these courses free or paid?",
-      a: "Traincape Technology offers paid certification prep courses for over 150+ IT and Non-IT tracks (AWS, Cisco, Microsoft, PECB, CompTIA)."
+      a: "Armx-Indecodex offers paid certification prep courses for over 150+ IT and Non-IT tracks (AWS, Cisco, Microsoft, PECB, CompTIA)."
     },
     {
       q: "Who owns the software source code?",

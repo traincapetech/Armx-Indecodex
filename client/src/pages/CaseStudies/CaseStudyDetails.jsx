@@ -59,18 +59,18 @@ export default function CaseStudyDetails() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Configuration */}
       <Helmet>
-        <title>{study.seo?.title || `${study.title} | Traincape Technology`}</title>
+        <title>{study.seo?.title || `${study.title} | Armx-Indecodex`}</title>
         <meta
           name="description"
           content={study.seo?.description || `Technical study detailing our solutions, architecture and results for ${study.client}.`}
         />
         <meta name="keywords" content={study.seo?.keywords || "case study, software development, CRM, ERP"} />
-        <link rel="canonical" href={`https://traincapetech.in/case-studies/${study.slug}`} />
+        <link rel="canonical" href={`https://Armx-Indecodextech.in/case-studies/${study.slug}`} />
         <meta property="og:title" content={study.seo?.title} />
         <meta property="og:description" content={study.seo?.description} />
-        <meta property="og:url" content={`https://traincapetech.in/case-studies/${study.slug}`} />
+        <meta property="og:url" content={`https://Armx-Indecodextech.in/case-studies/${study.slug}`} />
         <meta property="og:type" content="article" />
-        
+
         {/* NewsArticle structured JSON-LD schema */}
         <script type="application/ld+json">
           {JSON.stringify({
@@ -80,14 +80,14 @@ export default function CaseStudyDetails() {
             "description": study.overview,
             "author": {
               "@type": "Organization",
-              "name": "Traincape Technology"
+              "name": "Armx-Indecodex"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Traincape Technology",
+              "name": "Armx-Indecodex",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://traincapetech.in/assets/TT.png"
+                "url": "https://Armx-Indecodextech.in/assets/TT.png"
               }
             }
           })}
@@ -150,7 +150,7 @@ export default function CaseStudyDetails() {
       </div>
       <StickyCTA
         primaryLabel="Request Consult"
-        whatsappPrefill={`Hi Traincape Team, I read your case study for "${study.client}" and I'd like to discuss similar custom solutions.`}
+        whatsappPrefill={`Hi Armx-Indecodex Team, I read your case study for "${study.client}" and I'd like to discuss similar custom solutions.`}
       />
     </div>
   );

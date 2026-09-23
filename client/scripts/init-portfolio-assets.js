@@ -6,7 +6,7 @@ const dirs = [
   'src/assets/portfolio/verda-exports',
   'src/assets/portfolio/crm',
   'src/assets/portfolio/dating-app',
-  'src/assets/portfolio/traincape'
+  'src/assets/portfolio/Armx-Indecodex'
 ];
 
 dirs.forEach(dir => {
@@ -52,9 +52,9 @@ const files = {
   'src/assets/portfolio/dating-app/chat.webp': tinyWebp,
   'src/assets/portfolio/dating-app/logo.svg': defaultSvg,
 
-  'src/assets/portfolio/traincape/desktop.webp': tinyWebp,
-  'src/assets/portfolio/traincape/mobile.webp': tinyWebp,
-  'src/assets/portfolio/traincape/logo.svg': defaultSvg,
+  'src/assets/portfolio/Armx-Indecodex/desktop.webp': tinyWebp,
+  'src/assets/portfolio/Armx-Indecodex/mobile.webp': tinyWebp,
+  'src/assets/portfolio/Armx-Indecodex/logo.svg': defaultSvg,
 };
 
 Object.entries(files).forEach(([file, content]) => {

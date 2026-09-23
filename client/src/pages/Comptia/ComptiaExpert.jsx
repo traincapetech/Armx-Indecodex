@@ -41,14 +41,14 @@ const ComptiaExpert = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-red-900 to-black text-white">
       <Helmet>
-        <title>CompTIA Expert Level Certifications | Traincape Technology</title>
-        <meta name="description" content="Become a CompTIA-certified expert with Traincape Technology. Advanced-level certification programs designed for senior IT and cybersecurity roles. Traincape Technology delivers CompTIA Expert-Level Certification courses to grow in the IT Industry." />
-        <meta name="keywords" content="CompTIA Expert Level Certifications, CompTIA CASP+, CompTIA CSAE, CompTIA, Traincape Technology" />
+        <title>CompTIA Expert Level Certifications | Armx-Indecodex</title>
+        <meta name="description" content="Become a CompTIA-certified expert with Armx-Indecodex. Advanced-level certification programs designed for senior IT and cybersecurity roles. Armx-Indecodex delivers CompTIA Expert-Level Certification courses to grow in the IT Industry." />
+        <meta name="keywords" content="CompTIA Expert Level Certifications, CompTIA CASP+, CompTIA CSAE, CompTIA, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/comptia/expert" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/comptia/expert" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -56,13 +56,13 @@ const ComptiaExpert = () => {
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="max-w-7xl mx-auto relative z-10">
-          <button 
+          <button
             onClick={() => navigate("/comptia")}
             className="flex items-center gap-2 text-white hover:text-yellow-200 transition mb-6"
           >
             <FaArrowLeft /> Back to Levels
           </button>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -75,8 +75,8 @@ const ComptiaExpert = () => {
               <p className="text-xl text-yellow-200 mt-2">The Pinnacle of IT Security</p>
             </div>
           </motion.div>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
@@ -125,20 +125,20 @@ const ComptiaExpert = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="p-6">
                   <p className="text-gray-300 mb-6 min-h-[80px]">{cert.description}</p>
-                  
+
                   <div className="mb-6 bg-gray-700 rounded-lg p-4">
                     <p className="text-sm font-semibold text-yellow-400 mb-2">Requirements:</p>
                     <p className="text-sm text-gray-300">{cert.requirements}</p>
                   </div>
-                  
+
                   <div className="mb-6">
                     <p className="text-sm font-semibold text-gray-400 mb-3">Key Domains:</p>
                     <div className="flex flex-wrap gap-2">
                       {cert.topics.map((topic, topicIdx) => (
-                        <span 
+                        <span
                           key={topicIdx}
                           className="text-xs bg-gray-700 text-gray-200 px-3 py-1 rounded-full border border-gray-600"
                         >
@@ -148,7 +148,7 @@ const ComptiaExpert = () => {
                     </div>
                   </div>
 
-                  <button 
+                  <button
                     className={`w-full bg-gradient-to-r ${cert.gradient} text-white py-3 rounded-lg font-bold hover:opacity-90 transition mt-4 shadow-lg`}
                   >
                     View Details →
@@ -266,7 +266,7 @@ const ComptiaExpert = () => {
           >
             <h2 className="text-4xl font-bold mb-4">Ready to Reach the Top?</h2>
             <p className="text-xl mb-8">Contact us to begin your journey to expert-level certification</p>
-            <button 
+            <button
               onClick={() => navigate("/contact-us")}
               className="bg-white text-red-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
             >

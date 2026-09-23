@@ -43,8 +43,8 @@ const IEC20000ITServiceManagementSystem = () => {
       "Master IT Service Management Excellence with PECB ISO/IEC 20000 Certification. Learn to implement and manage effective IT service delivery and support processes aligned with best practices. Contact us now!",
     provider: {
       "@type": "Organization",
-      name: "Traincape Technology",
-      url: "https://www.traincapetech.in",
+      name: "Armx-Indecodex",
+      url: "https://www.Armx-Indecodextech.in",
     },
     hasCourseInstance: {
       "@type": "CourseInstance",
@@ -64,21 +64,21 @@ const IEC20000ITServiceManagementSystem = () => {
         </title>
         <meta
           name="description"
-          content="Advance your IT career with ISO 20000 training from Traincape Technology. Become a certified ISO/IEC 20000 professional. Get globally recognized ISO IT Service Management System certification and practical skills for service excellence. Get in touch with us now!"
+          content="Advance your IT career with ISO 20000 training from Armx-Indecodex. Become a certified ISO/IEC 20000 professional. Get globally recognized ISO IT Service Management System certification and practical skills for service excellence. Get in touch with us now!"
         />
         <meta
           name="keywords"
-          content="ISO/IEC 20000 training, IT service management certification, PECB ISO/IEC 20000, Traincape Technology, IT service delivery, support processes"
+          content="ISO/IEC 20000 training, IT service management certification, PECB ISO/IEC 20000, Armx-Indecodex, IT service delivery, support processes"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/quality/iso-iec-20000-it-service-management-system"
+          href="https://www.Armx-Indecodextech.in/pecb/quality/iso-iec-20000-it-service-management-system"
         />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="ISO/IEC 20000 IT Service Management System Certification | Traincape Technology"
+          content="ISO/IEC 20000 IT Service Management System Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -86,7 +86,7 @@ const IEC20000ITServiceManagementSystem = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/quality/iso-iec-20000-it-service-management-system"
+          content="https://Armx-Indecodextech.in/pecb/quality/iso-iec-20000-it-service-management-system"
         />
         <meta property="og:type" content="website" />
 
@@ -94,7 +94,7 @@ const IEC20000ITServiceManagementSystem = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ISO/IEC 20000 IT Service Management System Certification | Traincape Technology"
+          content="ISO/IEC 20000 IT Service Management System Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"

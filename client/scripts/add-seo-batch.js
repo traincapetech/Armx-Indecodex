@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const base = path.join('d:', 'train cape career', 'Traincape_Website', 'client', 'src', 'pages', 'Comptia');
+const base = path.join('d:', 'train cape career', 'Armx-Indecodex_Website', 'client', 'src', 'pages', 'Comptia');
 
 const pages = [
     { file: 'Specialist/ComptiaNetwork+.jsx', title: 'CompTIA Network+ Certification Training | Networking Fundamentals', desc: 'Get CompTIA Network+ certified. Master networking fundamentals, implementation, operations, and security. Exam N10-009.', route: 'comptia/specialist/network-plus', depth: '../../../' },
@@ -13,7 +13,7 @@ const pages = [
 ];
 
 // Also PECB pages missing Helmet
-const pecbBase = path.join('d:', 'train cape career', 'Traincape_Website', 'client', 'src', 'pages', 'PECB');
+const pecbBase = path.join('d:', 'train cape career', 'Armx-Indecodex_Website', 'client', 'src', 'pages', 'PECB');
 const pecbPages = [
     { file: 'Continuity_Resilience_Recovery/ContinuityResilienceRecovery.jsx', title: 'PECB Continuity, Resilience & Recovery Certifications', desc: 'Explore PECB certifications in business continuity (ISO 22301), crisis management, disaster recovery, and operational resilience.', route: 'pecb/continuity', depth: '../../../' },
     { file: 'Continuity_Resilience_Recovery/ISO_22301_Business_Continuity_Management_System.jsx', title: 'ISO 22301 Business Continuity Management System Training', desc: 'Get ISO 22301 certified. Master business continuity management system implementation and auditing.', route: 'pecb/continuity/iso-22301', depth: '../../../' },
@@ -61,7 +61,7 @@ function addSEO(basePath, items) {
             const origDiv = returnMatch[1];
             content = content.replace(
                 returnMatch[0],
-                returnMatch[0] + `\n      <SEOHead\n        title="${item.title} - Traincape Technology"\n        description="${item.desc}"\n        canonical="https://www.traincapetech.in/${item.route}"\n      />`
+                returnMatch[0] + `\n      <SEOHead\n        title="${item.title} - Armx-Indecodex"\n        description="${item.desc}"\n        canonical="https://www.Armx-Indecodextech.in/${item.route}"\n      />`
             );
         }
 

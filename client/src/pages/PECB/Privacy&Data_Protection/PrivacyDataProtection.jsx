@@ -60,11 +60,11 @@ const PrivacyDataProtection = () => {
         <title>PECB Privacy and Data Protection Trainings | IT Training & Certification</title>
         <meta
           name="description"
-          content="Join the globally recognized PECB Privacy & Data Protection training and certification from Traincape Technology. Build compliance, governance, and security expertise. Flexible learning modes available."
+          content="Join the globally recognized PECB Privacy & Data Protection training and certification from Armx-Indecodex. Build compliance, governance, and security expertise. Flexible learning modes available."
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/privacy"
+          href="https://www.Armx-Indecodextech.in/pecb/privacy"
         />
       </Helmet>
 

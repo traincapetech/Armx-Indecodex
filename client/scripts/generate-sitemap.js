@@ -11,7 +11,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const BASE_URL = "https://www.traincapetech.in";
+const BASE_URL = "https://www.Armx-Indecodextech.in";
 const OUT_FILE = path.join(__dirname, "..", "public", "sitemap.xml");
 const ROUTES_FILE = path.join(__dirname, "..", "src", "allRoute", "AllRoute.jsx");
 
@@ -108,11 +108,11 @@ function buildUrls() {
   for (const p of products) base.add(`/products/${p}`);
 
   // Portfolio pages
-  const portfolio = ["nk-luxe", "verda-exports", "crm", "traincape", "bold-india-group"];
+  const portfolio = ["nk-luxe", "verda-exports", "crm", "Armx-Indecodex", "bold-india-group"];
   for (const p of portfolio) base.add(`/portfolio/${p}`);
 
   // Case Studies pages
-  const caseStudies = ["nk-luxe", "crm", "verda", "dating-app", "traincape"];
+  const caseStudies = ["nk-luxe", "crm", "verda", "dating-app", "Armx-Indecodex"];
   for (const c of caseStudies) base.add(`/case-studies/${c}`);
 
   // Certifications category pages (fixed IA)
@@ -341,9 +341,9 @@ function main() {
     } else if (url.startsWith("/blogs")) {
       blogsUrls.push(url);
     } else if (
-      url.startsWith("/training") || 
-      url.startsWith("/comptia") || 
-      url.startsWith("/pecb") || 
+      url.startsWith("/training") ||
+      url.startsWith("/comptia") ||
+      url.startsWith("/pecb") ||
       url === "/PECB"
     ) {
       trainingUrls.push(url);

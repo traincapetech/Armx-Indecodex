@@ -62,7 +62,7 @@ module.exports = {
         // Add chunk loading error handling
         webpackConfig.output = {
           ...webpackConfig.output,
-          chunkLoadingGlobal: 'webpackChunkTraincape',
+          chunkLoadingGlobal: 'webpackChunkArmx-Indecodex',
           globalObject: 'self',
         };
       }

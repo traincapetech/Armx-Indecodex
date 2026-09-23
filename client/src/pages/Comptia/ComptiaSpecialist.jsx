@@ -54,9 +54,9 @@ const ComptiaSpecialist = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       <SEOHead
-        title="CompTIA Specialist Level Certifications | A+, Network+, Security+ - Traincape Technology"
+        title="CompTIA Specialist Level Certifications | A+, Network+, Security+ - Armx-Indecodex"
         description="Explore CompTIA Specialist certifications: A+, Network+, Security+, and Secure Infrastructure. Start your IT career with foundational certifications."
-        canonical="https://www.traincapetech.in/comptia/specialist"
+        canonical="https://www.Armx-Indecodextech.in/comptia/specialist"
       />
       {/* Hero Section */}
       <motion.section

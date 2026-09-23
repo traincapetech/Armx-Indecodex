@@ -14,7 +14,7 @@ export const getCaseStudyBySlug = (caseStudies, slug) => {
  * Returns a list of case study objects that match the specified related slugs array.
  * 
  * @param {Array} caseStudies - Complete case studies data
- * @param {Array} relatedSlugs - Slugs of related projects (e.g. ['verda', 'traincape'])
+ * @param {Array} relatedSlugs - Slugs of related projects (e.g. ['verda', 'Armx-Indecodex'])
  * @returns {Array} List of related case studies objects
  */
 export const getRelatedStudies = (caseStudies, relatedSlugs) => {

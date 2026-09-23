@@ -43,8 +43,8 @@ const ISO55001AssetManagementSystem = () => {
       "Optimize your asset performance and value with PECB ISO 55001 Certification. Learn to manage assets systematically, reduce costs, and create long-term value. Contact us now!",
     provider: {
       "@type": "Organization",
-      name: "Traincape Technology",
-      url: "https://www.traincapetech.in",
+      name: "Armx-Indecodex",
+      url: "https://www.Armx-Indecodextech.in",
     },
     hasCourseInstance: {
       "@type": "CourseInstance",
@@ -159,17 +159,17 @@ const ISO55001AssetManagementSystem = () => {
         />
         <meta
           name="keywords"
-          content="ISO 55001 training, asset management certification, PECB ISO 55001, Traincape Technology, asset lifecycle management, performance optimization, risk management, value creation"
+          content="ISO 55001 training, asset management certification, PECB ISO 55001, Armx-Indecodex, asset lifecycle management, performance optimization, risk management, value creation"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/quality/iso-55001-asset-management-system"
+          href="https://www.Armx-Indecodextech.in/pecb/quality/iso-55001-asset-management-system"
         />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="ISO 55001 Asset Management System Certification | Traincape Technology"
+          content="ISO 55001 Asset Management System Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -177,14 +177,14 @@ const ISO55001AssetManagementSystem = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/quality/iso-55001-asset-management-system"
+          content="https://Armx-Indecodextech.in/pecb/quality/iso-55001-asset-management-system"
         />
         <meta property="og:type" content="website" />
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ISO 55001 Asset Management System Certification | Traincape Technology"
+          content="ISO 55001 Asset Management System Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"

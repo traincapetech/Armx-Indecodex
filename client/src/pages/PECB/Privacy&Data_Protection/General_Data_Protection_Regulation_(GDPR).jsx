@@ -132,11 +132,11 @@ const GeneralDataProtectionRegulationGDPR = () => {
     "@type": "Course",
     "name": "GDPR Training & Certification | PECB Privacy Courses",
     "description":
-      "Advance your career with GDPR certification from Traincape Technology. Gain practical knowledge in data protection, privacy regulations, and compliance frameworks. Join us now!",
+      "Advance your career with GDPR certification from Armx-Indecodex. Gain practical knowledge in data protection, privacy regulations, and compliance frameworks. Join us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -152,20 +152,20 @@ const GeneralDataProtectionRegulationGDPR = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-indigo-50 to-purple-50">
 
-<Helmet>
+      <Helmet>
         <title>GDPR Training & Certification | PECB Privacy Courses</title>
         <meta
           name="description"
-          content="Advance your career with GDPR certification from Traincape Technology. Gain practical knowledge in data protection, privacy regulations, and compliance frameworks. Join us now!"
+          content="Advance your career with GDPR certification from Armx-Indecodex. Gain practical knowledge in data protection, privacy regulations, and compliance frameworks. Join us now!"
         />
         <meta
           name="keywords"
-          content="GDPR Training, GDPR Certification, PECB GDPR Course, Data Protection Training, Privacy Certification, Traincape Technology"
+          content="GDPR Training, GDPR Certification, PECB GDPR Course, Data Protection Training, Privacy Certification, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/privacy/gdpr-training"
+          href="https://www.Armx-Indecodextech.in/pecb/privacy/gdpr-training"
         />
         {/* Open Graph */}
         <meta
@@ -174,11 +174,11 @@ const GeneralDataProtectionRegulationGDPR = () => {
         />
         <meta
           property="og:description"
-          content="Gain expert knowledge in GDPR compliance, privacy law, and data protection frameworks with Traincape Technology's PECB GDPR Certification course."
+          content="Gain expert knowledge in GDPR compliance, privacy law, and data protection frameworks with Armx-Indecodex's PECB GDPR Certification course."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/privacy/gdpr-training"
+          content="https://Armx-Indecodextech.in/pecb/privacy/gdpr-training"
         />
         <meta property="og:type" content="website" />
         {/* Twitter Meta */}
@@ -189,7 +189,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
         />
         <meta
           name="twitter:description"
-          content="Advance your career with GDPR certification from Traincape Technology and gain expertise in data protection, privacy, and compliance frameworks."
+          content="Advance your career with GDPR certification from Armx-Indecodex and gain expertise in data protection, privacy, and compliance frameworks."
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -198,7 +198,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
 
 
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -208,7 +208,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -216,7 +216,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -224,7 +224,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
               >
                 General Data Protection Regulation (GDPR)
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -232,7 +232,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
               >
                 Master Data Protection & Privacy Compliance
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -240,25 +240,25 @@ const GeneralDataProtectionRegulationGDPR = () => {
               >
                 The GDPR is the most comprehensive data protection regulation. This certification covers compliance requirements, data subject rights, and privacy management.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-indigo-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-indigo-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "GDPR", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -266,7 +266,7 @@ const GeneralDataProtectionRegulationGDPR = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -547,24 +547,24 @@ const GeneralDataProtectionRegulationGDPR = () => {
             <h2 className="text-4xl font-bold mb-4">Master GDPR Compliance</h2>
             <p className="text-xl mb-8">Start your data protection career today</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-indigo-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-indigo-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "GDPR", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "GDPR", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

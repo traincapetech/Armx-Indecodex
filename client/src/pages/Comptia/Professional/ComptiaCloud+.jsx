@@ -142,12 +142,12 @@ const ComptiaCloudPlus = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-sky-50 to-blue-50">
       <SEOHead
-        title="CompTIA Cloud+ Certification Training | Cloud Infrastructure - Traincape Technology"
+        title="CompTIA Cloud+ Certification Training | Cloud Infrastructure - Armx-Indecodex"
         description="Get CompTIA Cloud+ certified. Master cloud computing, infrastructure, and security."
-        canonical="https://www.traincapetech.in/comptia/professional/cloud-plus"
+        canonical="https://www.Armx-Indecodextech.in/comptia/professional/cloud-plus"
       />
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -157,7 +157,7 @@ const ComptiaCloudPlus = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -165,7 +165,7 @@ const ComptiaCloudPlus = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -173,7 +173,7 @@ const ComptiaCloudPlus = () => {
               >
                 CompTIA Cloud+
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -181,7 +181,7 @@ const ComptiaCloudPlus = () => {
               >
                 Cloud Infrastructure & Services Expertise
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -189,25 +189,25 @@ const ComptiaCloudPlus = () => {
               >
                 CompTIA Cloud+ validates the skills needed to deploy, optimize, and protect mission-critical applications and data in the cloud. This vendor-neutral certification covers multiple cloud platforms including AWS, Azure, and Google Cloud.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-sky-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => window.open("https://drive.google.com/file/d/1OAnF8Kx65qq0hbquLjkfI7w_g4XgCTfk/view", "_blank")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-sky-600 transition"
                 >
                   Download Brochure
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACloud+", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -215,7 +215,7 @@ const ComptiaCloudPlus = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -450,24 +450,24 @@ const ComptiaCloudPlus = () => {
             <h2 className="text-4xl font-bold mb-4">Master Cloud Computing</h2>
             <p className="text-xl mb-8">Become a cloud expert with vendor-neutral skills</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-sky-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-sky-600 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACloud+", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACloud+", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

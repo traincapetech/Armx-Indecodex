@@ -8,7 +8,7 @@ export default function AboutCTA() {
 
       <div className="max-w-4xl mx-auto px-6 text-center space-y-8 relative z-10">
         <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900 font-display">
-          Partner with Traincape Technology
+          Partner with Armx-Indecodex
         </h2>
 
         <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
@@ -23,9 +23,9 @@ export default function AboutCTA() {
             <span>Let's Discuss Your Project</span>
             <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
           </a>
-          
+
           <a
-            href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Traincape Team, I read your About page and I'd like to discuss custom tech development / upskilling services.")}`}
+            href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Armx-Indecodex Team, I read your About page and I'd like to discuss custom tech development / upskilling services.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-slate-50 border border-slate-200 text-slate-700 hover:text-slate-900 px-4 py-2.5 rounded text-xs md:text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 shadow-sm"

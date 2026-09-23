@@ -9,16 +9,16 @@ export default function Products() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>Enterprise SaaS &amp; Custom Software Products | Traincape Technology</title>
+        <title>Enterprise SaaS &amp; Custom Software Products | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Discover our custom enterprise software products: Traincape CRM, HRMS system, and Automated Payroll suite built for zero per-user licensing overhead."
+          content="Discover our custom enterprise software products: Armx-Indecodex CRM, HRMS system, and Automated Payroll suite built for zero per-user licensing overhead."
         />
-        <meta name="keywords" content="Traincape software products, custom CRM, HRMS suite, automated payroll, SaaS showcase" />
-        <link rel="canonical" href="https://www.traincapetech.in/products" />
-        <meta property="og:title" content="Enterprise SaaS &amp; Custom Software Products | Traincape Technology" />
-        <meta property="og:description" content="Discover our custom enterprise software products: Traincape CRM, HRMS system, and Automated Payroll suite." />
-        <meta property="og:url" content="https://traincapetech.in/products" />
+        <meta name="keywords" content="Armx-Indecodex software products, custom CRM, HRMS suite, automated payroll, SaaS showcase" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/products" />
+        <meta property="og:title" content="Enterprise SaaS &amp; Custom Software Products | Armx-Indecodex" />
+        <meta property="og:description" content="Discover our custom enterprise software products: Armx-Indecodex CRM, HRMS system, and Automated Payroll suite." />
+        <meta property="og:url" content="https://Armx-Indecodextech.in/products" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -29,7 +29,7 @@ export default function Products() {
                 "@type": "ListItem",
                 "position": 1,
                 "item": {
-                  "@id": "https://traincapetech.in",
+                  "@id": "https://Armx-Indecodextech.in",
                   "name": "Home"
                 }
               },
@@ -37,7 +37,7 @@ export default function Products() {
                 "@type": "ListItem",
                 "position": 2,
                 "item": {
-                  "@id": "https://traincapetech.in/products",
+                  "@id": "https://Armx-Indecodextech.in/products",
                   "name": "Products"
                 }
               }

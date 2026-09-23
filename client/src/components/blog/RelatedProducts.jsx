@@ -6,9 +6,9 @@ export default function RelatedProducts({ productIds }) {
   if (!productIds || productIds.length === 0) return null;
 
   const productsMap = {
-    crm: { title: "Traincape CRM Suite", desc: "Automate sales tracking, customer pipelines, and analytical reports." },
-    hrms: { title: "Traincape HRMS Portal", desc: "Manage employee profiles, leave systems, and onboarding schedules." },
-    payroll: { title: "Traincape Payroll Operations", desc: "Process salary releases, tax slips, and benefits distributions." }
+    crm: { title: "Armx-Indecodex CRM Suite", desc: "Automate sales tracking, customer pipelines, and analytical reports." },
+    hrms: { title: "Armx-Indecodex HRMS Portal", desc: "Manage employee profiles, leave systems, and onboarding schedules." },
+    payroll: { title: "Armx-Indecodex Payroll Operations", desc: "Process salary releases, tax slips, and benefits distributions." }
   };
 
   const activeProducts = productIds

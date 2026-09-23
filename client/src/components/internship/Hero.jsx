@@ -58,7 +58,7 @@ export default function Hero({ onApplyClick, onTracksClick }) {
               <span className="text-[10px] text-slate-500 pl-2">internship_details.js</span>
             </div>
             <div className="pt-4 space-y-2">
-              <p className="text-slate-500">// Welcome to Traincape Tech Onboarding</p>
+              <p className="text-slate-500">// Welcome to Armx-Indecodex Tech Onboarding</p>
               <p><span className="text-purple-400">const</span> <span className="text-blue-400">internship</span> = &#123;</p>
               <p className="pl-4"><span className="text-blue-400">program</span>: <span className="text-emerald-400">"Software Development"</span>,</p>
               <p className="pl-4"><span className="text-blue-400">focus</span>: <span className="text-emerald-400">"Real-world Engineering Projects"</span>,</p>

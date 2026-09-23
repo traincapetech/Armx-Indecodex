@@ -36,16 +36,16 @@ const SEOHead = ({
   const location = useLocation();
   const crumbs = useBreadcrumbs();
 
-  const baseUrl = 'https://www.traincapetech.in';
+  const baseUrl = 'https://www.Armx-Indecodextech.in';
   const rawCanonical = canonical || `${baseUrl}${location.pathname}`;
-  let cleanCanonical = rawCanonical.replace('https://traincapetech.in', 'https://www.traincapetech.in');
-  if (cleanCanonical.endsWith('/') && cleanCanonical !== 'https://www.traincapetech.in/') {
+  let cleanCanonical = rawCanonical.replace('https://Armx-Indecodextech.in', 'https://www.Armx-Indecodextech.in');
+  if (cleanCanonical.endsWith('/') && cleanCanonical !== 'https://www.Armx-Indecodextech.in/') {
     cleanCanonical = cleanCanonical.slice(0, -1);
   }
   const canonicalUrl = cleanCanonical;
 
-  const defaultDescription = "Expert-led online courses for AWS, CompTIA, Microsoft, Cisco and other IT certifications. Advance your IT career with Traincape Technology.";
-  const defaultTitle = "Traincape Technology | IT Training & Certification";
+  const defaultDescription = "Expert-led online courses for AWS, CompTIA, Microsoft, Cisco and other IT certifications. Advance your IT career with Armx-Indecodex.";
+  const defaultTitle = "Armx-Indecodex | IT Training & Certification";
   const defaultOgImage = `${baseUrl}/android-chrome-512x512.png`;
 
   const metaTitle = title || defaultTitle;
@@ -116,28 +116,28 @@ const SEOHead = ({
       <title>{metaTitle}</title>
       <meta name="description" content={metaDesc} />
       <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
-      
+
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
-      
+
       {/* Open Graph Tags */}
       <meta property="og:title" content={metaTitle} />
       <meta property="og:description" content={metaDesc} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={metaOgImage} />
-      <meta property="og:site_name" content="Traincape Technology" />
-      
+      <meta property="og:site_name" content="Armx-Indecodex" />
+
       {/* Twitter Card Tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={metaTitle} />
       <meta name="twitter:description" content={metaDesc} />
       <meta name="twitter:image" content={metaOgImage} />
-      
+
       {/* Author and Viewport */}
-      <meta name="author" content="Traincape Technology" />
+      <meta name="author" content="Armx-Indecodex" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      
+
       {/* Dynamic Link Preloads */}
       {preloads && preloads.map((preload, idx) => (
         <link
@@ -149,7 +149,7 @@ const SEOHead = ({
           fetchpriority={preload.fetchpriority}
         />
       ))}
-      
+
       {/* Inject all compiled JSON-LD scripts */}
       {jsonLdSchemas.map((schema, idx) => (
         <script key={idx} type="application/ld+json">

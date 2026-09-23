@@ -1,7 +1,7 @@
 /**
  * Design System Tailwind Config Patch
  * 
- * To integrate the new design tokens into the Traincape Technology project,
+ * To integrate the new design tokens into the Armx-Indecodex project,
  * merge these configurations into tailwind.config.js.
  */
 

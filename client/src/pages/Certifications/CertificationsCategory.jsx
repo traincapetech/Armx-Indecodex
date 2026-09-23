@@ -26,9 +26,9 @@ export default function CertificationsCategory() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title={`${categoryTitle} Certifications | Traincape Technology`}
+        title={`${categoryTitle} Certifications | Armx-Indecodex`}
         description={`Browse ${categoryTitle} certifications and professional training programs. Explore groups, compare programs, and view detailed outcomes and benefits.`}
-        canonical={`https://www.traincapetech.in/certifications/${categorySlug}`}
+        canonical={`https://www.Armx-Indecodextech.in/certifications/${categorySlug}`}
         ogType="website"
       />
 

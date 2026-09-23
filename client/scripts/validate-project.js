@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const srcFile = path.join('d:', 'train cape career', 'Traincape_Website', 'client', 'src', 'allRoute', 'AllRoute.jsx');
-const pagesBase = path.join('d:', 'train cape career', 'Traincape_Website', 'client', 'src', 'pages');
+const srcFile = path.join('d:', 'train cape career', 'Armx-Indecodex_Website', 'client', 'src', 'allRoute', 'AllRoute.jsx');
+const pagesBase = path.join('d:', 'train cape career', 'Armx-Indecodex_Website', 'client', 'src', 'pages');
 
 const src = fs.readFileSync(srcFile, 'utf8');
 const re = /import\(["']([^"']+)["']\)/g;

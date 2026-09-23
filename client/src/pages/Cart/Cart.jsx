@@ -19,9 +19,9 @@ const Cart = () => {
     accountNumber: "732205000345",
     bankName: "ICICI Bank",
     branchName: "Palam Colony",
-    accountHolderName: "TRAINCAPE TECHNOLOGY (OPC) PRIVATE LIMITED",
+    accountHolderName: "Armx-Indecodex (OPC) PRIVATE LIMITED",
     ifscCode: "ICIC0007322",
-    email: "sales@traincapetech.info",
+    email: "sales@Armx-Indecodextech.info",
   };
 
   const alertMessage = `Account Details:
@@ -66,20 +66,20 @@ Email: ${accountDetails.email}
             name: item.name || item.title || "Item",
             // images: [item.image], this make the url too long for the stripe
           },
-          unit_amount: item.price*100, // Stripe expects amounts in cents
+          unit_amount: item.price * 100, // Stripe expects amounts in cents
         },
         quantity: item.quantity,
       }));
 
       const paymentResponse = await axios({
         method: "post",
-        url: `https://traincape-backend-uwoa.onrender.com/payments/stripe`,
+        url: `https://Armx-Indecodex-backend-uwoa.onrender.com/payments/stripe`,
         data: {
           lineItems,
           success_url: `${window.location.origin}/success`,
           cancel_url: `${window.location.origin}/cancel-stripe-payment`,
           email,
-          productIds:cart.map(item => item.id),
+          productIds: cart.map(item => item.id),
         },
         headers: {
           "Content-Type": "application/json",
@@ -184,10 +184,10 @@ Email: ${accountDetails.email}
                 <p>
                   Need help? Contact us at{" "}
                   <a
-                    href="mailto:sales@traincapetech.info"
+                    href="mailto:sales@Armx-Indecodextech.info"
                     className="text-blue-600"
                   >
-                    sales@traincapetech.info
+                    sales@Armx-Indecodextech.info
                   </a>
                 </p>
               </div>

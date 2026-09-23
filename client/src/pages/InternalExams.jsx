@@ -17,7 +17,7 @@ const InternalExams = () => {
         <div className="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
           <div className="bg-indigo-600 text-white py-10 px-6 text-center">
             <h1 className="text-3xl md:text-4xl font-bold">Internal Employees Assessments</h1>
-            <p className="mt-2 text-indigo-100">Restricted to Traincape employees. Attempt requires login.</p>
+            <p className="mt-2 text-indigo-100">Restricted to Armx-Indecodex employees. Attempt requires login.</p>
           </div>
 
           <div className="p-6 md:p-10">
@@ -60,7 +60,7 @@ const InternalExams = () => {
                     Start Assessment
                   </button>
                   <div className="mt-4 text-sm text-slate-600">
-                    Already completed? 
+                    Already completed?
                     <button
                       onClick={() => navigate("/verifyCertificate")}
                       className="ml-1 text-indigo-600 hover:underline"
@@ -75,7 +75,7 @@ const InternalExams = () => {
             <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="rounded-xl border border-slate-200 p-4">
                 <h4 className="font-semibold text-slate-800">Step 1</h4>
-                <p className="text-slate-600">Login with your Traincape credentials.</p>
+                <p className="text-slate-600">Login with your Armx-Indecodex credentials.</p>
               </div>
               <div className="rounded-xl border border-slate-200 p-4">
                 <h4 className="font-semibold text-slate-800">Step 2</h4>

@@ -36,12 +36,12 @@ const ITSpeacialist = () => {
               Information Technology Specialist
             </h1>
             <h5 className="text-sm md:text-xl lg:text-xl mt-4">
-              Traincape provides a full pathway solution that educators can
+              Armx-Indecodex provides a full pathway solution that educators can
               use to prepare students for the Adobe Certified Professional
               certification.
               <br />
               From tailored learning materials and practice tests to Adobe
-              endorsed certification exams, Traincape provides assistance
+              endorsed certification exams, Armx-Indecodex provides assistance
               every step of the way. <br />
             </h5>
           </div>

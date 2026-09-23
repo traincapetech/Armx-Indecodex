@@ -12,17 +12,17 @@ const Policy = () => {
       {/* SEO Content for this Page  */}
       <Helmet>
         <title>
-        Our Policy | IT Training & Certifications | Traincape Technology
+          Our Policy | IT Training & Certifications | Armx-Indecodex
         </title>
         <meta
           name="description"
-          content="Learn about our Privacy Policy, Terms & Conditions, refund policy, and other terms. This page addresses all your questions. Reach out to Traincape Technology and begin your IT growth journey today!"
+          content="Learn about our Privacy Policy, Terms & Conditions, refund policy, and other terms. This page addresses all your questions. Reach out to Armx-Indecodex and begin your IT growth journey today!"
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/Our-Policies"
+          href="https://www.Armx-Indecodextech.in/Our-Policies"
         />
-      </Helmet> 
+      </Helmet>
 
 
       <div className={policypage.container}>
@@ -37,11 +37,11 @@ const Policy = () => {
               color: "#2c2d30",
             }}
           >
-            Traincape Technology - Privacy Policy
+            Armx-Indecodex - Privacy Policy
           </h1>
           <h2 className={policypage.heading}>RETURNS</h2>
           <p className={policypage.paragraph}>
-            Traincape Technology provides certificates for various courses,
+            Armx-Indecodex provides certificates for various courses,
             including PMP, Azure, and many more. These courses are designed to
             ensure that working professionals can attend and complete them
             within their contexts and limitations in time. The courses are
@@ -73,8 +73,8 @@ const Policy = () => {
             business days. Please note that it may take some time for your bank
             or credit card company to process and post the refund. If more than
             15 business days have passed since we approved your return, please
-            contact us at Sales@traincapetech.info. For more information, visit
-            Traincapetech.in, where we offer a range of courses, including PMP,
+            contact us at Sales@Armx-Indecodextech.info. For more information, visit
+            Armx-Indecodextech.in, where we offer a range of courses, including PMP,
             Azure, and many more, and provide certificates upon completion.
           </p>
         </div>

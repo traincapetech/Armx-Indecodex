@@ -16,7 +16,7 @@ async function run() {
     console.log("Connected to MongoDB database");
 
     // Check if test admin already exists
-    const testEmail = "admin@traincape.com";
+    const testEmail = "admin@Armx-Indecodex.com";
     const existingTestAdmin = await UserModel.findOne({ email: testEmail });
 
     const hashedPassword = await bcrypt.hash("Admin@123", 5);

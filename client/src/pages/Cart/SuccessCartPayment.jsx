@@ -33,7 +33,7 @@ const SuccessCartPayment = () => {
         }
 
         const response = await axios.get(
-          `https://traincape-backend-uwoa.onrender.com/payments/stripe-success`,
+          `https://Armx-Indecodex-backend-uwoa.onrender.com/payments/stripe-success`,
           {
             params: {
               session_id: sessionId,
@@ -50,7 +50,7 @@ const SuccessCartPayment = () => {
           );
           setMessage(
             response.data.message ||
-              "Purchase has been made successfuuly successful!"
+            "Purchase has been made successfuuly successful!"
           );
 
           if (response.data.transaction) {
@@ -212,11 +212,10 @@ const SuccessCartPayment = () => {
                   <p>
                     <span className="font-medium">Status:</span>
                     <span
-                      className={`ml-2 font-medium ${
-                        courseDetails.status === "confirmed"
+                      className={`ml-2 font-medium ${courseDetails.status === "confirmed"
                           ? "text-green-600"
                           : "text-yellow-600"
-                      }`}
+                        }`}
                     >
                       {courseDetails.status}
                     </span>
@@ -240,7 +239,7 @@ const SuccessCartPayment = () => {
                 Continue Shopping
               </button>
               <a
-                href="mailto:sales@traincapetech.in?subject=Voucher%20Delivery%20Assistance"
+                href="mailto:sales@Armx-Indecodextech.in?subject=Voucher%20Delivery%20Assistance"
                 className="w-full py-2 text-center font-medium text-gray-700 transition-colors bg-gray-200 rounded-md hover:bg-gray-300"
               >
                 Didn’t get voucher? Contact support
@@ -250,7 +249,7 @@ const SuccessCartPayment = () => {
             <div className="mt-4 text-xs text-gray-600 bg-blue-50 border border-blue-100 p-3 rounded-md text-left">
               <p>If you did not receive your voucher email within a few minutes, check your spam folder. Still missing or incorrect? Reach us:</p>
               <ul className="list-disc ml-5 mt-1">
-                <li>Email: sales@traincapetech.in</li>
+                <li>Email: sales@Armx-Indecodextech.in</li>
                 <li>Phone: +44 1253 928501</li>
                 <li>WhatsApp: +44 1253 928501</li>
               </ul>

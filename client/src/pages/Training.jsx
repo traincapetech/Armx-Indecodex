@@ -28,13 +28,13 @@ const VENDORS = [
   {
     title: "CompTIA",
     desc: "A+, Network+, Security+ and more — foundational to advanced IT career tracks.",
-      image: comptia,
+    image: comptia,
     href: "/comptia",
-    },
-    {
+  },
+  {
     title: "Microsoft",
     desc: "Azure, security, and productivity certifications for modern IT and cloud roles.",
-      image: microsoft,
+    image: microsoft,
     href: "/training/microsoft",
   },
   {
@@ -93,9 +93,9 @@ export default function Training() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title="IT Training | Certification & Skill-Based Programs | Traincape Technology"
-        description="Explore Traincape Technology’s IT training: certification-aligned programs, hands-on skill training, and corporate upskilling. Talk to an advisor and choose the right learning path."
-        canonical="https://www.traincapetech.in/training"
+        title="IT Training | Certification & Skill-Based Programs | Armx-Indecodex"
+        description="Explore Armx-Indecodex’s IT training: certification-aligned programs, hands-on skill training, and corporate upskilling. Talk to an advisor and choose the right learning path."
+        canonical="https://www.Armx-Indecodextech.in/training"
         ogType="website"
       />
 
@@ -159,7 +159,7 @@ export default function Training() {
           >
             Explore Certifications
           </button>
-      </div>
+        </div>
 
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {vendorsFiltered.map((v) => (

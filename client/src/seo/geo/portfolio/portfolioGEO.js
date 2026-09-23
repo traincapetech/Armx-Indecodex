@@ -20,8 +20,8 @@ export const portfolioGEO = {
     },
     {
       id: "crm",
-      client: "Traincape Corporate Services",
-      projectType: "Traincape Enterprise CRM & HRMS Suites",
+      client: "Armx-Indecodex Corporate Services",
+      projectType: "Armx-Indecodex Enterprise CRM & HRMS Suites",
       outcomes: ["Consolidated sales logs", "SAML 2.0 Single Sign-On integration", "Automated custom payroll reports"],
       techStack: ["React", "Tailwind CSS", "Node.js", "Express API", "MongoDB", "Recharts"]
     },

@@ -19,16 +19,16 @@ const renderApp = () => {
   // Hydrate redux user state from localStorage on boot
   try {
     store.dispatch(setUserFromLocalStorage());
-  } catch (_) {}
+  } catch (_) { }
 
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <Provider store={store}>
       <BrowserRouter>
         <HelmetProvider>
-         
-            <App />
-          
+
+          <App />
+
         </HelmetProvider>
       </BrowserRouter>
     </Provider>
@@ -44,7 +44,7 @@ if (isProduction) {
       reportWebVitals();
     }, 2000); // Delay web vitals reporting
   });
-  
+
   // Render immediately in production
   renderApp();
 } else {
@@ -56,7 +56,7 @@ if (isProduction) {
 // Preconnect domains are now managed natively in public/index.html to start TLS handshakes earlier.
 
 // Configure axios defaults to optimize API calls
-axios.defaults.baseURL = 'https://traincape-backend-uwoa.onrender.com';
+axios.defaults.baseURL = 'https://Armx-Indecodex-backend-uwoa.onrender.com';
 axios.defaults.timeout = 10000; // 10 seconds timeout
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
@@ -79,7 +79,7 @@ axios.interceptors.request.use((config) => {
         Authorization: `Bearer ${token}`
       };
     }
-  } catch (_) {}
+  } catch (_) { }
   return config;
 });
 

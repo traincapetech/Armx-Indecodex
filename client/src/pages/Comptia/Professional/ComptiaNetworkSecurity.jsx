@@ -38,8 +38,8 @@ const ComptiaNetworkSecurity = () => {
       "Master Network Infrastructure & Security with CompTIA Network Security Professional Certification. Learn to secure network infrastructure and implement security best practices. Contact us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -129,8 +129,8 @@ const ComptiaNetworkSecurity = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-green-50 to-teal-50">
       <Helmet>
-      <title>
-          CompTIA Network Security Professional Certification (CNSP) | Traincape Technology
+        <title>
+          CompTIA Network Security Professional Certification (CNSP) | Armx-Indecodex
         </title>
         <meta
           name="description"
@@ -138,18 +138,18 @@ const ComptiaNetworkSecurity = () => {
         />
         <meta
           name="keywords"
-          content="CompTIA Network Security Professional Certification, CompTIA CNSP, Network Security, CompTIA, Traincape Technology"
+          content="CompTIA Network Security Professional Certification, CompTIA CNSP, Network Security, CompTIA, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/comptia/professional/network-security-professional-certification"
+          href="https://www.Armx-Indecodextech.in/comptia/professional/network-security-professional-certification"
         />
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Network Security Professional Certification | Traincape Technology"
+          content="CompTIA Network Security Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -157,11 +157,11 @@ const ComptiaNetworkSecurity = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/network-security-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/network-security-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/network-security-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/network-security-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -169,7 +169,7 @@ const ComptiaNetworkSecurity = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Network Security Professional Certification | Traincape Technology"
+          content="CompTIA Network Security Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -177,14 +177,14 @@ const ComptiaNetworkSecurity = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/network-security-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/network-security-professional-banner.webp"
         />
 
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Network Security Professional Certification | Traincape Technology"
+          content="CompTIA Network Security Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -192,11 +192,11 @@ const ComptiaNetworkSecurity = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/network-security-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/network-security-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/network-security-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/network-security-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -204,7 +204,7 @@ const ComptiaNetworkSecurity = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Network Security Professional Certification | Traincape Technology"
+          content="CompTIA Network Security Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -212,14 +212,14 @@ const ComptiaNetworkSecurity = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/network-security-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/network-security-professional-banner.webp"
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -229,7 +229,7 @@ const ComptiaNetworkSecurity = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -237,7 +237,7 @@ const ComptiaNetworkSecurity = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL • STACKABLE</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -245,7 +245,7 @@ const ComptiaNetworkSecurity = () => {
               >
                 CompTIA Network Security Professional (CNSP)
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -253,7 +253,7 @@ const ComptiaNetworkSecurity = () => {
               >
                 Master Network Infrastructure & Security
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -261,25 +261,25 @@ const ComptiaNetworkSecurity = () => {
               >
                 The CompTIA Network Security Professional (CNSP) stackable certification validates your ability to secure network infrastructure. Earn it by completing Network+ and Security+ certifications.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-green-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Start Your Journey
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/comptia/professional")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-green-700 transition"
                 >
                   View All Professional Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetworkSecurity", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -287,7 +287,7 @@ const ComptiaNetworkSecurity = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -548,24 +548,24 @@ const ComptiaNetworkSecurity = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Become a Network Security Pro?</h2>
             <p className="text-xl mb-8">Start with Network+ and build your way to CNSP certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-green-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Start Your Journey
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-green-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetworkSecurity", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIANetworkSecurity", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

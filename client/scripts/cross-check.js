@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const base = path.join('d:', 'train cape career', 'Traincape_Website', 'client');
+const base = path.join('d:', 'train cape career', 'Armx-Indecodex_Website', 'client');
 const xml = fs.readFileSync(path.join(base, 'public', 'sitemap.xml'), 'utf8');
-const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace('https://www.traincapetech.in', ''));
+const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace('https://www.Armx-Indecodextech.in', ''));
 
 const route = fs.readFileSync(path.join(base, 'src', 'allRoute', 'AllRoute.jsx'), 'utf8');
 const routePaths = [...route.matchAll(/path=["']([^"']+)["']/g)].map(m => m[1]);

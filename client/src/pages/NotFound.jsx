@@ -8,8 +8,8 @@ const NotFound = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
       <SEOHeader 
-        title="Page Not Found | Traincape Technology"
-        description="The page you're looking for doesn't exist. Return to Traincape Technology's homepage."
+        title="Page Not Found | Armx-Indecodex"
+        description="The page you're looking for doesn't exist. Return to Armx-Indecodex's homepage."
       />
       
       <div className="w-full max-w-lg">

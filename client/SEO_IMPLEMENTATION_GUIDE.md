@@ -47,7 +47,7 @@ return (
     <SEOHead 
       title="Your Custom Title"
       description="Your custom description"
-      canonical="https://www.traincapetech.in/your-page"
+      canonical="https://www.Armx-Indecodextech.in/your-page"
       structuredData={{
         "@context": "https://schema.org",
         "@type": "WebPage",
@@ -129,7 +129,7 @@ const AboutUs = () => {
   return (
     <div>
       <PageSEO pageType="about" />
-      <h1>About Traincape Technology</h1>
+      <h1>About Armx-Indecodex</h1>
       {/* Your about page content */}
     </div>
   );
@@ -165,16 +165,16 @@ const CustomPage = () => {
   return (
     <div>
       <SEOHead 
-        title="Special Training Program | Traincape Technology"
+        title="Special Training Program | Armx-Indecodex"
         description="Exclusive training program for enterprise clients"
-        canonical="https://www.traincapetech.in/enterprise-training"
+        canonical="https://www.Armx-Indecodextech.in/enterprise-training"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Service",
           "name": "Enterprise Training Program",
           "provider": {
             "@type": "Organization",
-            "name": "Traincape Technology"
+            "name": "Armx-Indecodex"
           },
           "serviceType": "Corporate Training"
         }}
@@ -203,11 +203,11 @@ After implementing SEO components:
    - Verify structured data is detected
 
 3. **Check Redirects**: Test these URLs:
-   - `https://traincapetech.in` → should redirect to `https://www.traincapetech.in`
-   - `http://traincapetech.in` → should redirect to `https://www.traincapetech.in`
+   - `https://Armx-Indecodextech.in` → should redirect to `https://www.Armx-Indecodextech.in`
+   - `http://Armx-Indecodextech.in` → should redirect to `https://www.Armx-Indecodextech.in`
 
 4. **Verify Sitemap**: Check that your page is included in:
-   - `https://www.traincapetech.in/sitemap.xml`
+   - `https://www.Armx-Indecodextech.in/sitemap.xml`
 
 ## 🚨 Common Issues
 
@@ -224,7 +224,7 @@ After implementing SEO components:
 ### Canonical URLs Not Working
 - Verify the `_redirects` file is in the build folder
 - Check that your hosting provider supports redirects
-- Test with curl: `curl -I https://traincapetech.in`
+- Test with curl: `curl -I https://Armx-Indecodextech.in`
 
 ---
 

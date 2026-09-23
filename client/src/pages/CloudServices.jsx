@@ -11,19 +11,19 @@ const CloudServices = () => {
   }, []);
 
 
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
 
   return (
     <div className="w-full overflow-hidden font-sans text-gray-800">
 
       <SEOHead
-        title="Cloud Services | Migration, DevOps & Managed Cloud | Traincape Technology"
+        title="Cloud Services | Migration, DevOps & Managed Cloud | Armx-Indecodex"
         description="Modernize your business with cloud migration, cloud-native build, DevOps, and managed cloud services. Improve scalability, security, and cost efficiency."
-        canonical="https://www.traincapetech.in/services/cloud-services"
+        canonical="https://www.Armx-Indecodextech.in/services/cloud-services"
         ogType="website"
       />
-      
+
       {/* HERO SECTION */}
       <section
         className="relative text-white py-28 px-6 md:px-16 flex flex-col justify-center items-start overflow-hidden"
@@ -74,7 +74,7 @@ const navigate = useNavigate();
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-             onClick={() => navigate("/contact-us")}
+            onClick={() => navigate("/contact-us")}
           >
             Get Started
           </motion.button>
@@ -89,7 +89,7 @@ const navigate = useNavigate();
           </p>
 
           <h2 className="text-2xl md:text-4xl font-bold leading-snug mb-6 text-center md:text-left">
-          Every business is unique. Our adaptable cloud services guarantee peak performance and return on investment by matching your particular goals. Scale with confidence and safeguard your data. Our cloud solutions are constructed with unparalleled dependability and enterprise-grade security.
+            Every business is unique. Our adaptable cloud services guarantee peak performance and return on investment by matching your particular goals. Scale with confidence and safeguard your data. Our cloud solutions are constructed with unparalleled dependability and enterprise-grade security.
           </h2>
 
           <p className="text-gray-600 max-w-3xl mx-auto md:mx-0 text-center md:text-left">
@@ -187,7 +187,7 @@ const navigate = useNavigate();
         </div>
       </section>
 
-  
+
 
       {/* IMAGE SECTION */}
       <section className="py-12 bg-blue-100/50 px-6 md:px-16 mb-10 w-full mt-10 overflow-hidden">
@@ -258,23 +258,23 @@ const navigate = useNavigate();
         </div>
 
 
-             {/* CTA SECTION */}
-      <section className="bg-blue-200 text-black py-16 text-center px-6 mt-16 rounded-3xl mx-6 md:mx-16 outline-indigo-950">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Ready to Elevate Your Business to the Cloud?
-        </h2>
-        <p className="text-black/50 mb-8 max-w-2xl mx-auto text-xl">
-          Partner with us for seamless migration, integration, and cloud management solutions.
-        </p>
-        <motion.button
-          className="bg-blue-900 hover:bg-blue-800 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-md text-white  "
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => navigate("/contact-us")}
-        >
-          Contact Us
-        </motion.button>
-      </section> 
+        {/* CTA SECTION */}
+        <section className="bg-blue-200 text-black py-16 text-center px-6 mt-16 rounded-3xl mx-6 md:mx-16 outline-indigo-950">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Ready to Elevate Your Business to the Cloud?
+          </h2>
+          <p className="text-black/50 mb-8 max-w-2xl mx-auto text-xl">
+            Partner with us for seamless migration, integration, and cloud management solutions.
+          </p>
+          <motion.button
+            className="bg-blue-900 hover:bg-blue-800 px-8 py-3 rounded-xl font-semibold transition-all duration-300 shadow-md text-white  "
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => navigate("/contact-us")}
+          >
+            Contact Us
+          </motion.button>
+        </section>
       </section>
     </div>
   );

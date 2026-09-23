@@ -130,12 +130,12 @@ const ComptiaCYSAPlus = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-cyan-50 to-blue-50">
       <SEOHead
-        title="CompTIA CySA+ Certification Training | Cybersecurity Analyst - Traincape Technology"
+        title="CompTIA CySA+ Certification Training | Cybersecurity Analyst - Armx-Indecodex"
         description="Get CompTIA CySA+ certified. Master threat detection, vulnerability management, and incident response."
-        canonical="https://www.traincapetech.in/comptia/professional/cysa-plus"
+        canonical="https://www.Armx-Indecodextech.in/comptia/professional/cysa-plus"
       />
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -145,7 +145,7 @@ const ComptiaCYSAPlus = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -153,7 +153,7 @@ const ComptiaCYSAPlus = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -161,7 +161,7 @@ const ComptiaCYSAPlus = () => {
               >
                 CompTIA CySA+
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -169,7 +169,7 @@ const ComptiaCYSAPlus = () => {
               >
                 Cybersecurity Analyst
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -177,25 +177,25 @@ const ComptiaCYSAPlus = () => {
               >
                 CompTIA CySA+ is the most up-to-date security analyst certification that covers advanced analytics, threat detection, and response. This certification validates your ability to proactively defend against and respond to cybersecurity threats.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-cyan-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => window.open("https://drive.google.com/file/d/1hdu1VUxVstGMdA_gVep2IxHBT3O3dy1c/view", "_blank")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-cyan-700 transition"
                 >
                   Download Brochure
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACySA+", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -203,7 +203,7 @@ const ComptiaCYSAPlus = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -443,24 +443,24 @@ const ComptiaCYSAPlus = () => {
             <h2 className="text-4xl font-bold mb-4">Become a Cybersecurity Analyst</h2>
             <p className="text-xl mb-8">Master the skills to detect and respond to advanced threats</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-cyan-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACySA+", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIACySA+", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

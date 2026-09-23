@@ -91,7 +91,7 @@ contactRouter.post("/career-application", async (req, res) => {
         <div class="container">
           <div class="header">
             <h1>🎯 New Career Application</h1>
-            <p>A candidate has applied for a position at Traincape Technology</p>
+            <p>A candidate has applied for a position at Armx-Indecodex</p>
           </div>
           <div class="content">
             <div class="field" style="text-align: center; margin-bottom: 25px;">
@@ -118,27 +118,25 @@ contactRouter.post("/career-application", async (req, res) => {
               <div class="value">${safeExperience || "Not specified"}</div>
             </div>
             
-            ${
-              safeLinkedin
-                ? `
+            ${safeLinkedin
+        ? `
             <div class="field">
               <div class="label">LinkedIn Profile</div>
               <div class="value"><a href="${safeLinkedin}" target="_blank">${safeLinkedin}</a></div>
             </div>
             `
-                : ""
-            }
+        : ""
+      }
             
-            ${
-              safeResumeLink
-                ? `
+            ${safeResumeLink
+        ? `
             <div class="field">
               <div class="label">Resume Link</div>
               <div class="value"><a href="${safeResumeLink}" target="_blank">📄 View Resume</a></div>
             </div>
             `
-                : ""
-            }
+        : ""
+      }
             
             <div class="field">
               <div class="label">Cover Letter / Why They Want to Join</div>
@@ -146,7 +144,7 @@ contactRouter.post("/career-application", async (req, res) => {
             </div>
           </div>
           <div class="footer">
-            <p>Received via Traincape Technology Careers Portal</p>
+            <p>Received via Armx-Indecodex Careers Portal</p>
             <p>Reply directly to this email to contact the candidate</p>
           </div>
         </div>
@@ -178,7 +176,7 @@ contactRouter.post("/career-application", async (req, res) => {
 
     await transporter.sendMail({
       from: `"${smtpUser}" <${smtpUser}>`,
-      to: "hr@traincapetech.in",
+      to: "hr@Armx-Indecodextech.in",
       replyTo: safeEmail,
       subject: `📋 New Application: ${safePosition} — ${safeName}`,
       html: htmlContent,
@@ -262,7 +260,7 @@ contactRouter.post("/lead", async (req, res) => {
       });
     }
 
-    const toEmail = process.env.CONTACT_RECEIVER_EMAIL || "sales@traincapetech.in";
+    const toEmail = process.env.CONTACT_RECEIVER_EMAIL || "sales@Armx-Indecodextech.in";
 
     const transporter = nodemailer.createTransport({
       host: "smtp.hostinger.com",

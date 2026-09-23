@@ -3,5 +3,5 @@ export const metrics = [
   { id: "departments", label: "Synced Departments", value: "6 Domains", projectSlug: "crm" },
   { id: "milestones", label: "Milestones Tracked", value: "Real-time", projectSlug: "verda" },
   { id: "latency", label: "Messaging Latency", value: "< 300ms", projectSlug: "dating-app" },
-  { id: "seo", label: "Prerender Indexing", value: "100% Crawlable", projectSlug: "traincape" }
+  { id: "seo", label: "Prerender Indexing", value: "100% Crawlable", projectSlug: "Armx-Indecodex" }
 ];

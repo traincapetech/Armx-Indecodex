@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet-async";
 import Hero from "../components/internship/Hero";
 import { faqs } from "../data/internship/internshipData";
 
-// Lazy load below-the-fold sections for excellent mobile Core Web Vitals (FCP, LCP)
 const WhyJoinTraincape = lazy(() => import("../components/internship/WhyJoinTraincape"));
 const InternshipTracks = lazy(() => import("../components/internship/InternshipTracks"));
 const LearningJourney = lazy(() => import("../components/internship/LearningJourney"));
@@ -52,13 +51,13 @@ export default function Internship() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.traincapetech.in/"
+        "item": "https://www.Armx-Indecodextech.in/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Internship Program",
-        "item": "https://www.traincapetech.in/internship"
+        "item": "https://www.Armx-Indecodextech.in/internship"
       }
     ]
   };
@@ -66,9 +65,9 @@ export default function Internship() {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Traincape Technology",
-    "url": "https://www.traincapetech.in",
-    "logo": "https://www.traincapetech.in/android-chrome-512x512.png"
+    "name": "Armx-Indecodex",
+    "url": "https://www.Armx-Indecodextech.in",
+    "logo": "https://www.Armx-Indecodextech.in/android-chrome-512x512.png"
   };
 
   const faqSchema = {
@@ -94,8 +93,8 @@ export default function Internship() {
     "employmentType": "INTERN",
     "hiringOrganization": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "sameAs": "https://www.traincapetech.in"
+      "name": "Armx-Indecodex",
+      "sameAs": "https://www.Armx-Indecodextech.in"
     },
     "jobLocation": {
       "@type": "Place",
@@ -111,27 +110,27 @@ export default function Internship() {
   return (
     <>
       <Helmet>
-        <title>Software Development & MERN Stack Internship Program | Traincape Technology</title>
+        <title>Software Development & MERN Stack Internship Program | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Apply for Traincape's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development. Mentorship-driven."
+          content="Apply for Armx-Indecodex's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development. Mentorship-driven."
         />
         <meta
           name="keywords"
           content="Software Development Internship, MERN Stack Internship, React Internship, Node.js Internship, Web Development Internship, Remote Internship, Summer Internship"
         />
-        <link rel="canonical" href="https://www.traincapetech.in/internship" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/internship" />
 
         {/* OG Tags */}
-        <meta property="og:title" content="Software Development & MERN Stack Internship Program | Traincape Technology" />
-        <meta property="og:description" content="Apply for Traincape's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development." />
-        <meta property="og:url" content="https://www.traincapetech.in/internship" />
+        <meta property="og:title" content="Software Development & MERN Stack Internship Program | Armx-Indecodex" />
+        <meta property="og:description" content="Apply for Armx-Indecodex's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development." />
+        <meta property="og:url" content="https://www.Armx-Indecodextech.in/internship" />
         <meta property="og:type" content="website" />
-        
+
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Software Development & MERN Stack Internship Program | Traincape Technology" />
-        <meta name="twitter:description" content="Apply for Traincape's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development." />
+        <meta name="twitter:title" content="Software Development & MERN Stack Internship Program | Armx-Indecodex" />
+        <meta name="twitter:description" content="Apply for Armx-Indecodex's software development internship. Gain hands-on project experience in React, Node.js, and Mobile App development." />
 
         {/* Structured JSON-LD Schemas */}
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

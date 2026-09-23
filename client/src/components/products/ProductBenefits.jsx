@@ -11,7 +11,7 @@ export default function ProductBenefits({ benefits }) {
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-16 space-y-12">
         <div className="text-center space-y-3">
           <h2 className="text-2xl md:text-3.5xl font-extrabold text-slate-900 font-display">
-            Why Choose Traincape Enterprise Solutions?
+            Why Choose Armx-Indecodex Enterprise Solutions?
           </h2>
           <p className="text-slate-550 text-sm max-w-lg mx-auto">
             Our SaaS showcases are built with ownership, compliance, and zero scaling penalties.

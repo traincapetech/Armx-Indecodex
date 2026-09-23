@@ -126,14 +126,14 @@ const EthicalHacking = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-red-50 to-pink-50">
       <Helmet>
-        <title>Ethical Hacking || Traning and Certifications|| PECB || Ethical Hacking Certification || Traincape Technology || Ethical Hacking Certifications</title>
+        <title>Ethical Hacking || Traning and Certifications|| PECB || Ethical Hacking Certification || Armx-Indecodex || Ethical Hacking Certifications</title>
         <meta name="description" content="Become a certified Ethical Hacking Professional with PECB. Learn cybersecurity, penetration testing, and security testing skills.." />
-        <meta name="keywords" content="Training and Certifications, PECB, Ethical Hacking, Ethical Hacking, Ethical Hacking, Traincape Technology, Ethical Hacking Certifications, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking" />
+        <meta name="keywords" content="Training and Certifications, PECB, Ethical Hacking, Ethical Hacking, Ethical Hacking, Armx-Indecodex, Ethical Hacking Certifications, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking, Ethical Hacking" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/technical-cybersecurity/ethical-hacking" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/technical-cybersecurity/ethical-hacking" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -143,7 +143,7 @@ const EthicalHacking = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -151,7 +151,7 @@ const EthicalHacking = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -159,7 +159,7 @@ const EthicalHacking = () => {
               >
                 Ethical Hacking Professional: Master Ethical Hacking & Security Testing
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -167,7 +167,7 @@ const EthicalHacking = () => {
               >
                 Master Ethical Hacking & Security Testing
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -175,25 +175,25 @@ const EthicalHacking = () => {
               >
                 Become a certified ethical hacker with comprehensive training in penetration testing, vulnerability assessment, and security testing methodologies.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-red-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-red-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EthicalHacking", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -201,7 +201,7 @@ const EthicalHacking = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -477,24 +477,24 @@ const EthicalHacking = () => {
             <h2 className="text-4xl font-bold mb-4">Become an Ethical Hacking Expert</h2>
             <p className="text-xl mb-8">Start your ethical hacking career today</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-red-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-red-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EthicalHacking", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "EthicalHacking", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

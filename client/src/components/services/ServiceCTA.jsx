@@ -19,7 +19,7 @@ export default function ServiceCTA({ serviceName }) {
           <ArrowRight className="w-4 h-4" />
         </a>
         <a
-          href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Traincape Team, I'm interested in discussing " + (serviceName || "your IT services") + " and scheduling a scoping call.")}`}
+          href={`https://wa.me/919911910793?text=${encodeURIComponent("Hi Armx-Indecodex Team, I'm interested in discussing " + (serviceName || "your IT services") + " and scheduling a scoping call.")}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-white border border-slate-200 text-slate-700 hover:text-slate-950 hover:bg-slate-50 px-4 py-2.5 rounded text-xs md:text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 shadow-sm"

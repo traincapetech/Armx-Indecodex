@@ -154,9 +154,9 @@ const Services = () => {
   return (
     <div className="bg-[#020617] text-slate-200 min-h-screen font-['Inter'] selection:bg-cyan-500/30">
       <SEOHead
-        title="Enterprise IT Services | Traincape Technology"
+        title="Enterprise IT Services | Armx-Indecodex"
         description="Scalable web development, cloud migration, and AI solutions for modern enterprises. Build faster with a reliable engineering partner."
-        canonical="https://www.traincapetech.in/our-services"
+        canonical="https://www.Armx-Indecodextech.in/our-services"
         ogType="website"
       />
 
@@ -363,7 +363,7 @@ const Services = () => {
               Let's Architect <br /> Your Next Era
             </h2>
             <p className="text-slate-300 text-xl max-w-2xl mx-auto mb-12">
-              Join elite enterprises that trust Traincape Technology for
+              Join elite enterprises that trust Armx-Indecodex for
               mission-critical software and high-performance infrastructure.
             </p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

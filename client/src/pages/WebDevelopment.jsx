@@ -14,11 +14,11 @@ const WebDevelopment = () => {
   return (
     <div className="w-full overflow-hidden">
       <Helmet>
-        <title>Web Development | Traincape Technology</title>
+        <title>Web Development | Armx-Indecodex</title>
         <meta name="description" content="Experience innovation with custom-built, API-driven web solutions optimized for performance, security, and growth." />
-        <meta name="keywords" content="Web Development, Web Development Services, Web Development Company, Traincape Technology, Custom Website Development, E-commerce Website Development, CMS Development, CRM Development, API-driven Web Solutions, Performance-Optimized Websites" />
+        <meta name="keywords" content="Web Development, Web Development Services, Web Development Company, Armx-Indecodex, Custom Website Development, E-commerce Website Development, CMS Development, CRM Development, API-driven Web Solutions, Performance-Optimized Websites" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/services/web-development" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/services/web-development" />
       </Helmet>
       {/* HERO SECTION (UNCHANGED) */}
       <section

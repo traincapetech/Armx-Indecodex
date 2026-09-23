@@ -132,7 +132,7 @@ const SoftwareDevelopment = () => {
     {
       name: "Rajesh Sharma",
       role: "CTO, MedConnect",
-      text: "Traincape delivered a HIPAA-compliant telemedicine platform that handles 10k+ daily consultations flawlessly. Their engineering quality is world-class.",
+      text: "Armx-Indecodex delivered a HIPAA-compliant telemedicine platform that handles 10k+ daily consultations flawlessly. Their engineering quality is world-class.",
     },
     {
       name: "Priya Patel",
@@ -313,20 +313,20 @@ const SoftwareDevelopment = () => {
   return (
     <div className="w-full font-sans bg-[#030712] text-white overflow-x-hidden selection:bg-cyan-500/30">
       <SEOHead
-        title="IT Services — SaaS CRM, Telemedicine Apps, Real Estate Websites, SEO & Web Development | Traincape Technology"
-        description="We build SaaS-level CRM, telemedicine mobile apps, high-performance websites, and implement full-proof SEO strategies. Enterprise software development by Traincape Technology in Delhi."
-        canonical="https://www.traincapetech.in/services/software-services"
+        title="IT Services — SaaS CRM, Telemedicine Apps, Real Estate Websites, SEO & Web Development | Armx-Indecodex"
+        description="We build SaaS-level CRM, telemedicine mobile apps, high-performance websites, and implement full-proof SEO strategies. Enterprise software development by Armx-Indecodex in Delhi."
+        canonical="https://www.Armx-Indecodextech.in/services/software-services"
         structuredData={{
           "@context": "https://schema.org",
           "@graph": [
             {
               "@type": "ProfessionalService",
-              "@id": "https://www.traincapetech.in/services/software-services#service",
-              "name": "Traincape Technology - Software & Web Development",
-              "url": "https://www.traincapetech.in/services/software-services",
+              "@id": "https://www.Armx-Indecodextech.in/services/software-services#service",
+              "name": "Armx-Indecodex - Software & Web Development",
+              "url": "https://www.Armx-Indecodextech.in/services/software-services",
               "telephone": "+91-6280281505",
-              "email": "sales@traincapetech.in",
-              "image": "https://www.traincapetech.in/android-chrome-512x512.png",
+              "email": "sales@Armx-Indecodextech.in",
+              "image": "https://www.Armx-Indecodextech.in/android-chrome-512x512.png",
               "priceRange": "$$",
               "address": {
                 "@type": "PostalAddress",
@@ -387,22 +387,22 @@ const SoftwareDevelopment = () => {
             },
             {
               "@type": "FAQPage",
-              "@id": "https://www.traincapetech.in/services/software-services#faq",
+              "@id": "https://www.Armx-Indecodextech.in/services/software-services#faq",
               "mainEntity": [
                 {
                   "@type": "Question",
                   "name": "Which is the best web and app development company in Delhi near me?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Traincape Technology is a leading web and app development company located in Vaishali Colony, Dashrath Puri, New Delhi, Delhi. We deliver premium, custom software solutions including responsive React/Next.js websites, mobile ecosystems, enterprise CRMs, and telemedicine apps."
+                    "text": "Armx-Indecodex is a leading web and app development company located in Vaishali Colony, Dashrath Puri, New Delhi, Delhi. We deliver premium, custom software solutions including responsive React/Next.js websites, mobile ecosystems, enterprise CRMs, and telemedicine apps."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Does Traincape Technology build custom CRM software?",
+                  "name": "Does Armx-Indecodex build custom CRM software?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Traincape Technology specializes in SaaS-level custom CRM development. We architect CRMs with real-time sales analytics, automated workflows, lead scoring, and third-party integrations to maximize business efficiency."
+                    "text": "Yes, Armx-Indecodex specializes in SaaS-level custom CRM development. We architect CRMs with real-time sales analytics, automated workflows, lead scoring, and third-party integrations to maximize business efficiency."
                   }
                 },
                 {
@@ -415,7 +415,7 @@ const SoftwareDevelopment = () => {
                 },
                 {
                   "@type": "Question",
-                  "name": "How does Traincape Technology implement SEO for business websites?",
+                  "name": "How does Armx-Indecodex implement SEO for business websites?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Our full-proof SEO and Generative Engine Optimization (GEO) implementation focuses on technical structure, schema markup, Core Web Vitals optimization, and high-quality local keyword targeting to ensure your website ranks first on Google Search and AI Overviews."
@@ -867,7 +867,7 @@ const SoftwareDevelopment = () => {
               variants={fadeUp}
               className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-400 mb-3"
             >
-              Why Traincape
+              Why Armx-Indecodex
             </motion.p>
             <motion.h2
               variants={fadeUp}

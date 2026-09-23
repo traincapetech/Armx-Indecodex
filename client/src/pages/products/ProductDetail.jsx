@@ -49,29 +49,29 @@ export default function ProductDetail() {
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       {/* Helmet SEO Optimization */}
       <Helmet>
-        <title>{product.seo?.title || `${product.name} | Traincape Technology`}</title>
+        <title>{product.seo?.title || `${product.name} | Armx-Indecodex`}</title>
         <meta
           name="description"
           content={product.seo?.description || `Explore modules, tech stack and compliance features of ${product.name}.`}
         />
         <meta name="keywords" content={product.seo?.keywords || "SaaS product, custom software"} />
-        <link rel="canonical" href={`https://traincapetech.in/products/${product.slug}`} />
+        <link rel="canonical" href={`https://Armx-Indecodextech.in/products/${product.slug}`} />
         <meta property="og:title" content={product.seo?.title} />
         <meta property="og:description" content={product.seo?.description} />
-        <meta property="og:url" content={`https://traincapetech.in/products/${product.slug}`} />
+        <meta property="og:url" content={`https://Armx-Indecodextech.in/products/${product.slug}`} />
         <meta property="og:type" content="article" />
-        
+
         {/* Dynamic Product JSON-LD Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "http://schema.org",
             "@type": "Product",
             "name": product.name,
-            "image": "https://traincapetech.in/assets/TT.png",
+            "image": "https://Armx-Indecodextech.in/assets/TT.png",
             "description": product.shortDescription,
             "brand": {
               "@type": "Brand",
-              "name": "Traincape Technology"
+              "name": "Armx-Indecodex"
             },
             "offers": {
               "@type": "Offer",
@@ -80,7 +80,7 @@ export default function ProductDetail() {
               "valueAddedTaxIncluded": "true",
               "priceValidUntil": "2030-01-01",
               "availability": "http://schema.org/InStock",
-              "url": `https://traincapetech.in/products/${product.slug}`
+              "url": `https://Armx-Indecodextech.in/products/${product.slug}`
             }
           })}
         </script>
@@ -113,7 +113,7 @@ export default function ProductDetail() {
       <ProductCTA productName={product.name} />
       <StickyCTA
         primaryLabel="Request Demo"
-        whatsappPrefill={`Hi Traincape Team, I'm interested in requesting a sandbox demo for your "${product.name}" product.`}
+        whatsappPrefill={`Hi Armx-Indecodex Team, I'm interested in requesting a sandbox demo for your "${product.name}" product.`}
       />
     </div>
   );

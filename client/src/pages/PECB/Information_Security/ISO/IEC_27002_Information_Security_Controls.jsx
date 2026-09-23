@@ -109,7 +109,7 @@ const IEC27002InformationSecurityControls = () => {
 
   const controlCategories = [
     "Information Security Policies",
-    "Organization of Information Security", 
+    "Organization of Information Security",
     "Human Resource Security",
     "Asset Management",
     "Access Control",
@@ -127,14 +127,14 @@ const IEC27002InformationSecurityControls = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
       <Helmet>
-        <title> Traning and Certifications|| PECB || ISO/IEC 27002 Information Security Controls || Traincape Technology </title>
+        <title> Traning and Certifications|| PECB || ISO/IEC 27002 Information Security Controls || Armx-Indecodex </title>
         <meta name="description" content="Learn to implement and manage information security controls across 14 categories with the international standard for information security controls implementation and auditing." />
-        <meta name="keywords" content="Training and Certifications, PECB, ISO/IEC 27002 Information Security Controls, Information Security Controls, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Controls, Traincape Technology, ISO/IEC 27002 Information Security Controls, Information Security Controls, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Controls, Traincape Technology" />
+        <meta name="keywords" content="Training and Certifications, PECB, ISO/IEC 27002 Information Security Controls, Information Security Controls, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Controls, Armx-Indecodex, ISO/IEC 27002 Information Security Controls, Information Security Controls, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Controls, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/information-security/iso/iec_27002_information_security_controls" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/information-security/iso/iec_27002_information_security_controls" />
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -144,7 +144,7 @@ const IEC27002InformationSecurityControls = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -152,7 +152,7 @@ const IEC27002InformationSecurityControls = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -160,7 +160,7 @@ const IEC27002InformationSecurityControls = () => {
               >
                 ISO/IEC 27002 Information Security Controls
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -168,7 +168,7 @@ const IEC27002InformationSecurityControls = () => {
               >
                 Master Information Security Control Implementation
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -176,25 +176,25 @@ const IEC27002InformationSecurityControls = () => {
               >
                 ISO/IEC 27002 provides guidelines for implementing information security controls. This certification covers the practical implementation of security controls across 14 categories.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27002InformationSecurityControls", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -202,7 +202,7 @@ const IEC27002InformationSecurityControls = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -445,24 +445,24 @@ const IEC27002InformationSecurityControls = () => {
             <h2 className="text-4xl font-bold mb-4">Master Information Security Controls</h2>
             <p className="text-xl mb-8">Start your journey to becoming a security control expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27002InformationSecurityControls", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27002InformationSecurityControls", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

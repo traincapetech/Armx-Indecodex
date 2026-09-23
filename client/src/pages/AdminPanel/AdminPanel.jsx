@@ -452,7 +452,7 @@ const AdminPanel = () => {
                     type="email"
                     value={consultantEmail}
                     onChange={(e) => setConsultantEmail(e.target.value)}
-                    placeholder="your.email@traincape.com"
+                    placeholder="your.email@Armx-Indecodex.com"
                     required
                     className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-100 focus:border-purple-400 transition-all outline-none text-gray-700"
                   />
@@ -517,7 +517,7 @@ const AdminPanel = () => {
             </div>
 
             <div className="mt-4 text-center text-xs text-gray-400">
-              Protected by Traincape Security • v1.0.0
+              Protected by Armx-Indecodex Security • v1.0.0
             </div>
           </div>
         </div>

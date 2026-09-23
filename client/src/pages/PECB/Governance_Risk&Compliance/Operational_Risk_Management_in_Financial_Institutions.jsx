@@ -40,7 +40,7 @@ const OperationalRiskManagement = () => {
     <>
       <Helmet>
         <title>
-         Operational Risk Management Training – PECB Certification
+          Operational Risk Management Training – PECB Certification
         </title>
         <meta
           name="description"
@@ -48,7 +48,7 @@ const OperationalRiskManagement = () => {
         />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/governance/operational-risk"
+          href="https://www.Armx-Indecodextech.in/pecb/governance/operational-risk"
         />
       </Helmet>
 
@@ -118,7 +118,7 @@ const OperationalRiskManagement = () => {
                   >
                     View All PECB Certs
                   </button>
-                  <button 
+                  <button
                     onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "OperationalRiskManagement", level: "easy" } })}
                     className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                   >
@@ -265,12 +265,12 @@ const OperationalRiskManagement = () => {
                 >
                   Learn More
                 </button>
-              <button 
-                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "OperationalRiskManagement", level: "easy" } })}
-                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-              >
-                Take Test
-              </button>
+                <button
+                  onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "OperationalRiskManagement", level: "easy" } })}
+                  className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+                >
+                  Take Test
+                </button>
               </div>
             </motion.div>
           </div>

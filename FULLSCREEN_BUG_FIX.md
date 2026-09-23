@@ -1,4 +1,4 @@
-# 🐛 Fullscreen Bug Fix - Traincape Exam Proctor
+# 🐛 Fullscreen Bug Fix - Armx-Indecodex Exam Proctor
 
 ## Problem Description
 

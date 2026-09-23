@@ -34,8 +34,8 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
       "Secure your global supply chain operations with PECB ISO 28000 Certification. Master supply chain risk assessment, security controls, and business continuity planning. Contact us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -142,24 +142,24 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-teal-50 to-cyan-50">
       {/* ✅ SEO Meta Tags */}
       <Helmet>
-        <title>PECB ISO 28000 Certification – Supply Chain Security Management | Traincape Technology</title>
+        <title>PECB ISO 28000 Certification – Supply Chain Security Management | Armx-Indecodex</title>
         <meta
           name="description"
-          content="Learn how PECB's ISO 28000 Certification helps organizations secure their supply chain with risk-based management and certification for global operations. Understand risks, implement controls, and enhance operational resilience. Get Certified with Traincape Technology."
+          content="Learn how PECB's ISO 28000 Certification helps organizations secure their supply chain with risk-based management and certification for global operations. Understand risks, implement controls, and enhance operational resilience. Get Certified with Armx-Indecodex."
         />
         <meta
           name="keywords"
-          content="ISO 28000 training, supply chain security certification, PECB ISO 28000, Traincape Technology, supply chain risk assessment, security controls, business continuity planning"
+          content="ISO 28000 training, supply chain security certification, PECB ISO 28000, Armx-Indecodex, supply chain risk assessment, security controls, business continuity planning"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/quality/iso-28000-supply-chain-security-management-system"
+          href="https://www.Armx-Indecodextech.in/pecb/quality/iso-28000-supply-chain-security-management-system"
         />
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="ISO 28000 Supply Chain Security Management System Certification | Traincape Technology"
+          content="ISO 28000 Supply Chain Security Management System Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -167,14 +167,14 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/quality/iso-28000-supply-chain-security-management-system"
+          content="https://Armx-Indecodextech.in/pecb/quality/iso-28000-supply-chain-security-management-system"
         />
         <meta property="og:type" content="website" />
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ISO 28000 Supply Chain Security Management System Certification | Traincape Technology"
+          content="ISO 28000 Supply Chain Security Management System Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -185,7 +185,7 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
         </script>
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -195,7 +195,7 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -203,15 +203,15 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
                 className="text-4xl md:text-5xl font-bold mb-4"
               >
-              ISO 28000 Supply Chain Security Management System Training
+                ISO 28000 Supply Chain Security Management System Training
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -219,7 +219,7 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
               >
                 Secure Your Global Supply Chain
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -227,25 +227,25 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
               >
                 ISO 28000 is the international standard for Supply Chain Security Management. Master supply chain risk assessment, security controls, and business continuity planning for secure global operations.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-teal-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-teal-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO28000SupplyChainSecurity", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -253,7 +253,7 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -494,24 +494,24 @@ const ISO28000SupplyChainSecurityManagementSystem = () => {
             <h2 className="text-4xl font-bold mb-4">Master Supply Chain Security</h2>
             <p className="text-xl mb-8">Start your journey to becoming an ISO 28000 expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-teal-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-teal-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO28000SupplyChainSecurity", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO28000SupplyChainSecurity", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

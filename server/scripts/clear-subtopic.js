@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const ENV = (process.argv[2] || 'local').toLowerCase();
 const BASE_URL = ENV === 'prod'
-    ? 'https://traincape-backend-uwoa.onrender.com'
+    ? 'https://Armx-Indecodex-backend-uwoa.onrender.com'
     : 'http://localhost:8080';
 
 const COURSE = 'comptia';

@@ -33,7 +33,7 @@ const VideoCoursesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Video Courses & Tutorials - Traincape Technology</title>
+        <title>Video Courses & Tutorials - Armx-Indecodex</title>
         <meta
           name="description"
           content="Access high-quality IT training video courses and tutorials. Learn at your own pace with industry experts."

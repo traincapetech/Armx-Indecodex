@@ -12,7 +12,7 @@ export default function CertificationDetail() {
 
   const cert = allCourses.find((c) => c.categorySlug === categorySlug && c.slug === certSlug);
   const title = cert?.title || "Certification";
-  const canonical = `https://www.traincapetech.in/certifications/${categorySlug}/${certSlug}`;
+  const canonical = `https://www.Armx-Indecodextech.in/certifications/${categorySlug}/${certSlug}`;
 
   const structuredData = cert
     ? {
@@ -22,8 +22,8 @@ export default function CertificationDetail() {
       description: cert.shortDescription,
       provider: {
         "@type": "Organization",
-        name: "Traincape Technology",
-        url: "https://www.traincapetech.in",
+        name: "Armx-Indecodex",
+        url: "https://www.Armx-Indecodextech.in",
       },
       url: canonical,
       educationalCredentialAwarded: cert.title,
@@ -33,7 +33,7 @@ export default function CertificationDetail() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50">
       <SEOHead
-        title={`${title} | Certifications | Traincape Technology`}
+        title={`${title} | Certifications | Armx-Indecodex`}
         description={
           cert?.shortDescription ||
           "Explore certification details, learning outcomes, who should enroll, and career benefits."

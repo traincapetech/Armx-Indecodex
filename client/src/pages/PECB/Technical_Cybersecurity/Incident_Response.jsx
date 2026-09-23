@@ -29,13 +29,13 @@ const IncidentResponse = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-orange-50 to-orange-100">
       <Helmet>
-        <title>Incident Response || Traning and Certifications|| PECB || Incident Response Certification || Traincape Technology || Incident Response Certifications</title>
+        <title>Incident Response || Traning and Certifications|| PECB || Incident Response Certification || Armx-Indecodex || Incident Response Certifications</title>
         <meta name="description" content="Become a certified Incident Response Professional with comprehensive training in incident detection, containment, eradication, recovery, and post-incident analysis with the international standard for cybersecurity management and controls." />
-        <meta name="keywords" content="Training and Certifications, PECB, Incident Response, Incident Response, Incident Response, Traincape Technology, Incident Response Certifications, Incident Detection, Incident Containment, Incident Eradication, Incident Recovery, Incident Post-Incident Analysis" />
+        <meta name="keywords" content="Training and Certifications, PECB, Incident Response, Incident Response, Incident Response, Armx-Indecodex, Incident Response Certifications, Incident Detection, Incident Containment, Incident Eradication, Incident Recovery, Incident Post-Incident Analysis" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/technical-cybersecurity/incident-response" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/technical-cybersecurity/incident-response" />
       </Helmet>
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -45,7 +45,7 @@ const IncidentResponse = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -53,7 +53,7 @@ const IncidentResponse = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -61,7 +61,7 @@ const IncidentResponse = () => {
               >
                 Incident Response Professional
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -69,7 +69,7 @@ const IncidentResponse = () => {
               >
                 Master Cyber Incident Response
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -77,25 +77,25 @@ const IncidentResponse = () => {
               >
                 Learn to respond to and manage cybersecurity incidents effectively. Master incident detection, containment, eradication, recovery, and post-incident analysis.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-orange-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "IncidentResponse", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -103,7 +103,7 @@ const IncidentResponse = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -152,7 +152,7 @@ const IncidentResponse = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Professional Certification</h2>
             <p className="text-xl text-gray-600">Advance your career with globally recognized expertise</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div
               initial="hidden"
@@ -165,7 +165,7 @@ const IncidentResponse = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Industry Recognition</h3>
               <p className="text-gray-600">Globally recognized professional certification</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -178,7 +178,7 @@ const IncidentResponse = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Career Growth</h3>
               <p className="text-gray-600">Advance to senior management positions</p>
             </motion.div>
-            
+
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -206,24 +206,24 @@ const IncidentResponse = () => {
             <h2 className="text-4xl font-bold mb-4">Start Your Professional Journey</h2>
             <p className="text-xl mb-8">Enroll now and advance your career with PECB certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "IncidentResponse", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "IncidentResponse", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

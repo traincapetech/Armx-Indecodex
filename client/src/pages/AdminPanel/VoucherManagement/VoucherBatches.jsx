@@ -20,7 +20,7 @@ const VoucherBatches = ({ batches, loading, onRefresh, onBatchUpdated }) => {
     try {
       const token = localStorage.getItem('token');
       await axios.put(
-        'https://traincape-backend-uwoa.onrender.com/vouchers/batches/price',
+        'https://Armx-Indecodex-backend-uwoa.onrender.com/vouchers/batches/price',
         {
           batchId,
           price: parseFloat(newPrice)
@@ -33,7 +33,7 @@ const VoucherBatches = ({ batches, loading, onRefresh, onBatchUpdated }) => {
       setMessage('Price updated successfully!');
       setEditingBatch(null);
       setNewPrice('');
-      
+
       if (onBatchUpdated) {
         onBatchUpdated();
       }
@@ -194,9 +194,9 @@ const VoucherBatches = ({ batches, loading, onRefresh, onBatchUpdated }) => {
 
               <div className="batch-progress">
                 <div className="progress-bar">
-                  <div 
+                  <div
                     className="progress-fill"
-                    style={{ 
+                    style={{
                       width: `${(batch.soldVouchers / batch.totalVouchers) * 100}%`,
                       backgroundColor: batch.availableVouchers === 0 ? '#dc3545' : '#28a745'
                     }}

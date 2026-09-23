@@ -114,7 +114,7 @@ const CertificateTemplate = () => {
 
               {/* TOP: Logo */}
               <div style={{ textAlign: "center", zIndex: 1 }}>
-                <img src={Logo} alt="Traincape" style={{ height: "50px", marginBottom: "4px" }} />
+                <img src={Logo} alt="Armx-Indecodex" style={{ height: "50px", marginBottom: "4px" }} />
                 <p style={{ fontSize: "10px", color: "#666", letterSpacing: "2px", textTransform: "uppercase" }}>
                   ISO/IEC 27001:2022
                 </p>
@@ -203,7 +203,7 @@ const CertificateTemplate = () => {
                   <strong style={{ color: "#1a1a5e" }}>{subTopic}</strong>{" "}
                   assessment under{" "}
                   <strong style={{ color: "#1a1a5e" }}>{courseName}</strong>{" "}
-                  from Traincape Technology on {today}.
+                  from Armx-Indecodex on {today}.
                 </p>
               </div>
 
@@ -276,7 +276,7 @@ const CertificateTemplate = () => {
                 >
                   <div style={{ textAlign: "center" }}>
                     <span style={{ fontSize: "7px", fontWeight: "bold", color: "#1a1a5e", letterSpacing: "1px", display: "block" }}>
-                      ★ TRAINCAPE ★
+                      ★ Armx-Indecodex ★
                     </span>
                     <span style={{ fontSize: "9px", fontWeight: "900", color: "#1a1a5e", display: "block", margin: "1px 0" }}>
                       VERIFIED
@@ -303,7 +303,7 @@ const CertificateTemplate = () => {
               <strong>{username}</strong> successfully completed the{" "}
               <strong>{subTopic}</strong> assessment under{" "}
               <strong>{courseName}</strong> from{" "}
-              <strong>Traincape Technology</strong> on{" "}
+              <strong>Armx-Indecodex</strong> on{" "}
               <strong>{today}</strong>.
             </p>
           </div>

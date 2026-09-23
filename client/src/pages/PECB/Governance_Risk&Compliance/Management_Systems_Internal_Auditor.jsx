@@ -40,11 +40,11 @@ const ManagementSystemsInternalAuditor = () => {
     "@type": "Course",
     "name": "PECB Management Systems Internal Auditor Training & Certification",
     "description":
-      "PECB Internal Auditor Training for Management Systems. Develop skills, pass ISO audits, and earn a globally recognized certification. Become a certified Internal Auditor with Traincape Technology.",
+      "PECB Internal Auditor Training for Management Systems. Develop skills, pass ISO audits, and earn a globally recognized certification. Become a certified Internal Auditor with Armx-Indecodex.",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -59,22 +59,22 @@ const ManagementSystemsInternalAuditor = () => {
 
   return (
     <>
-<Helmet>
+      <Helmet>
         <title>
-          PECB Management Systems Internal Auditor Training & Certification | Traincape Technology
+          PECB Management Systems Internal Auditor Training & Certification | Armx-Indecodex
         </title>
         <meta
           name="description"
-          content="PECB Internal Auditor Training for Management Systems. Develop skills, pass ISO audits, and earn a globally recognized certification. Become a certified Internal Auditor with Traincape Technology."
+          content="PECB Internal Auditor Training for Management Systems. Develop skills, pass ISO audits, and earn a globally recognized certification. Become a certified Internal Auditor with Armx-Indecodex."
         />
         <meta
           name="keywords"
-          content="PECB Internal Auditor, Management Systems Training, Internal Audit Certification, ISO Internal Auditor Course, Traincape Technology"
+          content="PECB Internal Auditor, Management Systems Training, Internal Audit Certification, ISO Internal Auditor Course, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/pecb/governance/internal-auditor"
+          href="https://www.Armx-Indecodextech.in/pecb/governance/internal-auditor"
         />
         <meta
           property="og:title"
@@ -82,11 +82,11 @@ const ManagementSystemsInternalAuditor = () => {
         />
         <meta
           property="og:description"
-          content="Become a certified Internal Auditor for Management Systems. Learn internal audit planning, execution, and reporting with Traincape Technology."
+          content="Become a certified Internal Auditor for Management Systems. Learn internal audit planning, execution, and reporting with Armx-Indecodex."
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/pecb/governance/internal-auditor"
+          content="https://Armx-Indecodextech.in/pecb/governance/internal-auditor"
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -96,7 +96,7 @@ const ManagementSystemsInternalAuditor = () => {
         />
         <meta
           name="twitter:description"
-          content="Develop internal auditing skills and become a certified ISO auditor with Traincape Technology."
+          content="Develop internal auditing skills and become a certified ISO auditor with Armx-Indecodex."
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -130,7 +130,7 @@ const ManagementSystemsInternalAuditor = () => {
                   transition={{ delay: 0.3 }}
                   className="text-4xl md:text-5xl font-bold mb-4"
                 >
-                 PECB Management Systems Internal Auditor Course 
+                  PECB Management Systems Internal Auditor Course
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, x: -50 }}
@@ -168,7 +168,7 @@ const ManagementSystemsInternalAuditor = () => {
                   >
                     View All PECB Certs
                   </button>
-                  <button 
+                  <button
                     onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ManagementSystemsInternalAuditor", level: "easy" } })}
                     className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                   >
@@ -315,12 +315,12 @@ const ManagementSystemsInternalAuditor = () => {
                 >
                   Learn More
                 </button>
-              <button 
-                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ManagementSystemsInternalAuditor", level: "easy" } })}
-                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-              >
-                Take Test
-              </button>
+                <button
+                  onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ManagementSystemsInternalAuditor", level: "easy" } })}
+                  className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+                >
+                  Take Test
+                </button>
               </div>
             </motion.div>
           </div>

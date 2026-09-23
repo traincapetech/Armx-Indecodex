@@ -71,7 +71,7 @@ userRouter.post("/login", async (req, res) => {
         email = username;
         password = pass;
       }
-    } catch (_) {}
+    } catch (_) { }
   }
   try {
     const user = await UserModel.findOne({ email });
@@ -149,7 +149,7 @@ userRouter.post("/sendOTPToEmail", async (req, res) => {
       </div>
       <p style="color: #777; font-size: 14px;">This OTP is valid for only 24 hours. Do not share it with anyone.</p>
       <p style="color: #777; font-size: 14px;">If you did not request this, please ignore this email.</p>
-      <div style="font-size: 12px; color: #aaa; margin-top: 20px;">© 2025 TrainCape Industries</div>
+      <div style="font-size: 12px; color: #aaa; margin-top: 20px;">© 2025 Armx-Indecodex Industries</div>
   </div>
 </div>
 `;
@@ -162,7 +162,7 @@ userRouter.post("/sendOTPToEmail", async (req, res) => {
         "content-type": "application/json",
       },
       body: JSON.stringify({
-        sender: { name: "Traincape Technology", email: "hr@traincapetech.in" },
+        sender: { name: "Armx-Indecodex", email: "hr@Armx-Indecodextech.in" },
         to: [{ email: email }],
         subject: "Password Reset OTP",
         htmlContent: htmlContent,

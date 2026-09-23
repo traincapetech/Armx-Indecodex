@@ -21,7 +21,7 @@ import { sortProjects } from "../../utils/portfolio/sortProjects";
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-  
+
   const gridSectionRef = useRef(null);
 
   const scrollToGrid = () => {
@@ -77,9 +77,9 @@ export default function Portfolio() {
   return (
     <div className="bg-white min-h-screen text-slate-650 overflow-hidden font-sans">
       <SEOHead
-        title="Portfolio of Custom Software & Enterprise Solutions | Traincape Technology"
+        title="Portfolio of Custom Software & Enterprise Solutions | Armx-Indecodex"
         description="Explore our case studies of bespoke CRM software, luxury e-commerce platforms, React Native mobile apps, and cloud setups developed for global enterprises."
-        canonical="https://www.traincapetech.in/portfolio"
+        canonical="https://www.Armx-Indecodextech.in/portfolio"
       />
 
       {/* Hero */}

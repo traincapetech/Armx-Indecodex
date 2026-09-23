@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FaCheckCircle, FaCertificate, FaCloud, FaShieldAlt } from "react-icons/fa";
 import { BsCloudCheck, BsGraphUp } from "react-icons/bs";
 import { MdSecurity } from "react-icons/md";
-import { Helmet } from "react-helmet-async";  
+import { Helmet } from "react-helmet-async";
 const ComptiaSecureCloud = () => {
   const navigate = useNavigate();
 
@@ -38,8 +38,8 @@ const ComptiaSecureCloud = () => {
       "Master Cloud Infrastructure Security with CompTIA Secure Cloud Professional Certification. Learn to secure cloud environments and implement cloud security best practices. Contact us now!",
     "provider": {
       "@type": "Organization",
-      "name": "Traincape Technology",
-      "url": "https://traincapetech.in",
+      "name": "Armx-Indecodex",
+      "url": "https://Armx-Indecodextech.in",
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -132,22 +132,22 @@ const ComptiaSecureCloud = () => {
         <title>CompTIA Secure Cloud Professional (CSCP) Training & Certification </title>
         <meta
           name="description"
-          content="Master cloud infrastructure and security with the CompTIA CSCP certification stack. Complete Cloud+ and Security+ Certification from Traincape Technology to achieve CSCP recognition. Get Certified with Traincape Technology."
+          content="Master cloud infrastructure and security with the CompTIA CSCP certification stack. Complete Cloud+ and Security+ Certification from Armx-Indecodex to achieve CSCP recognition. Get Certified with Armx-Indecodex."
         />
         <meta
           name="keywords"
-          content="CompTIA Secure Cloud Professional Certification, CompTIA CSCP, Cloud Infrastructure Security, CompTIA, Traincape Technology"
+          content="CompTIA Secure Cloud Professional Certification, CompTIA CSCP, Cloud Infrastructure Security, CompTIA, Armx-Indecodex"
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
-          href="https://www.traincapetech.in/comptia/professional/secure-cloud-professional-certification"
+          href="https://www.Armx-Indecodextech.in/comptia/professional/secure-cloud-professional-certification"
         />
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Secure Cloud Professional Certification | Traincape Technology"
+          content="CompTIA Secure Cloud Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -155,11 +155,11 @@ const ComptiaSecureCloud = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/secure-cloud-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/secure-cloud-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/secure-cloud-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/secure-cloud-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -167,7 +167,7 @@ const ComptiaSecureCloud = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Secure Cloud Professional Certification | Traincape Technology"
+          content="CompTIA Secure Cloud Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -175,14 +175,14 @@ const ComptiaSecureCloud = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/secure-cloud-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/secure-cloud-professional-banner.webp"
         />
 
 
         {/* ✅ Open Graph */}
         <meta
           property="og:title"
-          content="CompTIA Secure Cloud Professional Certification | Traincape Technology"
+          content="CompTIA Secure Cloud Professional Certification | Armx-Indecodex"
         />
         <meta
           property="og:description"
@@ -190,11 +190,11 @@ const ComptiaSecureCloud = () => {
         />
         <meta
           property="og:url"
-          content="https://traincapetech.in/comptia/professional/secure-cloud-professional-certification"
+          content="https://Armx-Indecodextech.in/comptia/professional/secure-cloud-professional-certification"
         />
         <meta
           property="og:image"
-          content="https://traincapetech.in/assets/images/secure-cloud-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/secure-cloud-professional-banner.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -202,7 +202,7 @@ const ComptiaSecureCloud = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="CompTIA Secure Cloud Professional Certification | Traincape Technology"
+          content="CompTIA Secure Cloud Professional Certification | Armx-Indecodex"
         />
         <meta
           name="twitter:description"
@@ -210,14 +210,14 @@ const ComptiaSecureCloud = () => {
         />
         <meta
           name="twitter:image"
-          content="https://traincapetech.in/assets/images/secure-cloud-professional-banner.webp"
+          content="https://Armx-Indecodextech.in/assets/images/secure-cloud-professional-banner.webp"
         />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
       {/* Hero Section */}
-      <motion.section 
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -227,7 +227,7 @@ const ComptiaSecureCloud = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -235,7 +235,7 @@ const ComptiaSecureCloud = () => {
               >
                 <span className="text-sm font-semibold">PROFESSIONAL LEVEL • STACKABLE</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -243,7 +243,7 @@ const ComptiaSecureCloud = () => {
               >
                 CompTIA Secure Cloud Professional (CSCP) Certification
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -251,7 +251,7 @@ const ComptiaSecureCloud = () => {
               >
                 Master Cloud Infrastructure Security
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -259,25 +259,25 @@ const ComptiaSecureCloud = () => {
               >
                 The CompTIA Secure Cloud Professional (CSCP) stackable certification validates your ability to secure cloud environments and implement cloud security best practices. Earn it by completing Cloud+ and Security+ certifications.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-sky-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Start Your Journey
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/comptia/professional")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-sky-700 transition"
                 >
                   View All Professional Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecureCloud", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -285,7 +285,7 @@ const ComptiaSecureCloud = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -546,24 +546,24 @@ const ComptiaSecureCloud = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Secure the Cloud?</h2>
             <p className="text-xl mb-8">Start with Cloud+ and Security+ to earn CSCP certification</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-sky-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Start Your Journey
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-sky-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecureCloud", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "comptia", subTopic: "CompTIASecureCloud", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

@@ -1,4 +1,4 @@
-# 🎯 SEO Optimization Summary - Traincape Technology
+# 🎯 SEO Optimization Summary - Armx-Indecodex
 
 ## ✅ **COMPLETED SEO IMPLEMENTATIONS**
 
@@ -148,10 +148,10 @@ Use the `SEO_IMPLEMENTATION_GUIDE.md` to add SEO components to:
 
 ## 🔧 **Technical Specifications**
 
-### **Canonical Domain**: `https://www.traincapetech.in`
+### **Canonical Domain**: `https://www.Armx-Indecodextech.in`
 ### **Primary Redirects**: 
-- `https://traincapetech.in` → `https://www.traincapetech.in`
-- `http://traincapetech.in` → `https://www.traincapetech.in`
+- `https://Armx-Indecodextech.in` → `https://www.Armx-Indecodextech.in`
+- `http://Armx-Indecodextech.in` → `https://www.Armx-Indecodextech.in`
 
 ### **Structured Data Types**:
 - Organization

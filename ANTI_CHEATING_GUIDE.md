@@ -1,8 +1,8 @@
-# 🛡️ Traincape Anti-Cheating System Guide
+# 🛡️ Armx-Indecodex Anti-Cheating System Guide
 
 ## Overview
 
-The Traincape Anti-Cheating System is a comprehensive solution designed to prevent and detect cheating during online examinations. It combines multiple security layers to create a secure testing environment.
+The Armx-Indecodex Anti-Cheating System is a comprehensive solution designed to prevent and detect cheating during online examinations. It combines multiple security layers to create a secure testing environment.
 
 ## 🚀 Features
 

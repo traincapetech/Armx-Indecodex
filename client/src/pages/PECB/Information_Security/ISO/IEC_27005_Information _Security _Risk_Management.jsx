@@ -130,14 +130,14 @@ const IEC27005InformationSecurityRiskManagement = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-orange-50 to-red-50">
       <Helmet>
-        <title> Traning and Certifications|| PECB || ISO/IEC 27005 Information Security Risk Management || Traincape Technology </title>
+        <title> Traning and Certifications|| PECB || ISO/IEC 27005 Information Security Risk Management || Armx-Indecodex </title>
         <meta name="description" content="Learn to manage information security risks with the international standard for information security risk management." />
-        <meta name="keywords" content="Training and Certifications, PECB, ISO/IEC 27005 Information Security Risk Management, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Risk Management, Traincape Technology, ISO/IEC 27005 Information Security Risk Management, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Risk Management, Traincape Technology" />
+        <meta name="keywords" content="Training and Certifications, PECB, ISO/IEC 27005 Information Security Risk Management, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Risk Management, Armx-Indecodex, ISO/IEC 27005 Information Security Risk Management, Information Security Risk Management, Information Security Management, Information Security Management System, ISO 27001, ISO 27002, ISO 27005, ISO 27034, ISO 27035, PECB Information Security Risk Management, Armx-Indecodex" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.traincapetech.in/pecb/information-security/iso/iec_27005_information_security_risk_management" />
+        <link rel="canonical" href="https://www.Armx-Indecodextech.in/pecb/information-security/iso/iec_27005_information_security_risk_management" />
       </Helmet>
-        {/* Hero Section */}
-      <motion.section 
+      {/* Hero Section */}
+      <motion.section
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -147,7 +147,7 @@ const IEC27005InformationSecurityRiskManagement = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -155,7 +155,7 @@ const IEC27005InformationSecurityRiskManagement = () => {
               >
                 <span className="text-sm font-semibold">PECB CERTIFICATION</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -163,7 +163,7 @@ const IEC27005InformationSecurityRiskManagement = () => {
               >
                 ISO/IEC 27005 Information Security Risk Management
               </motion.h1>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
@@ -171,7 +171,7 @@ const IEC27005InformationSecurityRiskManagement = () => {
               >
                 Master Information Security Risk Management
               </motion.p>
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 }}
@@ -179,25 +179,25 @@ const IEC27005InformationSecurityRiskManagement = () => {
               >
                 ISO/IEC 27005 provides guidelines for information security risk management. This certification covers risk assessment, analysis, treatment, and monitoring methodologies.
               </motion.p>
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
+                <button
                   onClick={() => navigate("/contact-us")}
                   className="bg-white text-orange-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   Enroll Now
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/PECB")}
                   className="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition"
                 >
                   View All PECB Certs
                 </button>
-                <button 
+                <button
                   onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27005InformationSecurityRisk", level: "easy" } })}
                   className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
@@ -205,7 +205,7 @@ const IEC27005InformationSecurityRiskManagement = () => {
                 </button>
               </motion.div>
             </div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
@@ -479,24 +479,24 @@ const IEC27005InformationSecurityRiskManagement = () => {
             <h2 className="text-4xl font-bold mb-4">Master Information Security Risk Management</h2>
             <p className="text-xl mb-8">Start your journey to becoming a risk management expert</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button 
+              <button
                 onClick={() => navigate("/contact-us")}
                 className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg text-lg"
               >
                 Enroll Now
               </button>
-              <button 
+              <button
                 onClick={() => navigate("/frequently-asked-questions")}
                 className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-orange-700 transition text-lg"
               >
                 Learn More
               </button>
-            <button 
-              onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27005InformationSecurityRisk", level: "easy" } })}
-              className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
-            >
-              Take Test
-            </button>
+              <button
+                onClick={() => navigate("/test", { state: { course: "PECB", subTopic: "ISO27005InformationSecurityRisk", level: "easy" } })}
+                className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition shadow-lg text-lg"
+              >
+                Take Test
+              </button>
             </div>
           </motion.div>
         </div>

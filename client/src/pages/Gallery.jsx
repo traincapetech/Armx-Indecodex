@@ -18,12 +18,12 @@ const Gallery = () => {
 
   // Gallery image data with subcategories
   const galleryImages = [
-   
+
     // Team images
     {
       id: 4,
       src: teamImg,
-      alt: "Traincape Team",
+      alt: "Armx-Indecodex Team",
       category: "team",
       subCategory: "full-team",
     },
@@ -34,7 +34,7 @@ const Gallery = () => {
       category: "team",
       subCategory: "developers",
     },
-    
+
 
     // Training images
     {
@@ -86,7 +86,7 @@ const Gallery = () => {
   // Get subcategories for the selected category
   const getSubCategories = () => {
     if (selectedCategory === "all") return null;
-    
+
     const subCategories = [
       ...new Set(
         galleryImages
@@ -95,7 +95,7 @@ const Gallery = () => {
           .filter(subCategory => subCategory !== undefined)
       ),
     ];
-    
+
     return subCategories;
   };
 
@@ -132,7 +132,7 @@ const Gallery = () => {
   return (
     <div className="gallery-page">
       <Helmet>
-        <title>Gallery | Traincape Technology</title>
+        <title>Gallery | Armx-Indecodex</title>
         <meta
           name="description"
           content="Explore our campus, training sessions, and more"
